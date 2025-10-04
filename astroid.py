@@ -5,16 +5,15 @@ G = 6.67430e-11  # Gravitational constant (m^3 kg^-1 s^-2)
 M_pl = 5.972e24  # Mass of Earth (kg)
 R_pl = 6371000.0  # Radius of Earth (m)
 R_p1a1 = R_pl + 7000000.0  # Distance from center of Earth to top of atmosphere (m)
+rho_met = 3000  # Density of asteroid (kg/m^3)
 C_D = 0.5
 C_H = 0.1
 xi = 8000000  # heat of ablation (J/kg)
-rho_met = 3000  # Density of asteroid (kg/m^3)
-diameter = 10
-radius = diameter / 2
-a = 0  # meteor burn-off coefficient
+D_met = 10
+R_met = D_met / 2
 
 # I Volume of asteroid (m^3)
-volume = (4.0 / 3.0) * np.pi * (radius ** 3)
+volume = (4.0 / 3.0) * np.pi * (R_met ** 3)
 
 # II Mass of asteroid (kg)
 mass = rho_met * volume
@@ -83,61 +82,101 @@ def surface_pressure(pos: np.ndarray, vel: np.ndarray) -> float:
     Calculate the surface pressure on the asteroid.
     """
     num = -0.5 * C_D * rho_of_p_r(pos) * (np.linalg.norm(vel) ** 2) - g_of_h(pos) * mass / (np.linalg.norm(pos) + R_pl)
-    den = np.pi * (radius ** 2)
+    den = np.pi * (R_met ** 2)
     return num / den
 
 # X r_crit
-def r_crit(pos: np.ndarray, vel: np.ndarray) -> float:
+def r_crit_calc(pos: np.ndarray, vel: np.ndarray) -> float:
     """
     Calculate the critical radius of the asteroid.
     """
     return 100 * (surface_pressure(pos, vel) / 1e5) * (400 / rho_met) * (9.81 / g_of_h(atm_height)) * 1/(angle_of_inclination(pos, vel) * np.sqrt(2))
 
+# XI 
+def d_ad_t(t):
+    rho_atm = rho_of_p_r(ast_pos)
+    v = np.linalg.norm(ast_vel)
+
+    num_1 = -3 * rho_atm * C_H * v ** 3
+    den_1 = 4 * rho_met * xi
+    first_term = num_1 / den_1
+
+    num_2 = 42 * R_met * rho_atm * C_H * v ** 3 \
+            * ((rho_met * xi)/(rho_atm * C_H * v ** 3 * t)) ** 3 \
+            + 9 * ((rho_met * xi)/(rho_atm * C_H * v ** 3 * t ** 2)) \
+            * rho_met * xi
+    den_2 = 8 * rho_met * xi \
+            * ((rho_met * xi)/(rho_atm * C_H * v ** 3 * t)) ** 3 \
+            * np.sqrt(9 * R_met ** 2 + (21 * R_met * rho_atm * C_H * v**3 * t)/(rho_met * xi) + ((3 * rho_atm * C_H * v**3 * t)/(2 * rho_met * xi))**2)
+    second_term = num_2 / den_2
+
+    return first_term + second_term
+
+# XII
+def d_md_a(a):
+    return (np.pi / 3) * rho_met * (-6 * a * R_met + 3 * a ** 2)
+
+# XIII
+def d_md_t(t, a):
+    return d_ad_t(t) * d_md_a(a)
+
 dt = 60.0
 steps = 1000
 in_atmosphere = False
-
-angle_of_incl = 0
+a = R_met  # meteor burn-off coefficient
+angle_of_incl = 0 # angle of inclination for when the meteor enters the atmosphere
+point_of_entry = 0
+time_entered_atmosphere = 0
 
 for t in range(steps):
-    # Update position
-    ast_pos += ast_vel * dt
+    # Update acceleration (pending)
 
     # Update velocity
     ast_vel += ast_acc * dt
 
-    # Calculate atmospheric density
-    rho_atm = rho_of_p_r(ast_pos)
-
-    # Calculate drag force
-    F_drag = 0.5 * C_D * rho_atm * np.linalg.norm(ast_vel)**2 * np.pi * radius**2
-
-    # Calculate acceleration due to drag
-    a_drag = F_drag / mass
-
-    # Update acceleration (assuming drag acts opposite to velocity)
-    ast_acc = -a_drag * (ast_vel / np.linalg.norm(ast_vel)) + np.array([0, 0, -g_of_h(ast_pos)])
+    # Update position
+    ast_pos += ast_vel * dt
 
     # Print current state
     print(f"Time: {t*dt:.1f} s, Position: {ast_pos}, Velocity: {ast_vel}, Acceleration: {ast_acc}")
 
-    # Check if asteroid has entered atmosphere
+    # Check if asteroid has entered the atmosphere
     if not in_atmosphere and np.linalg.norm(ast_pos) <= R_p1a1:
         print("Asteroid has entered the atmosphere.")
         in_atmosphere = True
-        angle_of_incl = angle_of_inclination(ast_pos, ast_vel)
-    elif in_atmosphere:
-        # Calculate mass loss due to ablation
-        mass_loss = (C_H * rho_atm * np.linalg.norm(ast_vel)**3) / (2 * xi) * dt
-        mass -= mass_loss
-        if mass <= 0:
-            print("Asteroid has completely ablated.")
-            break
-        # Update radius based on new mass
-        volume = mass / rho_met
-        radius = ((3 * volume) / (4 * np.pi)) ** (1/3)
+        time_entered_atmosphere = t
 
-    # Check if asteroid has reached the ground
-    if np.linalg.norm(ast_pos) <= R_pl:
-        print("Asteroid has reached the ground.")
-        break
+        # Update entry values
+        angle_of_incl = angle_of_inclination(ast_pos, ast_vel)
+        point_of_entry = ast_pos
+        R_crit = r_crit_calc(ast_pos, ast_vel)
+        if R_met <= R_crit:
+            print("YIPEE HURRAH")
+            break
+    
+    # Update asteroid mass and radius now that it is in the atmosphere
+    if in_atmosphere:
+        a -= d_ad_t(dt * (t-time_entered_atmosphere+1))
+        mass += d_md_t(dt * (t-time_entered_atmosphere+1), a)
+
+        # Check if asteroid has reached the ground
+        if np.linalg.norm(ast_pos) <= R_pl:
+            curr_pos = ast_pos 
+            prev_pos = ast_pos - ast_vel
+
+            curr_vel = ast_vel
+            prev_vel = ast_vel - ast_acc
+
+            a_coeff = (curr_pos[0] - prev_pos[0]) ** 2 + (curr_pos[1] - prev_pos[1]) ** 2 +  (curr_pos[2] - prev_pos[2]) ** 2
+            b_coeff = 2 * ((curr_pos[0] - prev_pos[0])*prev_pos[0] + (curr_pos[1] - prev_pos[1])*prev_pos[1] + (curr_pos[2] - prev_pos[2])*prev_pos[2])
+            c_coeff = prev_pos[0] ** 2 + prev_pos[1] ** 2 + prev_pos[2] ** 2 - R_pl ** 2
+
+            roots = np.roots([a_coeff, b_coeff, c_coeff])
+            time = np.max(roots)
+
+            impact_position = prev_pos + time * prev_vel 
+            impact_velocity = prev_vel + time * ast_acc
+
+            print(impact_position)
+            print(impact_velocity)
+            break
