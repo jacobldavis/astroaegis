@@ -6,11 +6,11 @@ M_pl = 5.972e24  # Mass of Earth (kg)
 R_pl = 6371000.0  # Radius of Earth (m)
 R_p1a1 = R_pl + 7000000.0  # Distance from center of Earth to top of atmosphere (m)
 rho_met = 3000  # Density of asteroid (kg/m^3)
+xi = 8000000  # heat of ablation (J/kg)
+D_met = 10 # diameter of asteroid (m)
+R_met = D_met / 2 # radius of asteroid (m)
 C_D = 0.5
 C_H = 0.1
-xi = 8000000  # heat of ablation (J/kg)
-D_met = 10
-R_met = D_met / 2
 
 # I Volume of asteroid (m^3)
 volume = (4.0 / 3.0) * np.pi * (R_met ** 3)
