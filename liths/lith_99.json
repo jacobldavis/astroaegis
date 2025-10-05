@@ -1,0 +1,658 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 35,
+                "col_name": "Plomosa and Dome Rock Mountains Area",
+                "col_group": "Southwest Mid-Continent",
+                "col_group_id": 19,
+                "group_col_id": "1.00",
+                "lat": "33.59100",
+                "lng": "-114.06100",
+                "col_area": "60048.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 49,
+                "col_name": "Sonoita Area",
+                "col_group": "Southwest Mid-Continent",
+                "col_group_id": 19,
+                "group_col_id": "3.00",
+                "lat": "31.62000",
+                "lng": "-110.15000",
+                "col_area": "33159.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 55,
+                "col_name": "Organ Mountain Southern San Andres Mountain",
+                "col_group": "Southwest Mid-Continent",
+                "col_group_id": 19,
+                "group_col_id": "9.00",
+                "lat": "32.61300",
+                "lng": "-106.42100",
+                "col_area": "8202.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 178,
+                "col_name": "Minnesota River Valley, Big Stone to Nicollet Counties, Minnesota",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "7.00",
+                "lat": "44.76700",
+                "lng": "-95.42300",
+                "col_area": "36116.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 192,
+                "col_name": "Gogebic Range, Gogebic County, Michigan",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "21.00",
+                "lat": "46.36600",
+                "lng": "-89.68200",
+                "col_area": "13468.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 197,
+                "col_name": "Mountain-amberg Area, Oconto-marinette Counties, Wisconsin",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "26.00",
+                "lat": "45.21300",
+                "lng": "-88.22400",
+                "col_area": "16597.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 229,
+                "col_name": "Hector",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "28.00",
+                "lat": "34.80000",
+                "lng": "-116.38900",
+                "col_area": "6949.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 346,
+                "col_name": "Adams and Harding Counties, Southwest Basin",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "23.00",
+                "lat": "46.26600",
+                "lng": "-102.95000",
+                "col_area": "26650.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 348,
+                "col_name": "Dewey County East Basin (south)",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "25.00",
+                "lat": "45.40000",
+                "lng": "-100.34000",
+                "col_area": "42115.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 374,
+                "col_name": "Southwestern Connecticut",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "7.00",
+                "lat": "41.36600",
+                "lng": "-73.09100",
+                "col_area": "12972.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 381,
+                "col_name": "West - Central Maine",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "14.00",
+                "lat": "45.08300",
+                "lng": "-70.55300",
+                "col_area": "11814.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 397,
+                "col_name": "Yukon River Ot White Mountain",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "27.00",
+                "lat": "65.88200",
+                "lng": "-147.66800",
+                "col_area": "31069.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 458,
+                "col_name": "Central and Northern Esmeralda County and Southeastern Mineral County, Neva",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "4.00",
+                "lat": "38.23100",
+                "lng": "-117.71300",
+                "col_area": "24012.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 464,
+                "col_name": "Death Valley, California",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "10.00",
+                "lat": "36.45300",
+                "lng": "-116.92000",
+                "col_area": "27369.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 469,
+                "col_name": "Albion Range, Idaho - Raft River Range, Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "15.00",
+                "lat": "41.95000",
+                "lng": "-113.75600",
+                "col_area": "21498.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 550,
+                "col_name": "Ben Lomond",
+                "col_group": "Central California",
+                "col_group_id": 2,
+                "group_col_id": "4.00",
+                "lat": "37.06900",
+                "lng": "-122.10400",
+                "col_area": "2402.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 626,
+                "col_name": "St. Andrews-Plesant Mt.",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "26.00",
+                "lat": "45.07300",
+                "lng": "-67.04500",
+                "col_area": "9598.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 630,
+                "col_name": "Lower Saint John River",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "27.00",
+                "lat": "45.26000",
+                "lng": "-66.08700",
+                "col_area": "9710.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 795,
+                "col_name": "Eastern Ontario",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "48.00",
+                "lat": "44.78600",
+                "lng": "-78.78800",
+                "col_area": "35480.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 800,
+                "col_name": "Northern Labrador",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "53.00",
+                "lat": "58.66500",
+                "lng": "-63.33700",
+                "col_area": "242250.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 1436,
+                "col_name": "St. Elias Mountains, Icefield, Alsek Ranges",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "2.00",
+                "lat": "60.81700",
+                "lng": "-140.17800",
+                "col_area": "19482.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1442,
+                "col_name": "St. Elias Mountains, Icefield and Alsek Ranges",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "8.00",
+                "lat": "60.04000",
+                "lng": "-137.42000",
+                "col_area": "14164.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1445,
+                "col_name": "Hope (W), N. of Fraser R.",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "12.00",
+                "lat": "49.41000",
+                "lng": "-121.49300",
+                "col_area": "7531.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1452,
+                "col_name": "Aishihik Lake",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "19.00",
+                "lat": "61.45400",
+                "lng": "-137.17000",
+                "col_area": "17586.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1453,
+                "col_name": "N. Carmacks",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "20.00",
+                "lat": "62.13500",
+                "lng": "-136.21600",
+                "col_area": "23973.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1459,
+                "col_name": "Coast Mountains, 54-55 degrees N East of Work Channel",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "26.00",
+                "lat": "54.51300",
+                "lng": "-128.86000",
+                "col_area": "24919.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1460,
+                "col_name": "Whitesail Lake",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "27.00",
+                "lat": "53.50400",
+                "lng": "-126.97600",
+                "col_area": "55658.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1462,
+                "col_name": "Fraser",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "29.00",
+                "lat": "52.11600",
+                "lng": "-122.38900",
+                "col_area": "16556.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1467,
+                "col_name": "Fort St. James",
+                "col_group": "Canadian Cordillera II",
+                "col_group_id": 37,
+                "group_col_id": "34.00",
+                "lat": "56.41300",
+                "lng": "-125.79400",
+                "col_area": "29414.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1468,
+                "col_name": "Prince George",
+                "col_group": "Canadian Cordillera II",
+                "col_group_id": 37,
+                "group_col_id": "35.00",
+                "lat": "53.52800",
+                "lng": "-122.60100",
+                "col_area": "48087.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1469,
+                "col_name": "Kamloops Nicola",
+                "col_group": "Canadian Cordillera II",
+                "col_group_id": 37,
+                "group_col_id": "36.00",
+                "lat": "50.67600",
+                "lng": "-120.34100",
+                "col_area": "13841.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1470,
+                "col_name": "South Okanagan",
+                "col_group": "Canadian Cordillera II",
+                "col_group_id": 37,
+                "group_col_id": "37.00",
+                "lat": "49.19600",
+                "lng": "-119.35200",
+                "col_area": "31190.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1471,
+                "col_name": "Nelson (W), S. Kootenay Arc",
+                "col_group": "Canadian Cordillera II",
+                "col_group_id": 37,
+                "group_col_id": "38.00",
+                "lat": "49.26200",
+                "lng": "-117.53200",
+                "col_area": "21676.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1472,
+                "col_name": "Nelson (E) Lardeau, Central Kootenay Arc",
+                "col_group": "Canadian Cordillera II",
+                "col_group_id": 37,
+                "group_col_id": "39.00",
+                "lat": "50.44900",
+                "lng": "-117.53700",
+                "col_area": "18034.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1475,
+                "col_name": "Tombstone",
+                "col_group": "Canadian Cordillera II",
+                "col_group_id": 37,
+                "group_col_id": "47.00",
+                "lat": "64.55000",
+                "lng": "-138.81700",
+                "col_area": "39087.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1477,
+                "col_name": "Anvil Range",
+                "col_group": "Canadian Cordillera II",
+                "col_group_id": 37,
+                "group_col_id": "55.00",
+                "lat": "62.78000",
+                "lng": "-134.21500",
+                "col_area": "28297.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1478,
+                "col_name": "Campbell Range",
+                "col_group": "Canadian Cordillera II",
+                "col_group_id": 37,
+                "group_col_id": "56.00",
+                "lat": "61.46900",
+                "lng": "-130.61700",
+                "col_area": "19764.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1484,
+                "col_name": "Big Salmon Range",
+                "col_group": "Canadian Cordillera III",
+                "col_group_id": 40,
+                "group_col_id": "66.00",
+                "lat": "61.03100",
+                "lng": "-133.19900",
+                "col_area": "21183.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1488,
+                "col_name": "Russel Ranges",
+                "col_group": "Canadian Cordillera III",
+                "col_group_id": 40,
+                "group_col_id": "70.00",
+                "lat": "56.65200",
+                "lng": "-125.34100",
+                "col_area": "8414.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1492,
+                "col_name": "Adams Lake",
+                "col_group": "Canadian Cordillera III",
+                "col_group_id": 40,
+                "group_col_id": "77.00",
+                "lat": "51.46600",
+                "lng": "-119.91100",
+                "col_area": "22184.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1493,
+                "col_name": "Cariboo Lake",
+                "col_group": "Canadian Cordillera III",
+                "col_group_id": 40,
+                "group_col_id": "78.00",
+                "lat": "52.51200",
+                "lng": "-121.11300",
+                "col_area": "12013.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1494,
+                "col_name": "Cariboo Lake",
+                "col_group": "Canadian Cordillera III",
+                "col_group_id": 40,
+                "group_col_id": "79.00",
+                "lat": "53.11400",
+                "lng": "-120.90900",
+                "col_area": "13944.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1496,
+                "col_name": "Seymour Arm Golden",
+                "col_group": "Canadian Cordillera III",
+                "col_group_id": 40,
+                "group_col_id": "84.00",
+                "lat": "50.99600",
+                "lng": "-117.11600",
+                "col_area": "9518.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. ",
+            "10": "H. Gabrielse and A.J. Brookfield. Correlation chart for the Canadian Cordiellera. 1988. "
+        }
+    }
+}

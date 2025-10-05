@@ -1,0 +1,26 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 188,
+                "col_name": "Fond Du Lac County, Wisconsin",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "17.00",
+                "lat": "43.36100",
+                "lng": "-88.35000",
+                "col_area": "23226.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. "
+        }
+    }
+}

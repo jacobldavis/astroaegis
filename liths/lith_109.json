@@ -1,0 +1,146 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 356,
+                "col_name": "Blue Ridge Anticlinorium, Virginia-maryland",
+                "col_group": "Piedmont-Blue Ridge",
+                "col_group_id": 15,
+                "group_col_id": "8.00",
+                "lat": "38.91100",
+                "lng": "-77.86600",
+                "col_area": "2894.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 366,
+                "col_name": "Piedmont and Eastern Blue Ridge, Central and Southern Virginia",
+                "col_group": "Piedmont-Blue Ridge",
+                "col_group_id": 15,
+                "group_col_id": "18.00",
+                "lat": "37.71600",
+                "lng": "-78.81100",
+                "col_area": "14634.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 374,
+                "col_name": "Southwestern Connecticut",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "7.00",
+                "lat": "41.36600",
+                "lng": "-73.09100",
+                "col_area": "12972.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 375,
+                "col_name": "Central Connecticut",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "8.00",
+                "lat": "41.78100",
+                "lng": "-72.57100",
+                "col_area": "4439.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 376,
+                "col_name": "West Limb - Connecticut Valley Synclinorium West Central Massachusetts",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "9.00",
+                "lat": "42.52800",
+                "lng": "-72.80600",
+                "col_area": "5621.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 377,
+                "col_name": "Central Vermont",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "10.00",
+                "lat": "44.29500",
+                "lng": "-72.63000",
+                "col_area": "5747.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 379,
+                "col_name": "Bronson Hill Anticlinorium, Massachusetts",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "12.00",
+                "lat": "42.42300",
+                "lng": "-72.15800",
+                "col_area": "4434.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 380,
+                "col_name": "Western New Hampshire",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "13.00",
+                "lat": "44.07800",
+                "lng": "-71.84800",
+                "col_area": "8555.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 384,
+                "col_name": "South - Central New Hampshire",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "17.00",
+                "lat": "43.17600",
+                "lng": "-71.87500",
+                "col_area": "9494.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. "
+        }
+    }
+}

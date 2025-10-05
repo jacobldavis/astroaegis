@@ -1,0 +1,41 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 1686,
+                "col_name": "Column D",
+                "col_group": "Parana Basin",
+                "col_group_id": 48,
+                "group_col_id": "4.00",
+                "lat": "-19.97500",
+                "lng": "-55.40400",
+                "col_area": "172407.4",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    29
+                ]
+            },
+            {
+                "col_id": 1689,
+                "col_name": "Column E",
+                "col_group": "Parana Basin",
+                "col_group_id": 48,
+                "group_col_id": "5.00",
+                "lat": "-20.93600",
+                "lng": "-50.06400",
+                "col_area": "180930.7",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    29
+                ]
+            }
+        ],
+        "refs": {
+            "29": "Milani, E.J, A.B. Fran\u00c3\u00a7a, R. L. Schneider. Bacia do Paran\u00c3\u00a1. Boletim de Geoci\u00c3\u00aancias da PETROBR\u00c3\u0081S 15.2 p. 265-287. 2007. "
+        }
+    }
+}

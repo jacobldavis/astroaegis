@@ -1,0 +1,162 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 73,
+                "col_name": "Amarillo Arch",
+                "col_group": "Southwest Mid-Continent",
+                "col_group_id": 19,
+                "group_col_id": "26.00",
+                "lat": "35.50000",
+                "lng": "-101.57800",
+                "col_area": "27171.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 86,
+                "col_name": "Stanton County, Nebraska",
+                "col_group": "Midcontinent",
+                "col_group_id": 7,
+                "group_col_id": "9.00",
+                "lat": "41.95000",
+                "lng": "-97.33300",
+                "col_area": "30143.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 104,
+                "col_name": "Boone County, Missouri",
+                "col_group": "Midcontinent",
+                "col_group_id": 7,
+                "group_col_id": "22.00",
+                "lat": "38.91300",
+                "lng": "-92.29800",
+                "col_area": "42828.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 168,
+                "col_name": "Devils River Uplift Portion of Ouachita Tectonic Belt",
+                "col_group": "Texas-Oklahoma Tectonic Region",
+                "col_group_id": 20,
+                "group_col_id": "16.00",
+                "lat": "29.65800",
+                "lng": "-100.37800",
+                "col_area": "28588.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 301,
+                "col_name": "South-central Pennsylvania",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "18.00",
+                "lat": "40.29100",
+                "lng": "-77.89000",
+                "col_area": "12044.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 302,
+                "col_name": "Southeastern Pennsylvania",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "19.00",
+                "lat": "40.21100",
+                "lng": "-76.97000",
+                "col_area": "9633.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 308,
+                "col_name": "Northwestern New Jersey",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "25.00",
+                "lat": "40.68600",
+                "lng": "-74.87500",
+                "col_area": "2982.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 464,
+                "col_name": "Death Valley, California",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "10.00",
+                "lat": "36.45300",
+                "lng": "-116.92000",
+                "col_area": "27369.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 488,
+                "col_name": "Estancia Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "30.00",
+                "lat": "35.46300",
+                "lng": "-106.07600",
+                "col_area": "44986.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1671,
+                "col_name": "Great Bear Plain - Lac la Martre",
+                "col_group": "Northwest, Yukon Territories",
+                "col_group_id": 44,
+                "group_col_id": "26.00",
+                "lat": "63.37800",
+                "lng": "-118.83500",
+                "col_area": "35447.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. "
+        }
+    }
+}

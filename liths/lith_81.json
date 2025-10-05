@@ -1,0 +1,72 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 385,
+                "col_name": "Southern Maine",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "18.00",
+                "lat": "43.42500",
+                "lng": "-70.57600",
+                "col_area": "24238.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1453,
+                "col_name": "N. Carmacks",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "20.00",
+                "lat": "62.13500",
+                "lng": "-136.21600",
+                "col_area": "23973.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1478,
+                "col_name": "Campbell Range",
+                "col_group": "Canadian Cordillera II",
+                "col_group_id": 37,
+                "group_col_id": "56.00",
+                "lat": "61.46900",
+                "lng": "-130.61700",
+                "col_area": "19764.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1484,
+                "col_name": "Big Salmon Range",
+                "col_group": "Canadian Cordillera III",
+                "col_group_id": 40,
+                "group_col_id": "66.00",
+                "lat": "61.03100",
+                "lng": "-133.19900",
+                "col_area": "21183.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "10": "H. Gabrielse and A.J. Brookfield. Correlation chart for the Canadian Cordiellera. 1988. "
+        }
+    }
+}

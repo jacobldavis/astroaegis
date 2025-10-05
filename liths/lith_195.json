@@ -1,0 +1,87 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 42,
+                "col_name": "Rockbridge & Botetourt Counties, Virginia - West of Pulaski Fault",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "5.00",
+                "lat": "37.52700",
+                "lng": "-80.03500",
+                "col_area": "2720.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 54,
+                "col_name": "Franklin Mountain Cristo Rey Area",
+                "col_group": "Southwest Mid-Continent",
+                "col_group_id": 19,
+                "group_col_id": "8.00",
+                "lat": "31.90900",
+                "lng": "-106.50200",
+                "col_area": "14957.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 808,
+                "col_name": "Rockbridge & Botetourt Counties, Virginia - East of Pulaski Fault",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "5.01",
+                "lat": "37.66000",
+                "lng": "-79.48200",
+                "col_area": "5946.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1476,
+                "col_name": "Hess Mountains",
+                "col_group": "Canadian Cordillera II",
+                "col_group_id": 37,
+                "group_col_id": "54.00",
+                "lat": "64.31900",
+                "lng": "-130.71700",
+                "col_area": "24527.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1483,
+                "col_name": "Cap Mountain",
+                "col_group": "Canadian Cordillera III",
+                "col_group_id": 40,
+                "group_col_id": "63.00",
+                "lat": "63.53800",
+                "lng": "-123.24300",
+                "col_area": "18072.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "10": "H. Gabrielse and A.J. Brookfield. Correlation chart for the Canadian Cordiellera. 1988. "
+        }
+    }
+}

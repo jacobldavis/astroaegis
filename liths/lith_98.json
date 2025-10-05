@@ -1,0 +1,209 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 112,
+                "col_name": "Northern Coastal Plain",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "19.00",
+                "lat": "38.76600",
+                "lng": "-77.30800",
+                "col_area": "3616.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 208,
+                "col_name": "Northern Santa Ana Mountains",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "11.00",
+                "lat": "33.81700",
+                "lng": "-117.68400",
+                "col_area": "2380.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 222,
+                "col_name": "Mecca Hills/Orocopia Mountains",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "21.00",
+                "lat": "33.57000",
+                "lng": "-115.85000",
+                "col_area": "6195.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 399,
+                "col_name": "Chena River to Shaw Creek Fault",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "29.00",
+                "lat": "64.66600",
+                "lng": "-144.37100",
+                "col_area": "20761.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 400,
+                "col_name": "Shaw Creek Fault to Yukon Border",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "30.00",
+                "lat": "63.64500",
+                "lng": "-141.95900",
+                "col_area": "30871.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 413,
+                "col_name": "Chugach Mountains South of Border Ranges Fault",
+                "col_group": "Southern Alaska",
+                "col_group_id": 16,
+                "group_col_id": "21.00",
+                "lat": "60.95800",
+                "lng": "-148.72300",
+                "col_area": "34145.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 414,
+                "col_name": "Kodiak Island",
+                "col_group": "Southern Alaska",
+                "col_group_id": 16,
+                "group_col_id": "22.00",
+                "lat": "57.55900",
+                "lng": "-153.39700",
+                "col_area": "38226.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 418,
+                "col_name": "Yakataga District",
+                "col_group": "Southern Alaska",
+                "col_group_id": 16,
+                "group_col_id": "26.00",
+                "lat": "60.22100",
+                "lng": "-142.29200",
+                "col_area": "10990.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1191,
+                "col_name": "Hispaniola Massif du Nord/Cordillera Central/Oriental",
+                "col_group": "Caribbean Islands",
+                "col_group_id": 27,
+                "group_col_id": "17.00",
+                "lat": "19.13000",
+                "lng": "-71.04100",
+                "col_area": "18116.7",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    6
+                ]
+            },
+            {
+                "col_id": 1277,
+                "col_name": "Southern Venezuelan Andes",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "65.00",
+                "lat": "7.86800",
+                "lng": "-71.19300",
+                "col_area": "71238.6",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            },
+            {
+                "col_id": 1279,
+                "col_name": "Northern and Central Venezuelan Andes",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "66.00",
+                "lat": "9.82300",
+                "lng": "-69.47800",
+                "col_area": "52792.6",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            },
+            {
+                "col_id": 1281,
+                "col_name": "Maracaibo/Toas Island",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "67.00",
+                "lat": "10.77900",
+                "lng": "-72.04100",
+                "col_area": "81730.6",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            },
+            {
+                "col_id": 1470,
+                "col_name": "South Okanagan",
+                "col_group": "Canadian Cordillera II",
+                "col_group_id": 37,
+                "group_col_id": "37.00",
+                "lat": "49.19600",
+                "lng": "-119.35200",
+                "col_area": "31190.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "6": "Maurrasse, F.J-M.R. Stratigraphic chart for the circum-Caribbean region. Volume H, The Geology of North America. 1986. ",
+            "7": "Maurrasse, F.J-M.R. Stratigraphic correlation for the circum-Caribbean region. In Dengo, G. and Case J.E. (eds.). The Geology of North America Volume H: The Caribbean Region. 1990. ",
+            "10": "H. Gabrielse and A.J. Brookfield. Correlation chart for the Canadian Cordiellera. 1988. "
+        }
+    }
+}

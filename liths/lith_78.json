@@ -1,0 +1,1082 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 31,
+                "col_name": "Eastern Wisconsin",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "1.00",
+                "lat": "43.73300",
+                "lng": "-87.84500",
+                "col_area": "27548.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 34,
+                "col_name": "Cost G1 Well Georges Bank Basin",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "1.00",
+                "lat": "40.91600",
+                "lng": "-68.30000",
+                "col_area": "32244.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 35,
+                "col_name": "Plomosa and Dome Rock Mountains Area",
+                "col_group": "Southwest Mid-Continent",
+                "col_group_id": 19,
+                "group_col_id": "1.00",
+                "lat": "33.59100",
+                "lng": "-114.06100",
+                "col_area": "60048.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 65,
+                "col_name": "Carlsbad and Northern Shelf",
+                "col_group": "Southwest Mid-Continent",
+                "col_group_id": 19,
+                "group_col_id": "18.00",
+                "lat": "32.35500",
+                "lng": "-104.17800",
+                "col_area": "21309.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 68,
+                "col_name": "Midland Basin",
+                "col_group": "Southwest Mid-Continent",
+                "col_group_id": 19,
+                "group_col_id": "21.00",
+                "lat": "31.70600",
+                "lng": "-101.77500",
+                "col_area": "20931.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 69,
+                "col_name": "Eastern Shelf",
+                "col_group": "Southwest Mid-Continent",
+                "col_group_id": 19,
+                "group_col_id": "22.00",
+                "lat": "31.90800",
+                "lng": "-100.61600",
+                "col_area": "27463.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 111,
+                "col_name": "Cost G2 Well Georges Bank Basin",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "2.00",
+                "lat": "40.83300",
+                "lng": "-67.50000",
+                "col_area": "17274.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 112,
+                "col_name": "Northern Coastal Plain",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "19.00",
+                "lat": "38.76600",
+                "lng": "-77.30800",
+                "col_area": "3616.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 127,
+                "col_name": "Inner Coastal Plain",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "32.00",
+                "lat": "35.28300",
+                "lng": "-77.93300",
+                "col_area": "15029.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 133,
+                "col_name": "Chesapeake and Delaware Canal",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "9.00",
+                "lat": "39.70000",
+                "lng": "-75.65000",
+                "col_area": "2147.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 134,
+                "col_name": "Odessa",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "10.00",
+                "lat": "39.44500",
+                "lng": "-75.64100",
+                "col_area": "1854.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 135,
+                "col_name": "Deakyneville",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "11.00",
+                "lat": "39.35000",
+                "lng": "-75.53300",
+                "col_area": "944.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 136,
+                "col_name": "Dover",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "12.00",
+                "lat": "39.13400",
+                "lng": "-75.52900",
+                "col_area": "2139.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 137,
+                "col_name": "Greenwood",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "13.00",
+                "lat": "38.80500",
+                "lng": "-75.59100",
+                "col_area": "4413.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 138,
+                "col_name": "Atlantic Coast",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "14.00",
+                "lat": "38.53000",
+                "lng": "-75.07600",
+                "col_area": "5244.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 139,
+                "col_name": "Offshore Mid-Atlantic",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "15.00",
+                "lat": "38.49300",
+                "lng": "-73.74800",
+                "col_area": "8600.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 144,
+                "col_name": "Pedee",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "35.00",
+                "lat": "34.18900",
+                "lng": "-79.51200",
+                "col_area": "23749.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 145,
+                "col_name": "Congaree",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "36.00",
+                "lat": "33.90100",
+                "lng": "-80.79500",
+                "col_area": "19088.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 146,
+                "col_name": "Lower Santee-Edisto",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "37.00",
+                "lat": "32.90500",
+                "lng": "-79.87200",
+                "col_area": "27317.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 147,
+                "col_name": "Aiken",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "38.00",
+                "lat": "33.49200",
+                "lng": "-81.50900",
+                "col_area": "12321.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 179,
+                "col_name": "Stearns County, Minnesota",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "8.00",
+                "lat": "45.61600",
+                "lng": "-94.37700",
+                "col_area": "25895.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 192,
+                "col_name": "Gogebic Range, Gogebic County, Michigan",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "21.00",
+                "lat": "46.36600",
+                "lng": "-89.68200",
+                "col_area": "13468.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 196,
+                "col_name": "Central Dickinson County, Michigan",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "25.00",
+                "lat": "46.03400",
+                "lng": "-87.81300",
+                "col_area": "11090.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 224,
+                "col_name": "Cajon Pass",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "23.00",
+                "lat": "34.33700",
+                "lng": "-117.47200",
+                "col_area": "3047.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 225,
+                "col_name": "Big Bear",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "24.00",
+                "lat": "34.21600",
+                "lng": "-116.85800",
+                "col_area": "4479.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 229,
+                "col_name": "Hector",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "28.00",
+                "lat": "34.80000",
+                "lng": "-116.38900",
+                "col_area": "6949.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 241,
+                "col_name": "Kalmiopsis",
+                "col_group": "Northern California",
+                "col_group_id": 10,
+                "group_col_id": "10.00",
+                "lat": "41.97500",
+                "lng": "-123.92700",
+                "col_area": "13084.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 256,
+                "col_name": "San Joaquin East",
+                "col_group": "Northern California",
+                "col_group_id": 10,
+                "group_col_id": "25.00",
+                "lat": "37.98800",
+                "lng": "-120.98500",
+                "col_area": "3097.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 257,
+                "col_name": "Clarksburg",
+                "col_group": "Northern California",
+                "col_group_id": 10,
+                "group_col_id": "26.00",
+                "lat": "38.40800",
+                "lng": "-121.49800",
+                "col_area": "3801.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 258,
+                "col_name": "Ord Bend",
+                "col_group": "Northern California",
+                "col_group_id": 10,
+                "group_col_id": "27.00",
+                "lat": "39.59100",
+                "lng": "-122.28300",
+                "col_area": "12126.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 274,
+                "col_name": "Southern Wiseman Quadrangle",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "22.00",
+                "lat": "67.04800",
+                "lng": "-150.09500",
+                "col_area": "20481.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 291,
+                "col_name": "Harney Basin to Steens Mountains, South-Central Oregon",
+                "col_group": "Northwest",
+                "col_group_id": 14,
+                "group_col_id": "26.00",
+                "lat": "43.05100",
+                "lng": "-118.88300",
+                "col_area": "24273.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 292,
+                "col_name": "Pullman, Wa. to Snake River Gorge, Wa. Or Id.",
+                "col_group": "Northwest",
+                "col_group_id": 14,
+                "group_col_id": "27.00",
+                "lat": "46.55600",
+                "lng": "-117.19900",
+                "col_area": "34511.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 320,
+                "col_name": "Northeast Alaska Range, North of Denali Fault Mount Hayes Quadrangle",
+                "col_group": "Southern Alaska",
+                "col_group_id": 16,
+                "group_col_id": "5.00",
+                "lat": "64.32300",
+                "lng": "-147.92500",
+                "col_area": "14906.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 331,
+                "col_name": "Missoula (pe, Te, Q Only), Drummond - Helena Area, Central Western Montana",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "8.00",
+                "lat": "46.43500",
+                "lng": "-112.89900",
+                "col_area": "27302.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 367,
+                "col_name": "Northern and Central Virginia Piedmont",
+                "col_group": "Piedmont-Blue Ridge",
+                "col_group_id": 15,
+                "group_col_id": "19.00",
+                "lat": "38.57700",
+                "lng": "-77.66400",
+                "col_area": "4957.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 374,
+                "col_name": "Southwestern Connecticut",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "7.00",
+                "lat": "41.36600",
+                "lng": "-73.09100",
+                "col_area": "12972.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 375,
+                "col_name": "Central Connecticut",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "8.00",
+                "lat": "41.78100",
+                "lng": "-72.57100",
+                "col_area": "4439.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 385,
+                "col_name": "Southern Maine",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "18.00",
+                "lat": "43.42500",
+                "lng": "-70.57600",
+                "col_area": "24238.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 393,
+                "col_name": "Seward Peninsula",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "23.00",
+                "lat": "65.46800",
+                "lng": "-163.46600",
+                "col_area": "136570.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 399,
+                "col_name": "Chena River to Shaw Creek Fault",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "29.00",
+                "lat": "64.66600",
+                "lng": "-144.37100",
+                "col_area": "20761.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 405,
+                "col_name": "Cook Inlet",
+                "col_group": "Southern Alaska",
+                "col_group_id": 16,
+                "group_col_id": "13.00",
+                "lat": "60.00000",
+                "lng": "-152.50800",
+                "col_area": "51479.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 410,
+                "col_name": "Northern Wrangell Mountains, Nebesna Quadrangle",
+                "col_group": "Southern Alaska",
+                "col_group_id": 16,
+                "group_col_id": "18.00",
+                "lat": "62.39200",
+                "lng": "-142.41800",
+                "col_area": "22192.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 430,
+                "col_name": "Southern Peninsula - Sw Michigan",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "5.00",
+                "lat": "42.42100",
+                "lng": "-85.68300",
+                "col_area": "26098.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 431,
+                "col_name": "Southern Peninsula - S.E. Michigan",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "6.00",
+                "lat": "42.41600",
+                "lng": "-83.80300",
+                "col_area": "25142.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 441,
+                "col_name": "Michigan Basin-finlay Arch - Northwestern Ohio",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "16.00",
+                "lat": "41.04100",
+                "lng": "-83.61300",
+                "col_area": "13055.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 443,
+                "col_name": "Cincinnati Arch - Southwestern Ohio",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "18.00",
+                "lat": "39.43300",
+                "lng": "-84.11600",
+                "col_area": "12679.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 457,
+                "col_name": "Reno Area, Nevada",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "3.00",
+                "lat": "39.21000",
+                "lng": "-119.55800",
+                "col_area": "24743.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 516,
+                "col_name": "Maverick Basin",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "1.00",
+                "lat": "28.42300",
+                "lng": "-99.85100",
+                "col_area": "40984.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 519,
+                "col_name": "San Marcos Arch",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "4.00",
+                "lat": "29.44000",
+                "lng": "-97.92500",
+                "col_area": "52922.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 520,
+                "col_name": "East Basin Texas (east)",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "5.00",
+                "lat": "30.97200",
+                "lng": "-96.44200",
+                "col_area": "37427.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 542,
+                "col_name": "Upper Coastal Plain, Central Georgia",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "27.00",
+                "lat": "32.64000",
+                "lng": "-83.46000",
+                "col_area": "21449.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 548,
+                "col_name": "Petaluma - Santa Rosa",
+                "col_group": "Central California",
+                "col_group_id": 2,
+                "group_col_id": "2.00",
+                "lat": "38.37200",
+                "lng": "-122.69500",
+                "col_area": "5400.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 571,
+                "col_name": "Tejon",
+                "col_group": "Central California",
+                "col_group_id": 2,
+                "group_col_id": "25.00",
+                "lat": "34.98000",
+                "lng": "-118.66000",
+                "col_area": "2186.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 572,
+                "col_name": "Edison / Mountain View",
+                "col_group": "Central California",
+                "col_group_id": 2,
+                "group_col_id": "26.00",
+                "lat": "35.24600",
+                "lng": "-118.69000",
+                "col_area": "8980.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 765,
+                "col_name": "Amisk, Wildnest Lakes",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "18.00",
+                "lat": "54.64500",
+                "lng": "-103.29600",
+                "col_area": "89130.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 767,
+                "col_name": "Lynn Lake, Granville Lake",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "20.00",
+                "lat": "56.53400",
+                "lng": "-100.90600",
+                "col_area": "87516.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 806,
+                "col_name": "Paleozoic Outliers: Mattawa",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "6.05",
+                "lat": "46.31700",
+                "lng": "-78.70800",
+                "col_area": "30348.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 1165,
+                "col_name": "Cuba South Central (Zaza)",
+                "col_group": "Caribbean Islands",
+                "col_group_id": 27,
+                "group_col_id": "5.00",
+                "lat": "21.82600",
+                "lng": "-79.23100",
+                "col_area": "43600.4",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    6
+                ]
+            },
+            {
+                "col_id": 1275,
+                "col_name": "Llanos",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "64.00",
+                "lat": "7.97300",
+                "lng": "-69.96600",
+                "col_area": "50844.6",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            },
+            {
+                "col_id": 1279,
+                "col_name": "Northern and Central Venezuelan Andes",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "66.00",
+                "lat": "9.82300",
+                "lng": "-69.47800",
+                "col_area": "52792.6",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            },
+            {
+                "col_id": 1285,
+                "col_name": "Llanos Basin",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "64.10",
+                "lat": "5.28000",
+                "lng": "-72.51800",
+                "col_area": "143979.6",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            },
+            {
+                "col_id": 1419,
+                "col_name": "Tampico-Misantla Basin",
+                "col_group": "Mexico",
+                "col_group_id": 35,
+                "group_col_id": "6.00",
+                "lat": "21.33200",
+                "lng": "-98.07900",
+                "col_area": "88914.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    9
+                ]
+            },
+            {
+                "col_id": 1421,
+                "col_name": "Sierra Madre Oriental",
+                "col_group": "Mexico",
+                "col_group_id": 35,
+                "group_col_id": "7.00",
+                "lat": "22.50400",
+                "lng": "-99.79900",
+                "col_area": "76726.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    9
+                ]
+            },
+            {
+                "col_id": 1431,
+                "col_name": "Sierra de Chiapas",
+                "col_group": "Mexico",
+                "col_group_id": 35,
+                "group_col_id": "3.00",
+                "lat": "16.91100",
+                "lng": "-91.71000",
+                "col_area": "47638.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    9
+                ]
+            },
+            {
+                "col_id": 1567,
+                "col_name": "Wootton Peninsula to SE of Milne Inlet",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "67.00",
+                "lat": "82.29400",
+                "lng": "-83.91300",
+                "col_area": "4170.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1600,
+                "col_name": "Pembroke-Arnprior Outlier Ottawa and St. Lawrence River",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "81.00",
+                "lat": "45.34500",
+                "lng": "-75.45800",
+                "col_area": "15082.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1601,
+                "col_name": "Montreal",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "82.00",
+                "lat": "45.63800",
+                "lng": "-73.59100",
+                "col_area": "29153.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1602,
+                "col_name": "St. Hyacinthe",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "83.00",
+                "lat": "45.44600",
+                "lng": "-73.21400",
+                "col_area": "6431.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1604,
+                "col_name": "Nicolet-Yamaska",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "85.00",
+                "lat": "46.39700",
+                "lng": "-71.85500",
+                "col_area": "17510.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1629,
+                "col_name": "Cumberland House",
+                "col_group": "Prairie Provinces and British Columbia",
+                "col_group_id": 45,
+                "group_col_id": "44.00",
+                "lat": "53.65900",
+                "lng": "-102.57100",
+                "col_area": "38296.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. ",
+            "6": "Maurrasse, F.J-M.R. Stratigraphic chart for the circum-Caribbean region. Volume H, The Geology of North America. 1986. ",
+            "7": "Maurrasse, F.J-M.R. Stratigraphic correlation for the circum-Caribbean region. In Dengo, G. and Case J.E. (eds.). The Geology of North America Volume H: The Caribbean Region. 1990. ",
+            "9": "Salvador, A. and Muneton, J.M.Q. Stratigraphic Correlation Chart: Gulf of Mexico Basin.  In Salvador, A. (ed).  The Geology of North America Vol. J: The Gulf of Mexico Basin.  Geological Society of America, Boulder, Colo. 1989. ",
+            "11": "Trettin, H.P. Geotectonic correlation chart. in Geological Survey of Canada, Geology of Canada No. 3. 1991. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. "
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 182,
+                "col_name": "West Vermillion District, St. Louis - Lake Counties, Minnesota",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "11.00",
+                "lat": "47.88300",
+                "lng": "-91.71600",
+                "col_area": "22368.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 191,
+                "col_name": "Davis Hill Area Bayfield County, Wisconsin",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "20.00",
+                "lat": "46.40800",
+                "lng": "-90.74000",
+                "col_area": "13790.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. "
+        }
+    }
+}

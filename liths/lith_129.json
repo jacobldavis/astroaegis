@@ -1,0 +1,103 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 296,
+                "col_name": "Allegany County, Maryland",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "13.00",
+                "lat": "39.67600",
+                "lng": "-78.67800",
+                "col_area": "5979.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 306,
+                "col_name": "Northeast Pennsylvania",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "23.00",
+                "lat": "41.54300",
+                "lng": "-75.20000",
+                "col_area": "11981.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 314,
+                "col_name": "Southeastern New York",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "31.00",
+                "lat": "41.82400",
+                "lng": "-74.15900",
+                "col_area": "6315.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 609,
+                "col_name": "Temiscouata",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "22.00",
+                "lat": "47.70600",
+                "lng": "-68.86700",
+                "col_area": "35110.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 808,
+                "col_name": "Rockbridge & Botetourt Counties, Virginia - East of Pulaski Fault",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "5.01",
+                "lat": "37.66000",
+                "lng": "-79.48200",
+                "col_area": "5946.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1608,
+                "col_name": "Southeast Labrador Strait of Belle Isle",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "89.00",
+                "lat": "50.73100",
+                "lng": "-58.44900",
+                "col_area": "57586.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. "
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 196,
+                "col_name": "Central Dickinson County, Michigan",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "25.00",
+                "lat": "46.03400",
+                "lng": "-87.81300",
+                "col_area": "11090.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 389,
+                "col_name": "Eastern Maine",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "22.00",
+                "lat": "44.90300",
+                "lng": "-67.37800",
+                "col_area": "18144.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 392,
+                "col_name": "East - Central Maine",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "25.00",
+                "lat": "45.26100",
+                "lng": "-69.02100",
+                "col_area": "13146.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 749,
+                "col_name": "Tumi Lake",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "2.00",
+                "lat": "63.19600",
+                "lng": "-116.83900",
+                "col_area": "31631.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 785,
+                "col_name": "Porcupine",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "38.00",
+                "lat": "48.60300",
+                "lng": "-81.27900",
+                "col_area": "27988.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 1437,
+                "col_name": "St. Elias Mountains, Kluane Ranges",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "3.00",
+                "lat": "61.03300",
+                "lng": "-138.83200",
+                "col_area": "22103.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1442,
+                "col_name": "St. Elias Mountains, Icefield and Alsek Ranges",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "8.00",
+                "lat": "60.04000",
+                "lng": "-137.42000",
+                "col_area": "14164.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. ",
+            "10": "H. Gabrielse and A.J. Brookfield. Correlation chart for the Canadian Cordiellera. 1988. "
+        }
+    }
+}

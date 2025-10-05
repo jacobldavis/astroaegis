@@ -1,0 +1,117 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 489,
+                "col_name": "San Juan Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "29.00",
+                "lat": "35.89600",
+                "lng": "-108.06800",
+                "col_area": "35096.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 490,
+                "col_name": "Black Mesa Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "28.00",
+                "lat": "35.95100",
+                "lng": "-109.90500",
+                "col_area": "42252.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 492,
+                "col_name": "Sierra Grande Uplift",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "26.00",
+                "lat": "36.64600",
+                "lng": "-103.59500",
+                "col_area": "37855.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 493,
+                "col_name": "Las Vegas - Raton Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "25.00",
+                "lat": "37.28300",
+                "lng": "-104.14800",
+                "col_area": "30837.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 495,
+                "col_name": "Paradox Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "23.00",
+                "lat": "37.89100",
+                "lng": "-109.39500",
+                "col_area": "46264.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 497,
+                "col_name": "Eastern Denver Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "21.00",
+                "lat": "39.64100",
+                "lng": "-103.33300",
+                "col_area": "36189.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 805,
+                "col_name": "Paleozoic Outliers: Clear Lake",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "5.04",
+                "lat": "45.59600",
+                "lng": "-76.05600",
+                "col_area": "26651.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. "
+        }
+    }
+}

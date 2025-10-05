@@ -1,0 +1,629 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 13,
+                "col_name": "Pine Mountain Overthrust & Adjacent Areas, Tennessee",
+                "col_group": "Southern Appalachians",
+                "col_group_id": 17,
+                "group_col_id": "12.00",
+                "lat": "36.45000",
+                "lng": "-83.57500",
+                "col_area": "6650.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 16,
+                "col_name": "Valley & Ridge, Tennessee",
+                "col_group": "Southern Appalachians",
+                "col_group_id": 17,
+                "group_col_id": "13.00",
+                "lat": "36.33300",
+                "lng": "-83.06600",
+                "col_area": "2825.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 31,
+                "col_name": "Eastern Wisconsin",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "1.00",
+                "lat": "43.73300",
+                "lng": "-87.84500",
+                "col_area": "27548.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 32,
+                "col_name": "Southern Coal Basin, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "1.00",
+                "lat": "38.00000",
+                "lng": "-81.61100",
+                "col_area": "10739.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 39,
+                "col_name": "Basin Center, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "2.00",
+                "lat": "38.44500",
+                "lng": "-80.98600",
+                "col_area": "8320.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 41,
+                "col_name": "Highland to Craig County, Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "4.00",
+                "lat": "38.09200",
+                "lng": "-79.77200",
+                "col_area": "5738.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 46,
+                "col_name": "High Plateau, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "9.00",
+                "lat": "39.14100",
+                "lng": "-80.07500",
+                "col_area": "9995.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 47,
+                "col_name": "Northeast Valley & Ridge, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "10.00",
+                "lat": "39.04000",
+                "lng": "-79.15400",
+                "col_area": "4248.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 79,
+                "col_name": "Plymouth/Cheeroke Counties, Iowa",
+                "col_group": "Midcontinent",
+                "col_group_id": 7,
+                "group_col_id": "2.00",
+                "lat": "42.73800",
+                "lng": "-95.85000",
+                "col_area": "12599.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 80,
+                "col_name": "Webster County, Iowa",
+                "col_group": "Midcontinent",
+                "col_group_id": 7,
+                "group_col_id": "3.00",
+                "lat": "42.51100",
+                "lng": "-94.24100",
+                "col_area": "21693.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 81,
+                "col_name": "Butler County, Iowa",
+                "col_group": "Midcontinent",
+                "col_group_id": 7,
+                "group_col_id": "4.00",
+                "lat": "42.75100",
+                "lng": "-92.79800",
+                "col_area": "16088.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 149,
+                "col_name": "Northwestern Foothills and Arctic Slope Subsurface",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "7.00",
+                "lat": "69.84700",
+                "lng": "-159.80200",
+                "col_area": "30975.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 307,
+                "col_name": "Eastern Pennsylvania",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "24.00",
+                "lat": "40.96100",
+                "lng": "-75.81000",
+                "col_area": "11732.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 308,
+                "col_name": "Northwestern New Jersey",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "25.00",
+                "lat": "40.68600",
+                "lng": "-74.87500",
+                "col_area": "2982.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 309,
+                "col_name": "Green Pond Mountain Region, New Jersey",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "26.00",
+                "lat": "40.99300",
+                "lng": "-74.53700",
+                "col_area": "4577.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 312,
+                "col_name": "East-central New York",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "29.00",
+                "lat": "43.11600",
+                "lng": "-75.77800",
+                "col_area": "24062.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 340,
+                "col_name": "Billings County Central Basin",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "17.00",
+                "lat": "47.27900",
+                "lng": "-103.42100",
+                "col_area": "21013.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 341,
+                "col_name": "Williams County Nesson Anticline",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "18.00",
+                "lat": "48.38300",
+                "lng": "-102.95000",
+                "col_area": "39055.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 342,
+                "col_name": "Burleigh County East Basin",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "19.00",
+                "lat": "47.24600",
+                "lng": "-100.57500",
+                "col_area": "36781.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 343,
+                "col_name": "Bottineau County Northeast Basin",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "20.00",
+                "lat": "48.84900",
+                "lng": "-100.80000",
+                "col_area": "22995.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 346,
+                "col_name": "Adams and Harding Counties, Southwest Basin",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "23.00",
+                "lat": "46.26600",
+                "lng": "-102.95000",
+                "col_area": "26650.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 347,
+                "col_name": "Pennington County Northern Black Hills",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "24.00",
+                "lat": "44.95000",
+                "lng": "-102.87800",
+                "col_area": "27250.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 348,
+                "col_name": "Dewey County East Basin (south)",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "25.00",
+                "lat": "45.40000",
+                "lng": "-100.34000",
+                "col_area": "42115.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 429,
+                "col_name": "Southern Peninsula - Central Michigan",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "4.00",
+                "lat": "43.82500",
+                "lng": "-84.96300",
+                "col_area": "33887.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 430,
+                "col_name": "Southern Peninsula - Sw Michigan",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "5.00",
+                "lat": "42.42100",
+                "lng": "-85.68300",
+                "col_area": "26098.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 431,
+                "col_name": "Southern Peninsula - S.E. Michigan",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "6.00",
+                "lat": "42.41600",
+                "lng": "-83.80300",
+                "col_area": "25142.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 438,
+                "col_name": "Cincinnati and Kankakee Arches - Southeastern Indiana",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "13.00",
+                "lat": "39.09100",
+                "lng": "-85.33300",
+                "col_area": "14293.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 441,
+                "col_name": "Michigan Basin-finlay Arch - Northwestern Ohio",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "16.00",
+                "lat": "41.04100",
+                "lng": "-83.61300",
+                "col_area": "13055.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 443,
+                "col_name": "Cincinnati Arch - Southwestern Ohio",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "18.00",
+                "lat": "39.43300",
+                "lng": "-84.11600",
+                "col_area": "12679.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 452,
+                "col_name": "Nashville Dome Area - Central Tennessee",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "27.00",
+                "lat": "36.03000",
+                "lng": "-86.75300",
+                "col_area": "12938.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 454,
+                "col_name": "Nashville Dome Area - Northwestern Alabama",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "29.00",
+                "lat": "34.96300",
+                "lng": "-87.37900",
+                "col_area": "10350.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 464,
+                "col_name": "Death Valley, California",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "10.00",
+                "lat": "36.45300",
+                "lng": "-116.92000",
+                "col_area": "27369.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 497,
+                "col_name": "Eastern Denver Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "21.00",
+                "lat": "39.64100",
+                "lng": "-103.33300",
+                "col_area": "36189.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1513,
+                "col_name": "Southern Ellesmere Island, southwest",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "13.00",
+                "lat": "76.75900",
+                "lng": "-86.26200",
+                "col_area": "11711.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1623,
+                "col_name": "Peace River Arch/Embayment, Pine Pass",
+                "col_group": "Prairie Provinces and British Columbia",
+                "col_group_id": 45,
+                "group_col_id": "38.00",
+                "lat": "55.88000",
+                "lng": "-120.93900",
+                "col_area": "12569.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1626,
+                "col_name": "Front Range, Narraway River",
+                "col_group": "Prairie Provinces and British Columbia",
+                "col_group_id": 45,
+                "group_col_id": "41.00",
+                "lat": "54.25400",
+                "lng": "-120.18000",
+                "col_area": "23715.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1627,
+                "col_name": "Swan Hills",
+                "col_group": "Prairie Provinces and British Columbia",
+                "col_group_id": 45,
+                "group_col_id": "42.00",
+                "lat": "54.82600",
+                "lng": "-115.21100",
+                "col_area": "78237.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1746,
+                "col_name": "Column A",
+                "col_group": "Amazonas Basin",
+                "col_group_id": 65,
+                "group_col_id": "1.00",
+                "lat": "-4.65400",
+                "lng": "-60.32600",
+                "col_area": "142512.3",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    52
+                ]
+            },
+            {
+                "col_id": 1747,
+                "col_name": "Column B",
+                "col_group": "Amazonas Basin",
+                "col_group_id": 65,
+                "group_col_id": "2.00",
+                "lat": "-3.27300",
+                "lng": "-57.11800",
+                "col_area": "147394.8",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    52
+                ]
+            },
+            {
+                "col_id": 1748,
+                "col_name": "Column C",
+                "col_group": "Amazonas Basin",
+                "col_group_id": 65,
+                "group_col_id": "3.00",
+                "lat": "-3.02600",
+                "lng": "-54.31200",
+                "col_area": "83005.2",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    52
+                ]
+            },
+            {
+                "col_id": 1749,
+                "col_name": "Column D",
+                "col_group": "Amazonas Basin",
+                "col_group_id": 65,
+                "group_col_id": "4.00",
+                "lat": "-2.11100",
+                "lng": "-52.37000",
+                "col_area": "95037.1",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    52
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "11": "Trettin, H.P. Geotectonic correlation chart. in Geological Survey of Canada, Geology of Canada No. 3. 1991. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. ",
+            "52": "Cunha et al. Amazon Basin Potash Report. 2011. "
+        }
+    }
+}

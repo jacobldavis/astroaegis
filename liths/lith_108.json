@@ -1,0 +1,26 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 371,
+                "col_name": "Lower Hudson Valley",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "4.00",
+                "lat": "41.38300",
+                "lng": "-73.79100",
+                "col_area": "6151.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. "
+        }
+    }
+}

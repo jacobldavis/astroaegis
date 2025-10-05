@@ -1,0 +1,271 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 213,
+                "col_name": "Savioyuk Syncline",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "17.00",
+                "lat": "67.48200",
+                "lng": "-151.72300",
+                "col_area": "13119.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 389,
+                "col_name": "Eastern Maine",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "22.00",
+                "lat": "44.90300",
+                "lng": "-67.37800",
+                "col_area": "18144.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 411,
+                "col_name": "Southern Wrangell Mountains, Mccarthy Quadrangle",
+                "col_group": "Southern Alaska",
+                "col_group_id": 16,
+                "group_col_id": "19.00",
+                "lat": "61.21700",
+                "lng": "-141.98600",
+                "col_area": "14899.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 436,
+                "col_name": "Illinois Basin - Southwestern Indiana",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "11.00",
+                "lat": "38.63300",
+                "lng": "-87.07300",
+                "col_area": "11759.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 474,
+                "col_name": "Confusion and House Ranges, Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "20.00",
+                "lat": "38.91000",
+                "lng": "-113.67500",
+                "col_area": "8202.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 576,
+                "col_name": "Southern Hudson Bay",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "2.00",
+                "lat": "55.16800",
+                "lng": "-87.15200",
+                "col_area": "143246.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 577,
+                "col_name": "Northern Hudson Bay",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "1.00",
+                "lat": "64.06200",
+                "lng": "-84.82100",
+                "col_area": "151562.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 1200,
+                "col_name": "South Central and Southwestern Puerto Rico",
+                "col_group": "Caribbean Islands",
+                "col_group_id": 27,
+                "group_col_id": "21.00",
+                "lat": "18.10100",
+                "lng": "-66.53800",
+                "col_area": "4545.1",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    6
+                ]
+            },
+            {
+                "col_id": 1202,
+                "col_name": "Southeastern Puerto Rico and Vieques Island",
+                "col_group": "Caribbean Islands",
+                "col_group_id": 27,
+                "group_col_id": "22.00",
+                "lat": "18.20100",
+                "lng": "-65.80000",
+                "col_area": "5265.5",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    6
+                ]
+            },
+            {
+                "col_id": 1610,
+                "col_name": "Brandon",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "66.00",
+                "lat": "49.42600",
+                "lng": "-100.48000",
+                "col_area": "28790.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1611,
+                "col_name": "Big Muddy, Willow Bunch",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "65.00",
+                "lat": "49.14900",
+                "lng": "-105.05500",
+                "col_area": "23821.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1612,
+                "col_name": "Maple Creek, Swift Current",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "64.00",
+                "lat": "49.54900",
+                "lng": "-108.59900",
+                "col_area": "48788.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1613,
+                "col_name": "Sweetgrass Arch",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "63.00",
+                "lat": "49.36400",
+                "lng": "-110.67600",
+                "col_area": "40588.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1706,
+                "col_name": "Column A",
+                "col_group": "Cuyo Basin",
+                "col_group_id": 51,
+                "group_col_id": "1.00",
+                "lat": "-29.57700",
+                "lng": "-68.42400",
+                "col_area": "70702.1",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    33
+                ]
+            },
+            {
+                "col_id": 1707,
+                "col_name": "Column B",
+                "col_group": "Cuyo Basin",
+                "col_group_id": 51,
+                "group_col_id": "2.00",
+                "lat": "-32.02000",
+                "lng": "-67.97700",
+                "col_area": "107047.0",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    33
+                ]
+            },
+            {
+                "col_id": 1744,
+                "col_name": "Column A",
+                "col_group": "Maranon Basin",
+                "col_group_id": 64,
+                "group_col_id": "1.00",
+                "lat": "-3.40700",
+                "lng": "-74.47200",
+                "col_area": "119213.9",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    50
+                ]
+            },
+            {
+                "col_id": 1745,
+                "col_name": "Column B",
+                "col_group": "Maranon Basin",
+                "col_group_id": 64,
+                "group_col_id": "2.00",
+                "lat": "-5.72100",
+                "lng": "-74.03400",
+                "col_area": "210315.8",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    50
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. ",
+            "6": "Maurrasse, F.J-M.R. Stratigraphic chart for the circum-Caribbean region. Volume H, The Geology of North America. 1986. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. ",
+            "33": "Barredo, Silvia. Geodynamic and Tectonostratigraphic of a Continental Rift: Cuyana Basin. 2012. ",
+            "50": "Yinfu et al. Petroleum Geology and Exploration Potential of the Oriente-Maranon Basin. 2010. "
+        }
+    }
+}

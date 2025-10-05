@@ -1,0 +1,72 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 54,
+                "col_name": "Franklin Mountain Cristo Rey Area",
+                "col_group": "Southwest Mid-Continent",
+                "col_group_id": 19,
+                "group_col_id": "8.00",
+                "lat": "31.90900",
+                "lng": "-106.50200",
+                "col_area": "14957.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 249,
+                "col_name": "Taylorsville",
+                "col_group": "Northern California",
+                "col_group_id": 10,
+                "group_col_id": "16.00",
+                "lat": "40.07800",
+                "lng": "-120.90400",
+                "col_area": "11459.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 457,
+                "col_name": "Reno Area, Nevada",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "3.00",
+                "lat": "39.21000",
+                "lng": "-119.55800",
+                "col_area": "24743.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1275,
+                "col_name": "Llanos",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "64.00",
+                "lat": "7.97300",
+                "lng": "-69.96600",
+                "col_area": "50844.6",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "7": "Maurrasse, F.J-M.R. Stratigraphic correlation for the circum-Caribbean region. In Dengo, G. and Case J.E. (eds.). The Geology of North America Volume H: The Caribbean Region. 1990. "
+        }
+    }
+}

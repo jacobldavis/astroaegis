@@ -1,0 +1,207 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 140,
+                "col_name": "Upper Chesapeake Bay",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "16.00",
+                "lat": "39.11400",
+                "lng": "-76.50600",
+                "col_area": "4993.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 289,
+                "col_name": "Lakeview - Fort Rock - Klamath Falls, Oregon",
+                "col_group": "Northwest",
+                "col_group_id": 14,
+                "group_col_id": "24.00",
+                "lat": "42.78800",
+                "lng": "-120.91000",
+                "col_area": "30789.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 294,
+                "col_name": "Juntura - Vale - Owyhee Dam, Oregon",
+                "col_group": "Northwest",
+                "col_group_id": 14,
+                "group_col_id": "29.00",
+                "lat": "43.70900",
+                "lng": "-117.49800",
+                "col_area": "24289.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 455,
+                "col_name": "Northwestern Nevada, Humboldt and Washoe Counties",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "1.00",
+                "lat": "41.45800",
+                "lng": "-119.04100",
+                "col_area": "27105.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 457,
+                "col_name": "Reno Area, Nevada",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "3.00",
+                "lat": "39.21000",
+                "lng": "-119.55800",
+                "col_area": "24743.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 496,
+                "col_name": "South Park Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "22.00",
+                "lat": "38.71600",
+                "lng": "-105.52500",
+                "col_area": "27994.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 526,
+                "col_name": "Gulf Coast Basin South Louisiana",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "11.00",
+                "lat": "29.67000",
+                "lng": "-90.88000",
+                "col_area": "63277.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 551,
+                "col_name": "La Honda",
+                "col_group": "Central California",
+                "col_group_id": 2,
+                "group_col_id": "5.00",
+                "lat": "37.32200",
+                "lng": "-122.27200",
+                "col_area": "723.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 554,
+                "col_name": "Point Reyes",
+                "col_group": "Central California",
+                "col_group_id": 2,
+                "group_col_id": "8.00",
+                "lat": "38.08300",
+                "lng": "-122.90800",
+                "col_area": "3438.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 557,
+                "col_name": "Santa Margarita / Atascadero",
+                "col_group": "Central California",
+                "col_group_id": 2,
+                "group_col_id": "11.00",
+                "lat": "35.45800",
+                "lng": "-120.67600",
+                "col_area": "4782.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 558,
+                "col_name": "Carmel Valley",
+                "col_group": "Central California",
+                "col_group_id": 2,
+                "group_col_id": "12.00",
+                "lat": "36.48200",
+                "lng": "-121.74100",
+                "col_area": "3055.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 566,
+                "col_name": "Lost Hills - Belridge",
+                "col_group": "Central California",
+                "col_group_id": 2,
+                "group_col_id": "20.00",
+                "lat": "35.57500",
+                "lng": "-119.70600",
+                "col_area": "740.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1241,
+                "col_name": "Motagua Valley",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "35.00",
+                "lat": "15.28700",
+                "lng": "-89.06000",
+                "col_area": "25277.3",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "7": "Maurrasse, F.J-M.R. Stratigraphic correlation for the circum-Caribbean region. In Dengo, G. and Case J.E. (eds.). The Geology of North America Volume H: The Caribbean Region. 1990. "
+        }
+    }
+}

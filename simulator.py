@@ -1,93 +1,144 @@
 import numpy as np
-import time
 import math
-# Import your asteroid.py file as a library
-import asteroid
 
-# --- 1. CUSTOMIZABLE PARAMETERS ---
-TARGET_SEPARATION = 50000
-lat_clem = 34.6834
-long_clem = -82.8374
-DT = 10.0
-SIM_DURATION = 3600 * 10
-PHI_RANGE = np.arange(0, 2 * np.pi, 0.4)
-THETA_RANGE = np.arange(-0.5, 0.5, 0.25)
+# --- 1. PARAMETERS (MATCHED TO YOUR ASTEROID.PY) ---
 
-# --- 2. HELPER FUNCTIONS ---
-def latlon_to_cartesian_offset(lat, lon, radius):
-    lat_rad, lon_rad = math.radians(lat), math.radians(lon)
-    x = radius * np.cos(lat_rad) * np.cos(lon_rad)
-    y = radius * np.cos(lat_rad) * np.sin(lon_rad)
-    z = radius * np.sin(lat_rad)
-    return np.array([x, y, z])
+# ASTEROID PROPERTIES
+ASTEROID_DIAMETER = 100.0 # meters
+ASTEROID_DENSITY = 8000   # kg/m^3
+HEAT_OF_ABLATION = 8000000 # J/kg
 
-def launch_vector_to_global(v, phi, theta, lat, lon, planet_vel):
-    lat_rad, lon_rad = math.radians(lat), math.radians(lon)
-    vx_local, vy_local, vz_local = v*np.cos(theta)*np.cos(phi), v*np.cos(theta)*np.sin(phi), v*np.sin(theta)
-    c_lat, s_lat, c_lon, s_lon = np.cos(lat_rad), np.sin(lat_rad), np.cos(lon_rad), np.sin(lon_rad)
-    R = np.array([[-s_lon, -s_lat*c_lon, c_lat*c_lon], [c_lon, -s_lat*s_lon, c_lat*s_lon], [0, c_lat, s_lat]])
-    return R.dot(np.array([vx_local, vy_local, vz_local])) + planet_vel
+# ENTRY CONDITIONS
+ENTRY_ALTITUDE = 15000000.0 # 15,000 km
+ENTRY_VELOCITY = 50000.0    # 50 km/s
+ENTRY_ANGLE = 90.0          # degrees (straight down)
 
-def update_body_state(position, velocity, mass, planets_dict, dt):
-    """Iterative updater that uses the function from your asteroid.py."""
-    g_acc = asteroid.calculate_gravitational_acceleration(position, planets_dict)
-    new_velocity = velocity + g_acc * dt
-    new_position = position + new_velocity * dt
-    return new_position, new_velocity
+# SIMULATION SETTINGS
+DT = 0.1  # Time step in seconds
 
-# --- 3. SIMULATOR ---
-def run_intercept_search():
-    print("--- Asteroid Intercept Simulator (using asteroid.py) ---")
+# --- 2. PHYSICAL CONSTANTS & PLANET DATA (from your asteroid.py) ---
+G = 6.67430e-11
+C_D = 0.5
+C_H = 0.05
+
+EARTH = {
+    'mass': 5.972e24, 
+    'radius': 6371000.0,
+}
+
+# --- 3. ATMOSPHERIC PHYSICS FUNCTIONS (from your asteroid.py) ---
+
+def get_temperature(altitude):
+    """Temperature (Celsius) as a function of altitude (meters)."""
+    h = altitude
+    if h > 25000:
+        return -131.21 + 0.00299 * h
+    elif 11000 < h <= 25000:
+        return -56.46  
+    else:
+        return 15.04 - 0.00649 * h
+
+def get_pressure_kpa(altitude):
+    """Pressure (kPa) as a function of temperature and altitude."""
+    h = altitude
+    T = get_temperature(h)
+    if h > 25000:
+        return 2.488 * ((T + 273.1) / 216.6) ** -11.388
+    elif 11000 < h <= 25000:
+        return 22.65 * np.exp(1.73 - 0.000157 * h)
+    else:
+        return 101.29 * ((T + 273.1) / 288.08) ** 5.256
+
+def get_density(altitude):
+    """Atmospheric density (kg/m^3) as a function of altitude."""
+    if altitude > 100000: return 0.0 # Above 100km, density is negligible
+    P_kpa = get_pressure_kpa(altitude)
+    T_celsius = get_temperature(altitude)
+    return (P_kpa * 1000) / (287 * (T_celsius + 273.15))
+
+# --- 4. MAIN SIMULATION ---
+def run_atmospheric_entry():
+    print("--- Atmospheric Entry Simulator (Corrected Parameters) ---")
+
+    # Initial calculations
+    radius = ASTEROID_DIAMETER / 2.0
+    initial_volume = (4.0 / 3.0) * np.pi * (radius ** 3)
+    mass = ASTEROID_DENSITY * initial_volume
+    initial_mass = mass
     
-    # Use the planets dictionary directly from your imported file
-    planets = asteroid.planets
-    earth = planets['Earth']
-
-    # Calculate missile mass using the nuke_power() function from your file
-    m_launch = asteroid.nuke_power() + 32000
-
-    # Setup target asteroid (using a simple orbit for this scenario)
-    initial_asteroid_pos = np.array([1.55e11, 0., 0.])
-    initial_asteroid_vel = np.array([0., 28000., 0.])
+    # Set initial position and velocity vectors based on entry angle
+    angle_rad = math.radians(ENTRY_ANGLE - 90) # Adjust angle for vector math
+    start_pos_mag = EARTH['radius'] + ENTRY_ALTITUDE
+    pos = np.array([start_pos_mag * np.cos(angle_rad), start_pos_mag * np.sin(angle_rad), 0.])
     
-    print(f"IV Mass set to: {m_launch:.2f} kg")
-    print(f"Launching from: Lat {lat_clem}, Lon {long_clem}")
-    best_attempt = {"min_dist": float('inf'), "phi": None, "theta": None}
+    # Velocity vector points towards the origin (Earth's center)
+    vel = -ENTRY_VELOCITY * (pos / np.linalg.norm(pos))
 
-    # --- 4. START THE LIVE SEARCH ---
-    for LAUNCH_VELOCITY in range(10000, 20000, 1000):
-        for phi in PHI_RANGE:
-            for theta in THETA_RANGE:
-                asteroid_pos, asteroid_vel = initial_asteroid_pos.copy(), initial_asteroid_vel.copy()
-                
-                launch_offset = latlon_to_cartesian_offset(lat_clem, long_clem, earth['radius'])
-                iv_pos = earth['position'] + launch_offset
-                iv_vel = launch_vector_to_global(LAUNCH_VELOCITY, phi, theta, lat_clem, long_clem, earth['velocity'])
-                
-                min_dist_this_run = float('inf')
+    print(f"Initial State: Altitude={ENTRY_ALTITUDE/1000:.0f} km, Velocity={ENTRY_VELOCITY/1000:.1f} km/s, Angle={ENTRY_ANGLE}°")
+    print(f"Asteroid Mass: {mass:.2e} kg, Radius: {radius:.2f} m")
+    print("\n--- SIMULATION START ---")
+    
+    t = 0
+    in_atmosphere = False
+    
+    while True:
+        pos_mag = np.linalg.norm(pos)
+        altitude = pos_mag - EARTH['radius']
+        
+        if altitude < 0: altitude = 0 # Don't go below ground
 
-                for t in np.arange(0, SIM_DURATION, DT):
-                    # Update positions using full physics
-                    asteroid_pos, asteroid_vel = update_body_state(asteroid_pos, asteroid_vel, 5e9, planets, DT)
-                    iv_pos, iv_vel = update_body_state(iv_pos, iv_vel, m_launch, planets, DT)
-                    
-                    current_dist = np.linalg.norm(iv_pos - asteroid_pos)
-                    if current_dist < min_dist_this_run:
-                        min_dist_this_run = current_dist
+        # --- Physics Calculations ---
+        g_force_mag = (G * EARTH['mass'] * mass) / (pos_mag**2)
+        g_force_vec = -g_force_mag * (pos / pos_mag)
+        
+        drag_force_vec = np.array([0., 0., 0.])
+        mass_loss_rate = 0.0
+        
+        # Check if inside atmosphere
+        if altitude < 100000.0:
+            if not in_atmosphere:
+                print(f"Time: {t:4.1f}s - Atmosphere Entry at {altitude/1000:.1f} km")
+                in_atmosphere = True
 
-                    if current_dist <= TARGET_SEPARATION:
-                        print("\n" + "="*20 + " HIT! " + "="*20)
-                        print(f"SUCCESSFUL INTERCEPT with parameters:")
-                        print(f"  - v: {LAUNCH_VELOCITY} m/s, phi: {phi:.2f} rad, theta: {theta:.2f} rad")
-                        return
+            atm_density = get_density(altitude)
+            velocity_mag = np.linalg.norm(vel)
+            
+            if velocity_mag > 0:
+                area = np.pi * radius**2
+                # Drag Force
+                drag_force_mag = 0.5 * C_D * atm_density * area * velocity_mag**2
+                drag_force_vec = -drag_force_mag * (vel / velocity_mag)
+                # Ablation (Mass Loss)
+                mass_loss_rate = (0.5 * C_H * atm_density * area * velocity_mag**3) / HEAT_OF_ABLATION
 
-                if min_dist_this_run < best_attempt["min_dist"]:
-                    best_attempt = {"min_dist": min_dist_this_run, "phi": phi, "theta": theta}
-                
-                print(f"Attempt (phi={phi:.2f}, theta={theta:.2f}): Closest approach = {min_dist_this_run/1000:,.0f} km")
+        # Update mass and radius
+        mass -= mass_loss_rate * DT
+        if mass <= 0:
+            print(f"\nTime {t:.1f}s: Asteroid completely ablated at {altitude/1000:.1f} km altitude.")
+            break
+        radius = ((3.0 * mass) / (4.0 * np.pi * ASTEROID_DENSITY))**(1/3)
+        
+        # Update motion
+        total_force = g_force_vec + drag_force_vec
+        acceleration = total_force / mass
+        vel += acceleration * DT
+        pos += vel * DT
 
-    print("\n--- SEARCH COMPLETE ---")
-    print(f"Best attempt: Closest approach of {best_attempt['min_dist']/1000:,.0f} km with phi={best_attempt['phi']:.2f}, theta={best_attempt['theta']:.2f}")
+        # Reporting
+        if int(t/DT) % 200 == 0: # Print status every 10 seconds
+            print(f"Time: {t:5.1f}s | Alt: {altitude/1000:7.1f} km | Vel: {np.linalg.norm(vel)/1000:5.1f} km/s | Mass Left: {(mass / initial_mass * 100):.1f}%")
+
+        # Break condition for impact
+        if altitude <= 0:
+            print(f"\n--- IMPACT ---")
+            impact_energy_J = 0.5 * mass * (np.linalg.norm(vel)**2)
+            impact_energy_MT = impact_energy_J / 4.184e15
+            print(f"Impact Velocity: {np.linalg.norm(vel)/1000:.2f} km/s")
+            print(f"Final Mass: {mass:.2e} kg ({mass/initial_mass*100:.1f}% remaining)")
+            print(f"Impact Energy: {impact_energy_MT:.2f} Megatons of TNT")
+            break
+            
+        t += DT
 
 if __name__ == "__main__":
-    run_intercept_search()
+    run_atmospheric_entry()

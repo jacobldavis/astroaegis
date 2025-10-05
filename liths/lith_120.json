@@ -1,0 +1,164 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 179,
+                "col_name": "Stearns County, Minnesota",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "8.00",
+                "lat": "45.61600",
+                "lng": "-94.37700",
+                "col_area": "25895.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 181,
+                "col_name": "Rainy Lake District, Koochiching County, Minnesota",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "10.00",
+                "lat": "48.48300",
+                "lng": "-93.10000",
+                "col_area": "12214.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 223,
+                "col_name": "Eagle/Pinto Mountains",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "22.00",
+                "lat": "33.93700",
+                "lng": "-115.69900",
+                "col_area": "10640.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 225,
+                "col_name": "Big Bear",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "24.00",
+                "lat": "34.21600",
+                "lng": "-116.85800",
+                "col_area": "4479.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 482,
+                "col_name": "Southern Wasatch Allochthon, Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "28.00",
+                "lat": "40.24600",
+                "lng": "-111.53600",
+                "col_area": "6278.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 804,
+                "col_name": "Paleozoic Outliers: Gilmour Lake",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "5.03",
+                "lat": "45.63500",
+                "lng": "-75.55200",
+                "col_area": "3722.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 1506,
+                "col_name": "Prince of Wales Island, east",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "6.00",
+                "lat": "72.41500",
+                "lng": "-96.75700",
+                "col_area": "41091.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1507,
+                "col_name": "Somerset Island",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "7.00",
+                "lat": "73.43600",
+                "lng": "-94.50300",
+                "col_area": "13332.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1598,
+                "col_name": "Allegheny Basin",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "79.00",
+                "lat": "42.99800",
+                "lng": "-79.63600",
+                "col_area": "22212.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1664,
+                "col_name": "Western Great Bear Lake",
+                "col_group": "Northwest, Yukon Territories",
+                "col_group_id": 44,
+                "group_col_id": "19.00",
+                "lat": "65.70500",
+                "lng": "-123.64200",
+                "col_area": "43086.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. ",
+            "11": "Trettin, H.P. Geotectonic correlation chart. in Geological Survey of Canada, Geology of Canada No. 3. 1991. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. "
+        }
+    }
+}

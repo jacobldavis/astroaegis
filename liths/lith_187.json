@@ -1,0 +1,359 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 279,
+                "col_name": "Northwest Olympic Peninsula",
+                "col_group": "Northwest",
+                "col_group_id": 14,
+                "group_col_id": "15.00",
+                "lat": "48.15800",
+                "lng": "-124.49500",
+                "col_area": "5364.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 281,
+                "col_name": "Bremerton Area",
+                "col_group": "Northwest",
+                "col_group_id": 14,
+                "group_col_id": "17.00",
+                "lat": "47.56500",
+                "lng": "-122.72400",
+                "col_area": "6699.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 298,
+                "col_name": "North-central Ohio",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "15.00",
+                "lat": "40.60800",
+                "lng": "-82.74100",
+                "col_area": "13089.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 340,
+                "col_name": "Billings County Central Basin",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "17.00",
+                "lat": "47.27900",
+                "lng": "-103.42100",
+                "col_area": "21013.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 342,
+                "col_name": "Burleigh County East Basin",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "19.00",
+                "lat": "47.24600",
+                "lng": "-100.57500",
+                "col_area": "36781.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 343,
+                "col_name": "Bottineau County Northeast Basin",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "20.00",
+                "lat": "48.84900",
+                "lng": "-100.80000",
+                "col_area": "22995.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 344,
+                "col_name": "Cavalier County Northeast Edge",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "21.00",
+                "lat": "48.56600",
+                "lng": "-98.00100",
+                "col_area": "30736.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 345,
+                "col_name": "Dickey County Southeast Edge",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "22.00",
+                "lat": "46.74100",
+                "lng": "-98.05600",
+                "col_area": "37620.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 347,
+                "col_name": "Pennington County Northern Black Hills",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "24.00",
+                "lat": "44.95000",
+                "lng": "-102.87800",
+                "col_area": "27250.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 411,
+                "col_name": "Southern Wrangell Mountains, Mccarthy Quadrangle",
+                "col_group": "Southern Alaska",
+                "col_group_id": 16,
+                "group_col_id": "19.00",
+                "lat": "61.21700",
+                "lng": "-141.98600",
+                "col_area": "14899.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 458,
+                "col_name": "Central and Northern Esmeralda County and Southeastern Mineral County, Neva",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "4.00",
+                "lat": "38.23100",
+                "lng": "-117.71300",
+                "col_area": "24012.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 489,
+                "col_name": "San Juan Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "29.00",
+                "lat": "35.89600",
+                "lng": "-108.06800",
+                "col_area": "35096.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 562,
+                "col_name": "Priest Valley - Coalinga",
+                "col_group": "Central California",
+                "col_group_id": 2,
+                "group_col_id": "16.00",
+                "lat": "36.17900",
+                "lng": "-120.49000",
+                "col_area": "3189.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 636,
+                "col_name": "East and Central Gaspe",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "33.00",
+                "lat": "48.78900",
+                "lng": "-64.87400",
+                "col_area": "5649.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 641,
+                "col_name": "Southern Gaspe",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "34.00",
+                "lat": "48.14900",
+                "lng": "-65.17000",
+                "col_area": "17542.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 774,
+                "col_name": "Northern Baffin Island",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "27.00",
+                "lat": "71.81100",
+                "lng": "-79.15700",
+                "col_area": "88429.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 1449,
+                "col_name": "Tyaughton Creek",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "16.00",
+                "lat": "51.00000",
+                "lng": "-122.72800",
+                "col_area": "10554.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1462,
+                "col_name": "Fraser",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "29.00",
+                "lat": "52.11600",
+                "lng": "-122.38900",
+                "col_area": "16556.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1496,
+                "col_name": "Seymour Arm Golden",
+                "col_group": "Canadian Cordillera III",
+                "col_group_id": 40,
+                "group_col_id": "84.00",
+                "lat": "50.99600",
+                "lng": "-117.11600",
+                "col_area": "9518.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1611,
+                "col_name": "Big Muddy, Willow Bunch",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "65.00",
+                "lat": "49.14900",
+                "lng": "-105.05500",
+                "col_area": "23821.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1612,
+                "col_name": "Maple Creek, Swift Current",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "64.00",
+                "lat": "49.54900",
+                "lng": "-108.59900",
+                "col_area": "48788.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1613,
+                "col_name": "Sweetgrass Arch",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "63.00",
+                "lat": "49.36400",
+                "lng": "-110.67600",
+                "col_area": "40588.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1636,
+                "col_name": "Saskatoon",
+                "col_group": "Prairie Provinces and British Columbia",
+                "col_group_id": 45,
+                "group_col_id": "51.00",
+                "lat": "52.17500",
+                "lng": "-106.48900",
+                "col_area": "98309.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. ",
+            "10": "H. Gabrielse and A.J. Brookfield. Correlation chart for the Canadian Cordiellera. 1988. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. "
+        }
+    }
+}

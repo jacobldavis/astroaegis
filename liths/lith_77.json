@@ -1,0 +1,161 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 192,
+                "col_name": "Gogebic Range, Gogebic County, Michigan",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "21.00",
+                "lat": "46.36600",
+                "lng": "-89.68200",
+                "col_area": "13468.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 325,
+                "col_name": "White Knob Mountains, Lost River and Lemhi Range, Central Idaho",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "2.00",
+                "lat": "44.37500",
+                "lng": "-113.48000",
+                "col_area": "25030.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 382,
+                "col_name": "North - Central Maine",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "15.00",
+                "lat": "46.27500",
+                "lng": "-69.29100",
+                "col_area": "15253.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 456,
+                "col_name": "Winnemucca-battle Mountain Area, Nevada",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "2.00",
+                "lat": "40.71100",
+                "lng": "-118.24100",
+                "col_area": "32141.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 457,
+                "col_name": "Reno Area, Nevada",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "3.00",
+                "lat": "39.21000",
+                "lng": "-119.55800",
+                "col_area": "24743.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 458,
+                "col_name": "Central and Northern Esmeralda County and Southeastern Mineral County, Neva",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "4.00",
+                "lat": "38.23100",
+                "lng": "-117.71300",
+                "col_area": "24012.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 461,
+                "col_name": "Mountain City, Nevada to Twin Falls, Idaho",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "7.00",
+                "lat": "42.18600",
+                "lng": "-115.94500",
+                "col_area": "26235.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 466,
+                "col_name": "Pioche Area, Nevada",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "12.00",
+                "lat": "37.78000",
+                "lng": "-114.55800",
+                "col_area": "18636.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 476,
+                "col_name": "Pocatello - Preston Area, Southeastern Idaho",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "22.00",
+                "lat": "42.71000",
+                "lng": "-112.31100",
+                "col_area": "26556.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 484,
+                "col_name": "Southwestern Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "30.00",
+                "lat": "37.30000",
+                "lng": "-113.57800",
+                "col_area": "18677.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. "
+        }
+    }
+}

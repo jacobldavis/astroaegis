@@ -1,0 +1,464 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 2,
+                "col_name": "Madison Co, Alabama",
+                "col_group": "Southern Appalachians",
+                "col_group_id": 17,
+                "group_col_id": "1.00",
+                "lat": "34.85300",
+                "lng": "-86.56200",
+                "col_area": "6345.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 4,
+                "col_name": "Blount County, Alabama",
+                "col_group": "Southern Appalachians",
+                "col_group_id": 17,
+                "group_col_id": "3.00",
+                "lat": "33.99800",
+                "lng": "-86.55000",
+                "col_area": "2726.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 5,
+                "col_name": "Dekalb & Western Etowah Counties, Alabama",
+                "col_group": "Southern Appalachians",
+                "col_group_id": 17,
+                "group_col_id": "4.00",
+                "lat": "34.35400",
+                "lng": "-86.07900",
+                "col_area": "3339.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 8,
+                "col_name": "Western Valley & Ridge, Southern Segment, Alabama",
+                "col_group": "Southern Appalachians",
+                "col_group_id": 17,
+                "group_col_id": "7.00",
+                "lat": "33.66200",
+                "lng": "-86.78600",
+                "col_area": "4713.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 36,
+                "col_name": "Barrow - Drew Point",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "1.00",
+                "lat": "70.64400",
+                "lng": "-154.58300",
+                "col_area": "27287.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 94,
+                "col_name": "Colville Delta",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "2.00",
+                "lat": "70.26000",
+                "lng": "-151.26900",
+                "col_area": "17893.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 95,
+                "col_name": "West Sak",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "3.00",
+                "lat": "70.34300",
+                "lng": "-149.27600",
+                "col_area": "9473.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 96,
+                "col_name": "Prudhoe",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "4.00",
+                "lat": "69.88900",
+                "lng": "-147.65300",
+                "col_area": "16862.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 150,
+                "col_name": "Northeastern Foothills and Phillip Smith Mountains Quadrangle",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "8.00",
+                "lat": "68.97300",
+                "lng": "-153.51600",
+                "col_area": "13834.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 171,
+                "col_name": "Black Warrior Basin Cullman County, Alabama",
+                "col_group": "Texas-Oklahoma Tectonic Region",
+                "col_group_id": 20,
+                "group_col_id": "19.00",
+                "lat": "34.23000",
+                "lng": "-87.02000",
+                "col_area": "7606.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 300,
+                "col_name": "Southwestern Pennsylvania",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "17.00",
+                "lat": "40.52800",
+                "lng": "-79.56300",
+                "col_area": "17251.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 497,
+                "col_name": "Eastern Denver Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "21.00",
+                "lat": "39.64100",
+                "lng": "-103.33300",
+                "col_area": "36189.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 498,
+                "col_name": "Western Denver Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "20.00",
+                "lat": "40.25500",
+                "lng": "-104.56600",
+                "col_area": "28567.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 500,
+                "col_name": "Piceance Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "18.00",
+                "lat": "38.96700",
+                "lng": "-107.80000",
+                "col_area": "28924.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 501,
+                "col_name": "Eastern Unita Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "17.00",
+                "lat": "40.14400",
+                "lng": "-109.26200",
+                "col_area": "22166.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 502,
+                "col_name": "Western Uinta Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "16.00",
+                "lat": "40.24500",
+                "lng": "-110.82000",
+                "col_area": "20528.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 512,
+                "col_name": "Black Hills",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "6.00",
+                "lat": "43.94900",
+                "lng": "-104.20600",
+                "col_area": "35648.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 612,
+                "col_name": "Lake Megantic",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "20.00",
+                "lat": "45.49900",
+                "lng": "-70.86700",
+                "col_area": "5091.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 621,
+                "col_name": "Central and Northeastern Cape Breton Island",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "44.00",
+                "lat": "46.62400",
+                "lng": "-60.36000",
+                "col_area": "16826.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 623,
+                "col_name": "Merigomish Antigonish",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "42.00",
+                "lat": "45.62700",
+                "lng": "-62.33800",
+                "col_area": "11655.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 627,
+                "col_name": "Eastern Cobequid MTNS.",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "41.00",
+                "lat": "45.68000",
+                "lng": "-63.41500",
+                "col_area": "18209.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 628,
+                "col_name": "Northern Cobequid MTNS.",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "40.00",
+                "lat": "45.80400",
+                "lng": "-63.82100",
+                "col_area": "11673.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 629,
+                "col_name": "Chignecto Bay",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "39.00",
+                "lat": "45.80400",
+                "lng": "-64.55500",
+                "col_area": "7193.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 637,
+                "col_name": "Moncton, N.B. Price Edward Island",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "38.00",
+                "lat": "46.19200",
+                "lng": "-64.60300",
+                "col_area": "14905.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 638,
+                "col_name": "Sussex-Petitcodiac",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "37.00",
+                "lat": "45.81500",
+                "lng": "-65.36800",
+                "col_area": "8706.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 1530,
+                "col_name": "King Christian, Ellef, Ringnes Islands",
+                "col_group": "Canadian Arctic II",
+                "col_group_id": 42,
+                "group_col_id": "30.00",
+                "lat": "78.44100",
+                "lng": "-103.14700",
+                "col_area": "14165.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1532,
+                "col_name": "Ellef Ringnes Island, southeast",
+                "col_group": "Canadian Arctic II",
+                "col_group_id": 42,
+                "group_col_id": "32.00",
+                "lat": "78.25000",
+                "lng": "-100.49800",
+                "col_area": "25012.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1612,
+                "col_name": "Maple Creek, Swift Current",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "64.00",
+                "lat": "49.54900",
+                "lng": "-108.59900",
+                "col_area": "48788.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1613,
+                "col_name": "Sweetgrass Arch",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "63.00",
+                "lat": "49.36400",
+                "lng": "-110.67600",
+                "col_area": "40588.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1634,
+                "col_name": "Edmonton",
+                "col_group": "Prairie Provinces and British Columbia",
+                "col_group_id": 45,
+                "group_col_id": "49.00",
+                "lat": "53.66100",
+                "lng": "-113.55400",
+                "col_area": "56456.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. ",
+            "11": "Trettin, H.P. Geotectonic correlation chart. in Geological Survey of Canada, Geology of Canada No. 3. 1991. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. "
+        }
+    }
+}

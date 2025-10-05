@@ -1,0 +1,86 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 225,
+                "col_name": "Big Bear",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "24.00",
+                "lat": "34.21600",
+                "lng": "-116.85800",
+                "col_area": "4479.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 337,
+                "col_name": "Garfield County North Basin",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "14.00",
+                "lat": "47.26600",
+                "lng": "-106.96100",
+                "col_area": "43154.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 347,
+                "col_name": "Pennington County Northern Black Hills",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "24.00",
+                "lat": "44.95000",
+                "lng": "-102.87800",
+                "col_area": "27250.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 485,
+                "col_name": "Uinta Mountains, Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "31.00",
+                "lat": "40.85900",
+                "lng": "-109.20200",
+                "col_area": "10870.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 512,
+                "col_name": "Black Hills",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "6.00",
+                "lat": "43.94900",
+                "lng": "-104.20600",
+                "col_area": "35648.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. "
+        }
+    }
+}

@@ -1,0 +1,252 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 23,
+                "col_name": "Appalachian Plateau, Virginia",
+                "col_group": "Southern Appalachians",
+                "col_group_id": 17,
+                "group_col_id": "21.00",
+                "lat": "37.30000",
+                "lng": "-82.11600",
+                "col_area": "5536.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 32,
+                "col_name": "Southern Coal Basin, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "1.00",
+                "lat": "38.00000",
+                "lng": "-81.61100",
+                "col_area": "10739.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 39,
+                "col_name": "Basin Center, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "2.00",
+                "lat": "38.44500",
+                "lng": "-80.98600",
+                "col_area": "8320.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 40,
+                "col_name": "Southeast Valley & Ridge, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "3.00",
+                "lat": "37.74100",
+                "lng": "-80.60800",
+                "col_area": "5425.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 41,
+                "col_name": "Highland to Craig County, Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "4.00",
+                "lat": "38.09200",
+                "lng": "-79.77200",
+                "col_area": "5738.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 42,
+                "col_name": "Rockbridge & Botetourt Counties, Virginia - West of Pulaski Fault",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "5.00",
+                "lat": "37.52700",
+                "lng": "-80.03500",
+                "col_area": "2720.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 43,
+                "col_name": "Rockingham & Augusta Counties, Virginia - West of North Mtn Fault",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "6.00",
+                "lat": "38.43800",
+                "lng": "-79.15800",
+                "col_area": "3578.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 45,
+                "col_name": "Dunkard Basin, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "8.00",
+                "lat": "39.34300",
+                "lng": "-80.96100",
+                "col_area": "10998.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 46,
+                "col_name": "High Plateau, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "9.00",
+                "lat": "39.14100",
+                "lng": "-80.07500",
+                "col_area": "9995.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 47,
+                "col_name": "Northeast Valley & Ridge, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "10.00",
+                "lat": "39.04000",
+                "lng": "-79.15400",
+                "col_area": "4248.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 301,
+                "col_name": "South-central Pennsylvania",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "18.00",
+                "lat": "40.29100",
+                "lng": "-77.89000",
+                "col_area": "12044.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 302,
+                "col_name": "Southeastern Pennsylvania",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "19.00",
+                "lat": "40.21100",
+                "lng": "-76.97000",
+                "col_area": "9633.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 488,
+                "col_name": "Estancia Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "30.00",
+                "lat": "35.46300",
+                "lng": "-106.07600",
+                "col_area": "44986.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 594,
+                "col_name": "Sherbrooke",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "15.00",
+                "lat": "45.42900",
+                "lng": "-71.92900",
+                "col_area": "5411.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 809,
+                "col_name": "Rockingham & Augusta Counties, Virginia - East of North Mtn Fault",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "6.01",
+                "lat": "38.23100",
+                "lng": "-78.93500",
+                "col_area": "4063.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 810,
+                "col_name": "Northeast Valley & Ridge, Virginia - East of North Mtn Fault",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "11.01",
+                "lat": "38.90100",
+                "lng": "-78.29200",
+                "col_area": "3479.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. "
+        }
+    }
+}

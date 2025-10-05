@@ -1,0 +1,89 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 426,
+                "col_name": "Southern Prince of Wales Island Hydaburg Area Southeast Alaska",
+                "col_group": "Southern Alaska",
+                "col_group_id": 16,
+                "group_col_id": "34.00",
+                "lat": "55.09400",
+                "lng": "-132.33500",
+                "col_area": "29990.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 769,
+                "col_name": "Cape Smith, Wakham Bay",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "22.00",
+                "lat": "61.14400",
+                "lng": "-74.83600",
+                "col_area": "282089.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 1437,
+                "col_name": "St. Elias Mountains, Kluane Ranges",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "3.00",
+                "lat": "61.03300",
+                "lng": "-138.83200",
+                "col_area": "22103.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1601,
+                "col_name": "Montreal",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "82.00",
+                "lat": "45.63800",
+                "lng": "-73.59100",
+                "col_area": "29153.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1602,
+                "col_name": "St. Hyacinthe",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "83.00",
+                "lat": "45.44600",
+                "lng": "-73.21400",
+                "col_area": "6431.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. ",
+            "10": "H. Gabrielse and A.J. Brookfield. Correlation chart for the Canadian Cordiellera. 1988. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. "
+        }
+    }
+}

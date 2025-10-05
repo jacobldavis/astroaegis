@@ -1,0 +1,104 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 165,
+                "col_name": "Arkansas and Louisiana Portion of Ouachita Tectonic Belt",
+                "col_group": "Texas-Oklahoma Tectonic Region",
+                "col_group_id": 20,
+                "group_col_id": "13.00",
+                "lat": "34.26600",
+                "lng": "-93.38300",
+                "col_area": "33655.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 784,
+                "col_name": "Kapuskasing",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "37.00",
+                "lat": "49.41600",
+                "lng": "-82.43300",
+                "col_area": "72573.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 796,
+                "col_name": "South Eastern Quebec",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "49.00",
+                "lat": "45.94000",
+                "lng": "-75.66500",
+                "col_area": "29891.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 1491,
+                "col_name": "Western Muskwa Ranges",
+                "col_group": "Canadian Cordillera III",
+                "col_group_id": 40,
+                "group_col_id": "73.00",
+                "lat": "56.81900",
+                "lng": "-124.75100",
+                "col_area": "23519.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1493,
+                "col_name": "Cariboo Lake",
+                "col_group": "Canadian Cordillera III",
+                "col_group_id": 40,
+                "group_col_id": "78.00",
+                "lat": "52.51200",
+                "lng": "-121.11300",
+                "col_area": "12013.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1600,
+                "col_name": "Pembroke-Arnprior Outlier Ottawa and St. Lawrence River",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "81.00",
+                "lat": "45.34500",
+                "lng": "-75.45800",
+                "col_area": "15082.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. ",
+            "10": "H. Gabrielse and A.J. Brookfield. Correlation chart for the Canadian Cordiellera. 1988. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. "
+        }
+    }
+}

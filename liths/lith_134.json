@@ -1,0 +1,692 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 236,
+                "col_name": "Yreka",
+                "col_group": "Northern California",
+                "col_group_id": 10,
+                "group_col_id": "5.00",
+                "lat": "41.72300",
+                "lng": "-122.63500",
+                "col_area": "12799.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 241,
+                "col_name": "Kalmiopsis",
+                "col_group": "Northern California",
+                "col_group_id": 10,
+                "group_col_id": "10.00",
+                "lat": "41.97500",
+                "lng": "-123.92700",
+                "col_area": "13084.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 261,
+                "col_name": "Roseburg Area",
+                "col_group": "Northwest",
+                "col_group_id": 14,
+                "group_col_id": "1.00",
+                "lat": "43.25000",
+                "lng": "-122.85900",
+                "col_area": "18218.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 263,
+                "col_name": "Coos Bay Area",
+                "col_group": "Northwest",
+                "col_group_id": 14,
+                "group_col_id": "3.00",
+                "lat": "43.42800",
+                "lng": "-124.20100",
+                "col_area": "5785.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 265,
+                "col_name": "Eugene Area",
+                "col_group": "Northwest",
+                "col_group_id": 14,
+                "group_col_id": "5.00",
+                "lat": "44.08100",
+                "lng": "-123.08300",
+                "col_area": "10943.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 266,
+                "col_name": "Central Coastal Range",
+                "col_group": "Northwest",
+                "col_group_id": 14,
+                "group_col_id": "6.00",
+                "lat": "44.61100",
+                "lng": "-123.89600",
+                "col_area": "7756.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 279,
+                "col_name": "Northwest Olympic Peninsula",
+                "col_group": "Northwest",
+                "col_group_id": 14,
+                "group_col_id": "15.00",
+                "lat": "48.15800",
+                "lng": "-124.49500",
+                "col_area": "5364.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 300,
+                "col_name": "Southwestern Pennsylvania",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "17.00",
+                "lat": "40.52800",
+                "lng": "-79.56300",
+                "col_area": "17251.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 411,
+                "col_name": "Southern Wrangell Mountains, Mccarthy Quadrangle",
+                "col_group": "Southern Alaska",
+                "col_group_id": 16,
+                "group_col_id": "19.00",
+                "lat": "61.21700",
+                "lng": "-141.98600",
+                "col_area": "14899.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 458,
+                "col_name": "Central and Northern Esmeralda County and Southeastern Mineral County, Neva",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "4.00",
+                "lat": "38.23100",
+                "lng": "-117.71300",
+                "col_area": "24012.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 489,
+                "col_name": "San Juan Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "29.00",
+                "lat": "35.89600",
+                "lng": "-108.06800",
+                "col_area": "35096.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 597,
+                "col_name": "Montmagny-Thetford Mines",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "18.00",
+                "lat": "46.38400",
+                "lng": "-70.91400",
+                "col_area": "8540.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 1438,
+                "col_name": "Queen Charlotte Islands",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "4.00",
+                "lat": "53.14200",
+                "lng": "-132.19300",
+                "col_area": "32372.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1441,
+                "col_name": "Central and Southeast Vancouver Island",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "7.00",
+                "lat": "49.15700",
+                "lng": "-124.20400",
+                "col_area": "18880.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1502,
+                "col_name": "Banks Island, central",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "2.00",
+                "lat": "73.20000",
+                "lng": "-121.41600",
+                "col_area": "25554.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1503,
+                "col_name": "Banks Island, Southeast",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "3.00",
+                "lat": "72.08600",
+                "lng": "-121.06800",
+                "col_area": "53656.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1513,
+                "col_name": "Southern Ellesmere Island, southwest",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "13.00",
+                "lat": "76.75900",
+                "lng": "-86.26200",
+                "col_area": "11711.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1515,
+                "col_name": "Southern Ellesmere Island, Makinson Inlet",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "15.00",
+                "lat": "77.39500",
+                "lng": "-82.61500",
+                "col_area": "17004.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1517,
+                "col_name": "Prince Patrick Island",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "17.00",
+                "lat": "76.95500",
+                "lng": "-118.71900",
+                "col_area": "20574.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1519,
+                "col_name": "Melville Island, northwest",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "19.00",
+                "lat": "76.07300",
+                "lng": "-115.25500",
+                "col_area": "42913.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1521,
+                "col_name": "Melville Island, northeast",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "21.00",
+                "lat": "75.95700",
+                "lng": "-108.75000",
+                "col_area": "57212.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1522,
+                "col_name": "Cameron Island",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "22.00",
+                "lat": "76.47700",
+                "lng": "-104.08000",
+                "col_area": "45507.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1523,
+                "col_name": "Bathurst Island, west and central",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "23.00",
+                "lat": "75.99800",
+                "lng": "-101.36200",
+                "col_area": "30642.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1524,
+                "col_name": "Bathurst Island, east",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "24.00",
+                "lat": "75.84800",
+                "lng": "-98.15700",
+                "col_area": "29140.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1527,
+                "col_name": "Devon Island,Grinnel Peninsula",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "27.00",
+                "lat": "76.39300",
+                "lng": "-92.19000",
+                "col_area": "23131.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1541,
+                "col_name": "Central Ellesmere Island, Bjorne Pen.",
+                "col_group": "Canadian Arctic II",
+                "col_group_id": 42,
+                "group_col_id": "41.00",
+                "lat": "77.56800",
+                "lng": "-87.01400",
+                "col_area": "14464.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1542,
+                "col_name": "Central Ellesmere Island, Svendsen Pen.",
+                "col_group": "Canadian Arctic II",
+                "col_group_id": 42,
+                "group_col_id": "42.00",
+                "lat": "78.04700",
+                "lng": "-84.07000",
+                "col_area": "10821.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1545,
+                "col_name": "Central Ellesmere Island, E. Fosheim Pen.",
+                "col_group": "Canadian Arctic II",
+                "col_group_id": 42,
+                "group_col_id": "45.00",
+                "lat": "79.32300",
+                "lng": "-82.97200",
+                "col_area": "7032.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1563,
+                "col_name": "Head of Emma Fiord",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "63.00",
+                "lat": "81.48000",
+                "lng": "-88.03100",
+                "col_area": "4481.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1565,
+                "col_name": "south of Phillips Inlet",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "65.00",
+                "lat": "81.69100",
+                "lng": "-85.66400",
+                "col_area": "4341.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1566,
+                "col_name": "head of Yelverton Inlet",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "66.00",
+                "lat": "81.92000",
+                "lng": "-80.32800",
+                "col_area": "6939.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1568,
+                "col_name": "McLintock Glacier",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "68.00",
+                "lat": "82.31600",
+                "lng": "-76.31000",
+                "col_area": "4249.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1575,
+                "col_name": "Cresent Glacier to Clements Markham Inlet",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "75.00",
+                "lat": "82.61200",
+                "lng": "-69.59000",
+                "col_area": "2155.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1612,
+                "col_name": "Maple Creek, Swift Current",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "64.00",
+                "lat": "49.54900",
+                "lng": "-108.59900",
+                "col_area": "48788.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1654,
+                "col_name": "Coppermine Homocline",
+                "col_group": "Northwest, Yukon Territories",
+                "col_group_id": 44,
+                "group_col_id": "9.00",
+                "lat": "68.64000",
+                "lng": "-123.42000",
+                "col_area": "68629.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1667,
+                "col_name": "East Glacier Lake Nahanni",
+                "col_group": "Northwest, Yukon Territories",
+                "col_group_id": 44,
+                "group_col_id": "22.00",
+                "lat": "62.96300",
+                "lng": "-126.49600",
+                "col_area": "11958.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1673,
+                "col_name": "Kotaneelee and Liard Ranges",
+                "col_group": "Northwest, Yukon Territories",
+                "col_group_id": 44,
+                "group_col_id": "28.00",
+                "lat": "60.81500",
+                "lng": "-122.56000",
+                "col_area": "28232.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1719,
+                "col_name": "Column A",
+                "col_group": "Parnaiba Basin",
+                "col_group_id": 56,
+                "group_col_id": "1.00",
+                "lat": "-3.67700",
+                "lng": "-46.84100",
+                "col_area": "81365.9",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    38
+                ]
+            },
+            {
+                "col_id": 1720,
+                "col_name": "Column B",
+                "col_group": "Parnaiba Basin",
+                "col_group_id": 56,
+                "group_col_id": "2.00",
+                "lat": "-4.57600",
+                "lng": "-45.08900",
+                "col_area": "115866.5",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    38
+                ]
+            },
+            {
+                "col_id": 1721,
+                "col_name": "Column C",
+                "col_group": "Parnaiba Basin",
+                "col_group_id": 56,
+                "group_col_id": "3.00",
+                "lat": "-6.49800",
+                "lng": "-45.19400",
+                "col_area": "121343.0",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    38
+                ]
+            },
+            {
+                "col_id": 1722,
+                "col_name": "Column D",
+                "col_group": "Parnaiba Basin",
+                "col_group_id": 56,
+                "group_col_id": "4.00",
+                "lat": "-7.13000",
+                "lng": "-43.09100",
+                "col_area": "168134.6",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    38
+                ]
+            },
+            {
+                "col_id": 1723,
+                "col_name": "Column E",
+                "col_group": "Parnaiba Basin",
+                "col_group_id": 56,
+                "group_col_id": "5.00",
+                "lat": "-9.97000",
+                "lng": "-46.02400",
+                "col_area": "158280.8",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    38
+                ]
+            },
+            {
+                "col_id": 1741,
+                "col_name": "Column A",
+                "col_group": "Oriente Basin",
+                "col_group_id": 63,
+                "group_col_id": "1.00",
+                "lat": "-0.45800",
+                "lng": "-76.55200",
+                "col_area": "101538.1",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    50
+                ]
+            },
+            {
+                "col_id": 1742,
+                "col_name": "Column B",
+                "col_group": "Oriente Basin",
+                "col_group_id": 63,
+                "group_col_id": "2.00",
+                "lat": "-0.74000",
+                "lng": "-74.92600",
+                "col_area": "151644.9",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    50
+                ]
+            },
+            {
+                "col_id": 1743,
+                "col_name": "Column C",
+                "col_group": "Oriente Basin",
+                "col_group_id": 63,
+                "group_col_id": "3.00",
+                "lat": "-2.20000",
+                "lng": "-73.45900",
+                "col_area": "172791.1",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    50
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. ",
+            "10": "H. Gabrielse and A.J. Brookfield. Correlation chart for the Canadian Cordiellera. 1988. ",
+            "11": "Trettin, H.P. Geotectonic correlation chart. in Geological Survey of Canada, Geology of Canada No. 3. 1991. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. ",
+            "38": "Basu, Urbi. 2D Lithofacies Modelling of the Parnaiba Basin, Brazil by Statistical Electrofacies Determination. 2013. ",
+            "50": "Yinfu et al. Petroleum Geology and Exploration Potential of the Oriente-Maranon Basin. 2010. "
+        }
+    }
+}

@@ -1,0 +1,377 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 463,
+                "col_name": "Eureka Area, Nevada",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "9.00",
+                "lat": "39.15500",
+                "lng": "-117.00000",
+                "col_area": "34258.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 465,
+                "col_name": "Ely Area, Nevada",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "11.00",
+                "lat": "38.89500",
+                "lng": "-114.64500",
+                "col_area": "22986.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 466,
+                "col_name": "Pioche Area, Nevada",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "12.00",
+                "lat": "37.78000",
+                "lng": "-114.55800",
+                "col_area": "18636.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 484,
+                "col_name": "Southwestern Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "30.00",
+                "lat": "37.30000",
+                "lng": "-113.57800",
+                "col_area": "18677.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1204,
+                "col_name": "St Thomas and St John/Tortola",
+                "col_group": "Caribbean Islands",
+                "col_group_id": 27,
+                "group_col_id": "23.00",
+                "lat": "18.34700",
+                "lng": "-64.73900",
+                "col_area": "670.5",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    6
+                ]
+            },
+            {
+                "col_id": 1243,
+                "col_name": "SE Guatemala",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "36.00",
+                "lat": "14.21800",
+                "lng": "-90.10300",
+                "col_area": "35744.6",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            },
+            {
+                "col_id": 1245,
+                "col_name": "El Salvador",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "37.00",
+                "lat": "13.56800",
+                "lng": "-88.75000",
+                "col_area": "46656.0",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            },
+            {
+                "col_id": 1247,
+                "col_name": "Western and Central Honduras",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "38.00",
+                "lat": "14.81200",
+                "lng": "-87.82000",
+                "col_area": "57292.6",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            },
+            {
+                "col_id": 1251,
+                "col_name": "NW Nicaragua",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "40.00",
+                "lat": "13.41900",
+                "lng": "-86.28400",
+                "col_area": "48682.5",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            },
+            {
+                "col_id": 1257,
+                "col_name": "Southwestern Nicaragua (Pacific Provinces)",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "43.00",
+                "lat": "12.06200",
+                "lng": "-86.10700",
+                "col_area": "56000.9",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    6
+                ]
+            },
+            {
+                "col_id": 1259,
+                "col_name": "Northwestern and South Central Costa Rica",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "44.00",
+                "lat": "10.07400",
+                "lng": "-84.82100",
+                "col_area": "34550.3",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    6
+                ]
+            },
+            {
+                "col_id": 1261,
+                "col_name": "Central Valley of Costa Rica",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "45.00",
+                "lat": "10.00400",
+                "lng": "-84.21400",
+                "col_area": "15758.4",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    6
+                ]
+            },
+            {
+                "col_id": 1500,
+                "col_name": "Coast Mountains",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "10.00",
+                "lat": "60.58300",
+                "lng": "-135.82600",
+                "col_area": "12459.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1685,
+                "col_name": "Column C",
+                "col_group": "Parana Basin",
+                "col_group_id": 48,
+                "group_col_id": "3.00",
+                "lat": "-17.69800",
+                "lng": "-51.14100",
+                "col_area": "126069.8",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    29
+                ]
+            },
+            {
+                "col_id": 1686,
+                "col_name": "Column D",
+                "col_group": "Parana Basin",
+                "col_group_id": 48,
+                "group_col_id": "4.00",
+                "lat": "-19.97500",
+                "lng": "-55.40400",
+                "col_area": "172407.4",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    29
+                ]
+            },
+            {
+                "col_id": 1689,
+                "col_name": "Column E",
+                "col_group": "Parana Basin",
+                "col_group_id": 48,
+                "group_col_id": "5.00",
+                "lat": "-20.93600",
+                "lng": "-50.06400",
+                "col_area": "180930.7",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    29
+                ]
+            },
+            {
+                "col_id": 1690,
+                "col_name": "Column F",
+                "col_group": "Parana Basin",
+                "col_group_id": 48,
+                "group_col_id": "6.00",
+                "lat": "-22.78400",
+                "lng": "-51.78900",
+                "col_area": "156081.3",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    29
+                ]
+            },
+            {
+                "col_id": 1691,
+                "col_name": "Column G",
+                "col_group": "Parana Basin",
+                "col_group_id": 48,
+                "group_col_id": "7.00",
+                "lat": "-23.54900",
+                "lng": "-50.34900",
+                "col_area": "86852.1",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    29
+                ]
+            },
+            {
+                "col_id": 1693,
+                "col_name": "Column I",
+                "col_group": "Parana Basin",
+                "col_group_id": 48,
+                "group_col_id": "9.00",
+                "lat": "-28.52000",
+                "lng": "-55.33900",
+                "col_area": "188839.3",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    29
+                ]
+            },
+            {
+                "col_id": 1694,
+                "col_name": "Column J",
+                "col_group": "Parana Basin",
+                "col_group_id": 48,
+                "group_col_id": "10.00",
+                "lat": "-28.70100",
+                "lng": "-53.34300",
+                "col_area": "75090.0",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    29
+                ]
+            },
+            {
+                "col_id": 1706,
+                "col_name": "Column A",
+                "col_group": "Cuyo Basin",
+                "col_group_id": 51,
+                "group_col_id": "1.00",
+                "lat": "-29.57700",
+                "lng": "-68.42400",
+                "col_area": "70702.1",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    33
+                ]
+            },
+            {
+                "col_id": 1707,
+                "col_name": "Column B",
+                "col_group": "Cuyo Basin",
+                "col_group_id": 51,
+                "group_col_id": "2.00",
+                "lat": "-32.02000",
+                "lng": "-67.97700",
+                "col_area": "107047.0",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    33
+                ]
+            },
+            {
+                "col_id": 1724,
+                "col_name": "Column A",
+                "col_group": "Atacama Basin",
+                "col_group_id": 57,
+                "group_col_id": "1.00",
+                "lat": "-21.60700",
+                "lng": "-69.35700",
+                "col_area": "44573.3",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    39
+                ]
+            },
+            {
+                "col_id": 1725,
+                "col_name": "Column B",
+                "col_group": "Atacama Basin",
+                "col_group_id": 57,
+                "group_col_id": "2.00",
+                "lat": "-25.45500",
+                "lng": "-69.51700",
+                "col_area": "38500.1",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    39
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "6": "Maurrasse, F.J-M.R. Stratigraphic chart for the circum-Caribbean region. Volume H, The Geology of North America. 1986. ",
+            "7": "Maurrasse, F.J-M.R. Stratigraphic correlation for the circum-Caribbean region. In Dengo, G. and Case J.E. (eds.). The Geology of North America Volume H: The Caribbean Region. 1990. ",
+            "10": "H. Gabrielse and A.J. Brookfield. Correlation chart for the Canadian Cordiellera. 1988. ",
+            "29": "Milani, E.J, A.B. Fran\u00c3\u00a7a, R. L. Schneider. Bacia do Paran\u00c3\u00a1. Boletim de Geoci\u00c3\u00aancias da PETROBR\u00c3\u0081S 15.2 p. 265-287. 2007. ",
+            "33": "Barredo, Silvia. Geodynamic and Tectonostratigraphic of a Continental Rift: Cuyana Basin. 2012. ",
+            "39": "Mpodozis, C. et al. Late Mesozoic to Paleogene Stratigraphy of the Salar de Atacama Basin, Antofagastan Northern Chile: Implications for the Tectonic Evolution of the Central Andes. 2005. "
+        }
+    }
+}

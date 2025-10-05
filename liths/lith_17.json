@@ -1,0 +1,373 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 31,
+                "col_name": "Eastern Wisconsin",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "1.00",
+                "lat": "43.73300",
+                "lng": "-87.84500",
+                "col_area": "27548.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 306,
+                "col_name": "Northeast Pennsylvania",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "23.00",
+                "lat": "41.54300",
+                "lng": "-75.20000",
+                "col_area": "11981.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 427,
+                "col_name": "Northern Peninsula - NW Michigan",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "2.00",
+                "lat": "46.37300",
+                "lng": "-85.76600",
+                "col_area": "52855.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 428,
+                "col_name": "Southern Peninsula - N. Michigan",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "3.00",
+                "lat": "45.23800",
+                "lng": "-84.53000",
+                "col_area": "27521.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 429,
+                "col_name": "Southern Peninsula - Central Michigan",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "4.00",
+                "lat": "43.82500",
+                "lng": "-84.96300",
+                "col_area": "33887.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 430,
+                "col_name": "Southern Peninsula - Sw Michigan",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "5.00",
+                "lat": "42.42100",
+                "lng": "-85.68300",
+                "col_area": "26098.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 431,
+                "col_name": "Southern Peninsula - S.E. Michigan",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "6.00",
+                "lat": "42.41600",
+                "lng": "-83.80300",
+                "col_area": "25142.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 432,
+                "col_name": "Northern Arches to Illinois Basin - Northern and Western Illinois",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "7.00",
+                "lat": "41.24000",
+                "lng": "-89.33300",
+                "col_area": "42690.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 441,
+                "col_name": "Michigan Basin-finlay Arch - Northwestern Ohio",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "16.00",
+                "lat": "41.04100",
+                "lng": "-83.61300",
+                "col_area": "13055.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 442,
+                "col_name": "Cincinnati Arch - Central-western Ohio",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "17.00",
+                "lat": "40.45000",
+                "lng": "-84.27800",
+                "col_area": "16966.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 443,
+                "col_name": "Cincinnati Arch - Southwestern Ohio",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "18.00",
+                "lat": "39.43300",
+                "lng": "-84.11600",
+                "col_area": "12679.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 451,
+                "col_name": "Nashville Dome Area - West Central Kentucky",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "26.00",
+                "lat": "35.91600",
+                "lng": "-88.01600",
+                "col_area": "17712.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 452,
+                "col_name": "Nashville Dome Area - Central Tennessee",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "27.00",
+                "lat": "36.03000",
+                "lng": "-86.75300",
+                "col_area": "12938.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 453,
+                "col_name": "Nashville Dome Area - East Central Tennessee",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "28.00",
+                "lat": "35.53000",
+                "lng": "-86.00300",
+                "col_area": "9610.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 454,
+                "col_name": "Nashville Dome Area - Northwestern Alabama",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "29.00",
+                "lat": "34.96300",
+                "lng": "-87.37900",
+                "col_area": "10350.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 524,
+                "col_name": "Monroe Uplift Northeast Louisiana Southeast Arkansas West Central Mississip",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "9.00",
+                "lat": "32.63000",
+                "lng": "-91.61000",
+                "col_area": "47200.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 525,
+                "col_name": "Toledo Bend Flexure Central Louisiana",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "10.00",
+                "lat": "31.04000",
+                "lng": "-92.66000",
+                "col_area": "40317.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 538,
+                "col_name": "Southwestern Georgia Coastal Plain and Eastern Panhandle of Florida",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "23.00",
+                "lat": "30.45000",
+                "lng": "-83.60000",
+                "col_area": "36699.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 539,
+                "col_name": "Southeastern Georgia Coastal Plain and Northeastern Florida",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "24.00",
+                "lat": "30.83700",
+                "lng": "-82.10900",
+                "col_area": "41813.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 543,
+                "col_name": "Western Panhandle of Florida",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "28.00",
+                "lat": "30.73000",
+                "lng": "-86.92000",
+                "col_area": "12477.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 546,
+                "col_name": "Southern Florida",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "31.00",
+                "lat": "26.12400",
+                "lng": "-80.82000",
+                "col_area": "67927.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1419,
+                "col_name": "Tampico-Misantla Basin",
+                "col_group": "Mexico",
+                "col_group_id": 35,
+                "group_col_id": "6.00",
+                "lat": "21.33200",
+                "lng": "-98.07900",
+                "col_area": "88914.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    9
+                ]
+            },
+            {
+                "col_id": 1435,
+                "col_name": "Veracruz Basin",
+                "col_group": "Mexico",
+                "col_group_id": 35,
+                "group_col_id": "5.00",
+                "lat": "18.68900",
+                "lng": "-96.26700",
+                "col_area": "66201.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    9
+                ]
+            },
+            {
+                "col_id": 1682,
+                "col_name": "Neuqu\u00e9n Basin: Aguada Pichana region",
+                "col_group": "Nequen Basin",
+                "col_group_id": 47,
+                "group_col_id": "1.00",
+                "lat": "-38.25000",
+                "lng": "-69.28000",
+                "col_area": "197243.8",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    26
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "9": "Salvador, A. and Muneton, J.M.Q. Stratigraphic Correlation Chart: Gulf of Mexico Basin.  In Salvador, A. (ed).  The Geology of North America Vol. J: The Gulf of Mexico Basin.  Geological Society of America, Boulder, Colo. 1989. ",
+            "26": "Howell, J.A., E. Schwarz, L.A. Spalletti, G.D. Veiga. The Neuqu\u00e9n Basin: an overview. 2005. http://sp.lyellcollection.org/content/252/1/1.full.pdf. "
+        }
+    }
+}

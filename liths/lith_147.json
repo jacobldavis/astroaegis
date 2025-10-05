@@ -1,0 +1,26 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 251,
+                "col_name": "Mount Diablo North Fork",
+                "col_group": "Northern California",
+                "col_group_id": 10,
+                "group_col_id": "20.00",
+                "lat": "37.93900",
+                "lng": "-121.93100",
+                "col_area": "469.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. "
+        }
+    }
+}

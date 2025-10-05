@@ -1,0 +1,342 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 211,
+                "col_name": "Western Endicott Allochthon",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "15.00",
+                "lat": "68.19800",
+                "lng": "-154.41600",
+                "col_area": "9780.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 225,
+                "col_name": "Big Bear",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "24.00",
+                "lat": "34.21600",
+                "lng": "-116.85800",
+                "col_area": "4479.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 226,
+                "col_name": "Victorville",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "25.00",
+                "lat": "34.51200",
+                "lng": "-117.32800",
+                "col_area": "1998.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 228,
+                "col_name": "Barstow",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "27.00",
+                "lat": "34.89000",
+                "lng": "-116.92000",
+                "col_area": "5942.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 229,
+                "col_name": "Hector",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "28.00",
+                "lat": "34.80000",
+                "lng": "-116.38900",
+                "col_area": "6949.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 324,
+                "col_name": "Boulder Mountains Wood River and Central Pioneer Mountains, Central Idaho",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "1.00",
+                "lat": "44.15000",
+                "lng": "-114.35300",
+                "col_area": "26877.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 330,
+                "col_name": "Southern Disturbed Belt, Northwestern Montana",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "7.00",
+                "lat": "47.31600",
+                "lng": "-112.72800",
+                "col_area": "18357.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 331,
+                "col_name": "Missoula (pe, Te, Q Only), Drummond - Helena Area, Central Western Montana",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "8.00",
+                "lat": "46.43500",
+                "lng": "-112.89900",
+                "col_area": "27302.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 412,
+                "col_name": "Chugach Mountains, North of Border Ranges Fault",
+                "col_group": "Southern Alaska",
+                "col_group_id": 16,
+                "group_col_id": "20.00",
+                "lat": "61.74300",
+                "lng": "-146.91400",
+                "col_area": "18444.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 443,
+                "col_name": "Cincinnati Arch - Southwestern Ohio",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "18.00",
+                "lat": "39.43300",
+                "lng": "-84.11600",
+                "col_area": "12679.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 458,
+                "col_name": "Central and Northern Esmeralda County and Southeastern Mineral County, Neva",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "4.00",
+                "lat": "38.23100",
+                "lng": "-117.71300",
+                "col_area": "24012.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 462,
+                "col_name": "Elko Area, Nevada",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "8.00",
+                "lat": "40.99000",
+                "lng": "-115.90000",
+                "col_area": "33541.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 463,
+                "col_name": "Eureka Area, Nevada",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "9.00",
+                "lat": "39.15500",
+                "lng": "-117.00000",
+                "col_area": "34258.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 464,
+                "col_name": "Death Valley, California",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "10.00",
+                "lat": "36.45300",
+                "lng": "-116.92000",
+                "col_area": "27369.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 475,
+                "col_name": "Fish Springs, Thomas, Keg, and Drum Mountains, Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "21.00",
+                "lat": "39.74100",
+                "lng": "-113.71600",
+                "col_area": "8516.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 478,
+                "col_name": "East Tintic Mountains, Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "24.00",
+                "lat": "40.00300",
+                "lng": "-112.02500",
+                "col_area": "6611.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 479,
+                "col_name": "Canyon and Pavant Ranges, Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "25.00",
+                "lat": "39.17800",
+                "lng": "-112.25000",
+                "col_area": "12418.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 480,
+                "col_name": "Oquirrh Mountains,  Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "26.00",
+                "lat": "40.55400",
+                "lng": "-112.29800",
+                "col_area": "9958.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 483,
+                "col_name": "Marysvale Area, Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "29.00",
+                "lat": "38.39200",
+                "lng": "-112.10800",
+                "col_area": "28187.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 487,
+                "col_name": "Yellowstone Volcanic Area",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "1.00",
+                "lat": "44.51300",
+                "lng": "-110.57800",
+                "col_area": "27618.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 488,
+                "col_name": "Estancia Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "30.00",
+                "lat": "35.46300",
+                "lng": "-106.07600",
+                "col_area": "44986.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1437,
+                "col_name": "St. Elias Mountains, Kluane Ranges",
+                "col_group": "Canadian Cordillera I",
+                "col_group_id": 36,
+                "group_col_id": "3.00",
+                "lat": "61.03300",
+                "lng": "-138.83200",
+                "col_area": "22103.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "10": "H. Gabrielse and A.J. Brookfield. Correlation chart for the Canadian Cordiellera. 1988. "
+        }
+    }
+}

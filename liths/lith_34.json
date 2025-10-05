@@ -1,0 +1,1070 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 45,
+                "col_name": "Dunkard Basin, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "8.00",
+                "lat": "39.34300",
+                "lng": "-80.96100",
+                "col_area": "10998.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 64,
+                "col_name": "Sacramento Mountains",
+                "col_group": "Southwest Mid-Continent",
+                "col_group_id": 19,
+                "group_col_id": "17.00",
+                "lat": "33.05100",
+                "lng": "-105.60700",
+                "col_area": "22085.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 78,
+                "col_name": "Las Animas Arch-kansas",
+                "col_group": "Southwest Mid-Continent",
+                "col_group_id": 19,
+                "group_col_id": "31.00",
+                "lat": "39.47600",
+                "lng": "-101.17500",
+                "col_area": "28375.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 139,
+                "col_name": "Offshore Mid-Atlantic",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "15.00",
+                "lat": "38.49300",
+                "lng": "-73.74800",
+                "col_area": "8600.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 160,
+                "col_name": "Bend Arch",
+                "col_group": "Texas-Oklahoma Tectonic Region",
+                "col_group_id": 20,
+                "group_col_id": "8.00",
+                "lat": "32.62300",
+                "lng": "-99.44500",
+                "col_area": "18948.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 163,
+                "col_name": "Llano Uplift",
+                "col_group": "Texas-Oklahoma Tectonic Region",
+                "col_group_id": 20,
+                "group_col_id": "11.00",
+                "lat": "31.13300",
+                "lng": "-98.74100",
+                "col_area": "20869.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 164,
+                "col_name": "Kerr Basin",
+                "col_group": "Texas-Oklahoma Tectonic Region",
+                "col_group_id": 20,
+                "group_col_id": "12.00",
+                "lat": "30.30000",
+                "lng": "-99.41600",
+                "col_area": "22138.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 227,
+                "col_name": "Kramer",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "26.00",
+                "lat": "34.98000",
+                "lng": "-117.47000",
+                "col_area": "9886.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 228,
+                "col_name": "Barstow",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "27.00",
+                "lat": "34.89000",
+                "lng": "-116.92000",
+                "col_area": "5942.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 229,
+                "col_name": "Hector",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "28.00",
+                "lat": "34.80000",
+                "lng": "-116.38900",
+                "col_area": "6949.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 306,
+                "col_name": "Northeast Pennsylvania",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "23.00",
+                "lat": "41.54300",
+                "lng": "-75.20000",
+                "col_area": "11981.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 310,
+                "col_name": "Western New York",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "27.00",
+                "lat": "42.58300",
+                "lng": "-78.62300",
+                "col_area": "18733.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 311,
+                "col_name": "West-central New York",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "28.00",
+                "lat": "42.96000",
+                "lng": "-77.03300",
+                "col_area": "26811.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 312,
+                "col_name": "East-central New York",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "29.00",
+                "lat": "43.11600",
+                "lng": "-75.77800",
+                "col_area": "24062.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 313,
+                "col_name": "Eastern New York",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "30.00",
+                "lat": "42.56100",
+                "lng": "-74.30000",
+                "col_area": "10773.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 314,
+                "col_name": "Southeastern New York",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "31.00",
+                "lat": "41.82400",
+                "lng": "-74.15900",
+                "col_area": "6315.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 336,
+                "col_name": "Blaine-valley Northwest Basin",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "13.00",
+                "lat": "48.37500",
+                "lng": "-108.61600",
+                "col_area": "28264.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 337,
+                "col_name": "Garfield County North Basin",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "14.00",
+                "lat": "47.26600",
+                "lng": "-106.96100",
+                "col_area": "43154.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 338,
+                "col_name": "Roosevelt County West Basin",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "15.00",
+                "lat": "48.58300",
+                "lng": "-104.93300",
+                "col_area": "22908.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 339,
+                "col_name": "Cedar Creek Anticline Southwest Basin",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "16.00",
+                "lat": "46.20900",
+                "lng": "-105.36500",
+                "col_area": "40685.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 344,
+                "col_name": "Cavalier County Northeast Edge",
+                "col_group": "Northern Rockies",
+                "col_group_id": 13,
+                "group_col_id": "21.00",
+                "lat": "48.56600",
+                "lng": "-98.00100",
+                "col_area": "30736.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 428,
+                "col_name": "Southern Peninsula - N. Michigan",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "3.00",
+                "lat": "45.23800",
+                "lng": "-84.53000",
+                "col_area": "27521.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 431,
+                "col_name": "Southern Peninsula - S.E. Michigan",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "6.00",
+                "lat": "42.41600",
+                "lng": "-83.80300",
+                "col_area": "25142.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 432,
+                "col_name": "Northern Arches to Illinois Basin - Northern and Western Illinois",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "7.00",
+                "lat": "41.24000",
+                "lng": "-89.33300",
+                "col_area": "42690.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 433,
+                "col_name": "Illinois Basin - Southwestern Illinois",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "8.00",
+                "lat": "39.28300",
+                "lng": "-90.32300",
+                "col_area": "27448.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 434,
+                "col_name": "Illinois Basin - Southeastern Illinois",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "9.00",
+                "lat": "38.64600",
+                "lng": "-88.92300",
+                "col_area": "23313.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 435,
+                "col_name": "Illinois Basin - Eastern Illinois",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "10.00",
+                "lat": "39.34100",
+                "lng": "-87.74100",
+                "col_area": "26387.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 444,
+                "col_name": "Illinois Basin-western Kentucky - North of Rough Creek Fault",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "19.00",
+                "lat": "37.79500",
+                "lng": "-86.83600",
+                "col_area": "9360.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 445,
+                "col_name": "Illinois Basin-western Kentucky - South of Rough Creek Fault",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "20.00",
+                "lat": "37.46700",
+                "lng": "-87.55800",
+                "col_area": "14356.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 448,
+                "col_name": "Jessamine Dome-cincinnati Arch West Flank - West Central Kentucky",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "23.00",
+                "lat": "37.84100",
+                "lng": "-85.96600",
+                "col_area": "11902.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 455,
+                "col_name": "Northwestern Nevada, Humboldt and Washoe Counties",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "1.00",
+                "lat": "41.45800",
+                "lng": "-119.04100",
+                "col_area": "27105.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 456,
+                "col_name": "Winnemucca-battle Mountain Area, Nevada",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "2.00",
+                "lat": "40.71100",
+                "lng": "-118.24100",
+                "col_area": "32141.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 464,
+                "col_name": "Death Valley, California",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "10.00",
+                "lat": "36.45300",
+                "lng": "-116.92000",
+                "col_area": "27369.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 466,
+                "col_name": "Pioche Area, Nevada",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "12.00",
+                "lat": "37.78000",
+                "lng": "-114.55800",
+                "col_area": "18636.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 470,
+                "col_name": "Lakeside, Grassy, Newfoundland, Terrace, and Hogup Ranges, Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "16.00",
+                "lat": "41.13600",
+                "lng": "-113.39600",
+                "col_area": "15269.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 474,
+                "col_name": "Confusion and House Ranges, Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "20.00",
+                "lat": "38.91000",
+                "lng": "-113.67500",
+                "col_area": "8202.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 482,
+                "col_name": "Southern Wasatch Allochthon, Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "28.00",
+                "lat": "40.24600",
+                "lng": "-111.53600",
+                "col_area": "6278.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 489,
+                "col_name": "San Juan Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "29.00",
+                "lat": "35.89600",
+                "lng": "-108.06800",
+                "col_area": "35096.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 490,
+                "col_name": "Black Mesa Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "28.00",
+                "lat": "35.95100",
+                "lng": "-109.90500",
+                "col_area": "42252.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 497,
+                "col_name": "Eastern Denver Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "21.00",
+                "lat": "39.64100",
+                "lng": "-103.33300",
+                "col_area": "36189.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 498,
+                "col_name": "Western Denver Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "20.00",
+                "lat": "40.25500",
+                "lng": "-104.56600",
+                "col_area": "28567.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 500,
+                "col_name": "Piceance Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "18.00",
+                "lat": "38.96700",
+                "lng": "-107.80000",
+                "col_area": "28924.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 509,
+                "col_name": "Granite Mountains Uplift and Shirley Basin",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "9.00",
+                "lat": "42.05000",
+                "lng": "-106.49300",
+                "col_area": "21201.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 522,
+                "col_name": "Sabine Uplift Northwest Louisiana East Texas",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "7.00",
+                "lat": "31.60800",
+                "lng": "-93.50000",
+                "col_area": "19560.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 523,
+                "col_name": "North Louisiana Syncline Northwest Louisiana Southwest Arkansas",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "8.00",
+                "lat": "32.26000",
+                "lng": "-92.98000",
+                "col_area": "20642.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 524,
+                "col_name": "Monroe Uplift Northeast Louisiana Southeast Arkansas West Central Mississip",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "9.00",
+                "lat": "32.63000",
+                "lng": "-91.61000",
+                "col_area": "47200.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 538,
+                "col_name": "Southwestern Georgia Coastal Plain and Eastern Panhandle of Florida",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "23.00",
+                "lat": "30.45000",
+                "lng": "-83.60000",
+                "col_area": "36699.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 539,
+                "col_name": "Southeastern Georgia Coastal Plain and Northeastern Florida",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "24.00",
+                "lat": "30.83700",
+                "lng": "-82.10900",
+                "col_area": "41813.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 755,
+                "col_name": "Victoria Island",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "8.00",
+                "lat": "71.09800",
+                "lng": "-115.85800",
+                "col_area": "87643.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 1163,
+                "col_name": "Central Cuba (Platform)",
+                "col_group": "Caribbean Islands",
+                "col_group_id": 27,
+                "group_col_id": "4.00",
+                "lat": "22.43800",
+                "lng": "-80.30200",
+                "col_area": "32612.1",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    6
+                ]
+            },
+            {
+                "col_id": 1165,
+                "col_name": "Cuba South Central (Zaza)",
+                "col_group": "Caribbean Islands",
+                "col_group_id": 27,
+                "group_col_id": "5.00",
+                "lat": "21.82600",
+                "lng": "-79.23100",
+                "col_area": "43600.4",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    6
+                ]
+            },
+            {
+                "col_id": 1239,
+                "col_name": "Belize Northern Guatemala",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "34.00",
+                "lat": "17.10200",
+                "lng": "-89.12300",
+                "col_area": "78608.6",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            },
+            {
+                "col_id": 1249,
+                "col_name": "E. Honduras and E. Nicaragua",
+                "col_group": "Caribbean Mainland",
+                "col_group_id": 29,
+                "group_col_id": "39.00",
+                "lat": "14.84600",
+                "lng": "-84.61000",
+                "col_area": "75652.4",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    7
+                ]
+            },
+            {
+                "col_id": 1419,
+                "col_name": "Tampico-Misantla Basin",
+                "col_group": "Mexico",
+                "col_group_id": 35,
+                "group_col_id": "6.00",
+                "lat": "21.33200",
+                "lng": "-98.07900",
+                "col_area": "88914.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    9
+                ]
+            },
+            {
+                "col_id": 1423,
+                "col_name": "Burgos Basin",
+                "col_group": "Mexico",
+                "col_group_id": 35,
+                "group_col_id": "8.00",
+                "lat": "24.60300",
+                "lng": "-98.92200",
+                "col_area": "125837.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    9
+                ]
+            },
+            {
+                "col_id": 1425,
+                "col_name": "Sabinas Basin",
+                "col_group": "Mexico",
+                "col_group_id": 35,
+                "group_col_id": "9.00",
+                "lat": "28.44200",
+                "lng": "-101.28800",
+                "col_area": "39681.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    9
+                ]
+            },
+            {
+                "col_id": 1431,
+                "col_name": "Sierra de Chiapas",
+                "col_group": "Mexico",
+                "col_group_id": 35,
+                "group_col_id": "3.00",
+                "lat": "16.91100",
+                "lng": "-91.71000",
+                "col_area": "47638.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    9
+                ]
+            },
+            {
+                "col_id": 1481,
+                "col_name": "Broken Skull River",
+                "col_group": "Canadian Cordillera II",
+                "col_group_id": 37,
+                "group_col_id": "59.00",
+                "lat": "62.81000",
+                "lng": "-127.44500",
+                "col_area": "10272.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1483,
+                "col_name": "Cap Mountain",
+                "col_group": "Canadian Cordillera III",
+                "col_group_id": 40,
+                "group_col_id": "63.00",
+                "lat": "63.53800",
+                "lng": "-123.24300",
+                "col_area": "18072.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    10
+                ]
+            },
+            {
+                "col_id": 1579,
+                "col_name": "Washington Land",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "79.00",
+                "lat": "80.21900",
+                "lng": "-66.19200",
+                "col_area": "19896.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1610,
+                "col_name": "Brandon",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "66.00",
+                "lat": "49.42600",
+                "lng": "-100.48000",
+                "col_area": "28790.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1624,
+                "col_name": "Peace River Plains, Fort St. John",
+                "col_group": "Prairie Provinces and British Columbia",
+                "col_group_id": 45,
+                "group_col_id": "39.00",
+                "lat": "56.17800",
+                "lng": "-120.23400",
+                "col_area": "37445.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1637,
+                "col_name": "Lake Winnipegosis",
+                "col_group": "Prairie Provinces and British Columbia",
+                "col_group_id": 45,
+                "group_col_id": "52.00",
+                "lat": "52.16300",
+                "lng": "-100.85700",
+                "col_area": "63908.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1645,
+                "col_name": "Lake Manitoba",
+                "col_group": "Prairie Provinces and British Columbia",
+                "col_group_id": 45,
+                "group_col_id": "60.00",
+                "lat": "50.51300",
+                "lng": "-99.20900",
+                "col_area": "51038.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1669,
+                "col_name": "Cap Mountain",
+                "col_group": "Northwest, Yukon Territories",
+                "col_group_id": 44,
+                "group_col_id": "24.00",
+                "lat": "63.26300",
+                "lng": "-122.20500",
+                "col_area": "21069.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1671,
+                "col_name": "Great Bear Plain - Lac la Martre",
+                "col_group": "Northwest, Yukon Territories",
+                "col_group_id": 44,
+                "group_col_id": "26.00",
+                "lat": "63.37800",
+                "lng": "-118.83500",
+                "col_area": "35447.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1675,
+                "col_name": "Hay River - Pine Point",
+                "col_group": "Northwest, Yukon Territories",
+                "col_group_id": 44,
+                "group_col_id": "30.00",
+                "lat": "60.75600",
+                "lng": "-115.39800",
+                "col_area": "83663.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1682,
+                "col_name": "Neuqu\u00e9n Basin: Aguada Pichana region",
+                "col_group": "Nequen Basin",
+                "col_group_id": 47,
+                "group_col_id": "1.00",
+                "lat": "-38.25000",
+                "lng": "-69.28000",
+                "col_area": "197243.8",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    26
+                ]
+            },
+            {
+                "col_id": 1706,
+                "col_name": "Column A",
+                "col_group": "Cuyo Basin",
+                "col_group_id": 51,
+                "group_col_id": "1.00",
+                "lat": "-29.57700",
+                "lng": "-68.42400",
+                "col_area": "70702.1",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    33
+                ]
+            },
+            {
+                "col_id": 1707,
+                "col_name": "Column B",
+                "col_group": "Cuyo Basin",
+                "col_group_id": 51,
+                "group_col_id": "2.00",
+                "lat": "-32.02000",
+                "lng": "-67.97700",
+                "col_area": "107047.0",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    33
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. ",
+            "6": "Maurrasse, F.J-M.R. Stratigraphic chart for the circum-Caribbean region. Volume H, The Geology of North America. 1986. ",
+            "7": "Maurrasse, F.J-M.R. Stratigraphic correlation for the circum-Caribbean region. In Dengo, G. and Case J.E. (eds.). The Geology of North America Volume H: The Caribbean Region. 1990. ",
+            "9": "Salvador, A. and Muneton, J.M.Q. Stratigraphic Correlation Chart: Gulf of Mexico Basin.  In Salvador, A. (ed).  The Geology of North America Vol. J: The Gulf of Mexico Basin.  Geological Society of America, Boulder, Colo. 1989. ",
+            "10": "H. Gabrielse and A.J. Brookfield. Correlation chart for the Canadian Cordiellera. 1988. ",
+            "11": "Trettin, H.P. Geotectonic correlation chart. in Geological Survey of Canada, Geology of Canada No. 3. 1991. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. ",
+            "26": "Howell, J.A., E. Schwarz, L.A. Spalletti, G.D. Veiga. The Neuqu\u00e9n Basin: an overview. 2005. http://sp.lyellcollection.org/content/252/1/1.full.pdf. ",
+            "33": "Barredo, Silvia. Geodynamic and Tectonostratigraphic of a Continental Rift: Cuyana Basin. 2012. "
+        }
+    }
+}

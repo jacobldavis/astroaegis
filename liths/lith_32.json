@@ -1,0 +1,101 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 122,
+                "col_name": "Murfreesboro",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "27.00",
+                "lat": "36.32500",
+                "lng": "-77.14000",
+                "col_area": "6514.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 123,
+                "col_name": "Great Dismal Swamp",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "28.00",
+                "lat": "36.40800",
+                "lng": "-76.23600",
+                "col_area": "3910.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 126,
+                "col_name": "Farmville",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "31.00",
+                "lat": "35.60700",
+                "lng": "-77.55900",
+                "col_area": "9752.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 128,
+                "col_name": "Cape Lookout",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "33.00",
+                "lat": "34.60800",
+                "lng": "-76.53500",
+                "col_area": "12473.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 143,
+                "col_name": "Surf City",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "34.00",
+                "lat": "34.43000",
+                "lng": "-77.56300",
+                "col_area": "18340.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 451,
+                "col_name": "Nashville Dome Area - West Central Kentucky",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "26.00",
+                "lat": "35.91600",
+                "lng": "-88.01600",
+                "col_area": "17712.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. "
+        }
+    }
+}

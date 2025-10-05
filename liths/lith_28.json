@@ -1,0 +1,72 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 1214,
+                "col_name": "Tobago and Trinidad Northern Range",
+                "col_group": "Caribbean Islands",
+                "col_group_id": 27,
+                "group_col_id": "28.00",
+                "lat": "11.21500",
+                "lng": "-60.70100",
+                "col_area": "601.3",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    6
+                ]
+            },
+            {
+                "col_id": 1222,
+                "col_name": "Aruba",
+                "col_group": "Caribbean Islands",
+                "col_group_id": 27,
+                "group_col_id": "52.00",
+                "lat": "12.51400",
+                "lng": "-69.99100",
+                "col_area": "285.1",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    6
+                ]
+            },
+            {
+                "col_id": 1226,
+                "col_name": "Bonaire",
+                "col_group": "Caribbean Islands",
+                "col_group_id": 27,
+                "group_col_id": "54.00",
+                "lat": "12.17400",
+                "lng": "-68.25100",
+                "col_area": "580.5",
+                "project_id": 7,
+                "col_type": "column",
+                "refs": [
+                    6
+                ]
+            },
+            {
+                "col_id": 1579,
+                "col_name": "Washington Land",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "79.00",
+                "lat": "80.21900",
+                "lng": "-66.19200",
+                "col_area": "19896.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            }
+        ],
+        "refs": {
+            "6": "Maurrasse, F.J-M.R. Stratigraphic chart for the circum-Caribbean region. Volume H, The Geology of North America. 1986. ",
+            "11": "Trettin, H.P. Geotectonic correlation chart. in Geological Survey of Canada, Geology of Canada No. 3. 1991. "
+        }
+    }
+}

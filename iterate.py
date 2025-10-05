@@ -4,7 +4,7 @@ import numpy as np
 G = 6.67430e-11  # Gravitational constant (m^3 kg^-1 s^-2)
 rho_met = 8000  # Density of asteroid (kg/m^3)
 xi = 8000000  # heat of ablation (J/kg)
-D_met = 10 # diameter of asteroid (m)
+D_met = 100 # diameter of asteroid (m)
 R_met = D_met / 2 # radius of asteroid (m)
 C_D = 0.5
 C_H = 0.05 
@@ -87,16 +87,7 @@ ast_vel = np.array([-50000.0, 0.0, 0.0])
 ast_acc = np.array([0.0, 0.0, 0.0]) 
 
 def calculate_gravitational_acceleration(ast_position, planets_dict):
-    """
-    Calculate total gravitational acceleration on asteroid from all planets.
-    
-    Args:
-        ast_position: Position of asteroid in inertial frame (m)
-        planets_dict: Dictionary of planet data
-    
-    Returns:
-        Total gravitational acceleration vector (m/s^2)
-    """
+    """Calculate total gravitational acceleration on asteroid from all planets."""
     total_acc = np.array([0.0, 0.0, 0.0])
     
     for planet_name, planet_data in planets_dict.items():
@@ -243,9 +234,6 @@ if __name__ == "__main__":
     current_mass = mass
 
     for step in range(steps):
-        dt = 0.1
-        steps = 200000
-        in_atmosphere = False
         total_time = step * dt
         
         # Update planet positions (if they have velocities)

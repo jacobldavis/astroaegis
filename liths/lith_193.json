@@ -1,0 +1,342 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 23,
+                "col_name": "Appalachian Plateau, Virginia",
+                "col_group": "Southern Appalachians",
+                "col_group_id": 17,
+                "group_col_id": "21.00",
+                "lat": "37.30000",
+                "lng": "-82.11600",
+                "col_area": "5536.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 32,
+                "col_name": "Southern Coal Basin, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "1.00",
+                "lat": "38.00000",
+                "lng": "-81.61100",
+                "col_area": "10739.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 40,
+                "col_name": "Southeast Valley & Ridge, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "3.00",
+                "lat": "37.74100",
+                "lng": "-80.60800",
+                "col_area": "5425.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 41,
+                "col_name": "Highland to Craig County, Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "4.00",
+                "lat": "38.09200",
+                "lng": "-79.77200",
+                "col_area": "5738.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 42,
+                "col_name": "Rockbridge & Botetourt Counties, Virginia - West of Pulaski Fault",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "5.00",
+                "lat": "37.52700",
+                "lng": "-80.03500",
+                "col_area": "2720.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 43,
+                "col_name": "Rockingham & Augusta Counties, Virginia - West of North Mtn Fault",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "6.00",
+                "lat": "38.43800",
+                "lng": "-79.15800",
+                "col_area": "3578.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 46,
+                "col_name": "High Plateau, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "9.00",
+                "lat": "39.14100",
+                "lng": "-80.07500",
+                "col_area": "9995.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 47,
+                "col_name": "Northeast Valley & Ridge, West Virginia",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "10.00",
+                "lat": "39.04000",
+                "lng": "-79.15400",
+                "col_area": "4248.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 49,
+                "col_name": "Sonoita Area",
+                "col_group": "Southwest Mid-Continent",
+                "col_group_id": 19,
+                "group_col_id": "3.00",
+                "lat": "31.62000",
+                "lng": "-110.15000",
+                "col_area": "33159.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 304,
+                "col_name": "Northwest Pennsylvania",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "21.00",
+                "lat": "41.67300",
+                "lng": "-79.29100",
+                "col_area": "20215.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 308,
+                "col_name": "Northwestern New Jersey",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "25.00",
+                "lat": "40.68600",
+                "lng": "-74.87500",
+                "col_area": "2982.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 309,
+                "col_name": "Green Pond Mountain Region, New Jersey",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "26.00",
+                "lat": "40.99300",
+                "lng": "-74.53700",
+                "col_area": "4577.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 355,
+                "col_name": "Blue Ridge Thrust Sheet North and West of Grandfather Mountain Window, Nort",
+                "col_group": "Piedmont-Blue Ridge",
+                "col_group_id": 15,
+                "group_col_id": "7.00",
+                "lat": "35.94100",
+                "lng": "-81.43300",
+                "col_area": "15033.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 420,
+                "col_name": "Yakutat District",
+                "col_group": "Southern Alaska",
+                "col_group_id": 16,
+                "group_col_id": "28.00",
+                "lat": "59.44300",
+                "lng": "-139.02100",
+                "col_area": "11228.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 512,
+                "col_name": "Black Hills",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "6.00",
+                "lat": "43.94900",
+                "lng": "-104.20600",
+                "col_area": "35648.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 808,
+                "col_name": "Rockbridge & Botetourt Counties, Virginia - East of Pulaski Fault",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "5.01",
+                "lat": "37.66000",
+                "lng": "-79.48200",
+                "col_area": "5946.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 810,
+                "col_name": "Northeast Valley & Ridge, Virginia - East of North Mtn Fault",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "11.01",
+                "lat": "38.90100",
+                "lng": "-78.29200",
+                "col_area": "3479.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1573,
+                "col_name": "C. Columbia to C. Nares",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "73.00",
+                "lat": "83.12400",
+                "lng": "-71.23400",
+                "col_area": "2112.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1574,
+                "col_name": "NW of Clements Markham River",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "74.00",
+                "lat": "82.67700",
+                "lng": "-69.30200",
+                "col_area": "852.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1575,
+                "col_name": "Cresent Glacier to Clements Markham Inlet",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "75.00",
+                "lat": "82.61200",
+                "lng": "-69.59000",
+                "col_area": "2155.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1576,
+                "col_name": "Feilden and Parry Peninsulas",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "76.00",
+                "lat": "82.71500",
+                "lng": "-65.07200",
+                "col_area": "4817.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1577,
+                "col_name": "NW of Piper Pass",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "77.00",
+                "lat": "82.51700",
+                "lng": "-69.19900",
+                "col_area": "3433.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "11": "Trettin, H.P. Geotectonic correlation chart. in Geological Survey of Canada, Geology of Canada No. 3. 1991. "
+        }
+    }
+}

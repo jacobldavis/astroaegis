@@ -1,0 +1,554 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 14,
+                "col_name": "Northern Unaka Mountains & Adjacent Valley & Ridge, Tennessee",
+                "col_group": "Southern Appalachians",
+                "col_group_id": 17,
+                "group_col_id": "14.00",
+                "lat": "36.30800",
+                "lng": "-82.48300",
+                "col_area": "6516.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 18,
+                "col_name": "Northeastern Kentucky",
+                "col_group": "Southern Appalachians",
+                "col_group_id": 17,
+                "group_col_id": "17.00",
+                "lat": "38.50000",
+                "lng": "-83.05000",
+                "col_area": "12817.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 182,
+                "col_name": "West Vermillion District, St. Louis - Lake Counties, Minnesota",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "11.00",
+                "lat": "47.88300",
+                "lng": "-91.71600",
+                "col_area": "22368.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 191,
+                "col_name": "Davis Hill Area Bayfield County, Wisconsin",
+                "col_group": "Northern Mid-Continent",
+                "col_group_id": 12,
+                "group_col_id": "20.00",
+                "lat": "46.40800",
+                "lng": "-90.74000",
+                "col_area": "13790.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 204,
+                "col_name": "Soledad Basin",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "7.00",
+                "lat": "34.45300",
+                "lng": "-118.45300",
+                "col_area": "3128.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 222,
+                "col_name": "Mecca Hills/Orocopia Mountains",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "21.00",
+                "lat": "33.57000",
+                "lng": "-115.85000",
+                "col_area": "6195.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 312,
+                "col_name": "East-central New York",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "29.00",
+                "lat": "43.11600",
+                "lng": "-75.77800",
+                "col_area": "24062.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 313,
+                "col_name": "Eastern New York",
+                "col_group": "Northern Appalachians",
+                "col_group_id": 9,
+                "group_col_id": "30.00",
+                "lat": "42.56100",
+                "lng": "-74.30000",
+                "col_area": "10773.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 315,
+                "col_name": "Adirondack Mountains and Champlain Valley",
+                "col_group": "Northeast United States",
+                "col_group_id": 11,
+                "group_col_id": "1.00",
+                "lat": "43.91300",
+                "lng": "-74.30000",
+                "col_area": "18419.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 503,
+                "col_name": "Hanna and Laramie Basins",
+                "col_group": "Central-Southern Rockies",
+                "col_group_id": 3,
+                "group_col_id": "15.00",
+                "lat": "41.58600",
+                "lng": "-105.52800",
+                "col_area": "23106.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 609,
+                "col_name": "Temiscouata",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "22.00",
+                "lat": "47.70600",
+                "lng": "-68.86700",
+                "col_area": "35110.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 610,
+                "col_name": "Lake Matapedia",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "23.00",
+                "lat": "48.56900",
+                "lng": "-67.56500",
+                "col_area": "33211.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 616,
+                "col_name": "Flat Bay",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "49.00",
+                "lat": "47.86300",
+                "lng": "-59.31800",
+                "col_area": "33054.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 635,
+                "col_name": "Mt. Albert",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "32.00",
+                "lat": "49.10100",
+                "lng": "-65.53300",
+                "col_area": "36473.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 760,
+                "col_name": "Wager Bay",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "13.00",
+                "lat": "65.89200",
+                "lng": "-90.56500",
+                "col_area": "210314.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 789,
+                "col_name": "Chibougamau",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "42.00",
+                "lat": "50.06500",
+                "lng": "-74.36600",
+                "col_area": "125553.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 795,
+                "col_name": "Eastern Ontario",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "48.00",
+                "lat": "44.78600",
+                "lng": "-78.78800",
+                "col_area": "35480.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 796,
+                "col_name": "South Eastern Quebec",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "49.00",
+                "lat": "45.94000",
+                "lng": "-75.66500",
+                "col_area": "29891.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 797,
+                "col_name": "Wabush, Mt. Wright",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "50.00",
+                "lat": "52.91900",
+                "lng": "-66.86900",
+                "col_area": "74726.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 798,
+                "col_name": "Wakeham Lake",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "51.00",
+                "lat": "50.77900",
+                "lng": "-63.01500",
+                "col_area": "62631.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 799,
+                "col_name": "Seal Lake",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "52.00",
+                "lat": "54.34500",
+                "lng": "-61.74700",
+                "col_area": "176404.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 800,
+                "col_name": "Northern Labrador",
+                "col_group": "Canadian Shield",
+                "col_group_id": 21,
+                "group_col_id": "53.00",
+                "lat": "58.66500",
+                "lng": "-63.33700",
+                "col_area": "242250.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 803,
+                "col_name": "Paleozoic Outliers: Lake Manicouagan",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "5.02",
+                "lat": "51.35100",
+                "lng": "-68.77400",
+                "col_area": "131843.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 805,
+                "col_name": "Paleozoic Outliers: Clear Lake",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "5.04",
+                "lat": "45.59600",
+                "lng": "-76.05600",
+                "col_area": "26651.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 817,
+                "col_name": "Canada Bay - Long Range Mtns",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "57.01",
+                "lat": "50.73200",
+                "lng": "-56.30600",
+                "col_area": "4615.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 820,
+                "col_name": "Daniels Bay",
+                "col_group": "Southeastern Canada",
+                "col_group_id": 22,
+                "group_col_id": "46.01",
+                "lat": "50.23700",
+                "lng": "-57.58600",
+                "col_area": "4865.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    2
+                ]
+            },
+            {
+                "col_id": 1507,
+                "col_name": "Somerset Island",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "7.00",
+                "lat": "73.43600",
+                "lng": "-94.50300",
+                "col_area": "13332.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1586,
+                "col_name": "Southampton, Coats, Mansel Islands",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "67.00",
+                "lat": "62.57000",
+                "lng": "-83.03100",
+                "col_area": "182132.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1601,
+                "col_name": "Montreal",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "82.00",
+                "lat": "45.63800",
+                "lng": "-73.59100",
+                "col_area": "29153.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1602,
+                "col_name": "St. Hyacinthe",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "83.00",
+                "lat": "45.44600",
+                "lng": "-73.21400",
+                "col_area": "6431.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1603,
+                "col_name": "Lac St. Jean-Chicoutimi Outlier Quebec City",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "84.00",
+                "lat": "46.92400",
+                "lng": "-71.15700",
+                "col_area": "19016.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1604,
+                "col_name": "Nicolet-Yamaska",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "85.00",
+                "lat": "46.39700",
+                "lng": "-71.85500",
+                "col_area": "17510.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1605,
+                "col_name": "N. Shore and Mingan Island Anticosti Island",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "86.00",
+                "lat": "49.43700",
+                "lng": "-63.16900",
+                "col_area": "27569.6",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1606,
+                "col_name": "Gulf of St. Lawrence",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "87.00",
+                "lat": "49.86600",
+                "lng": "-61.55100",
+                "col_area": "53109.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1608,
+                "col_name": "Southeast Labrador Strait of Belle Isle",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "89.00",
+                "lat": "50.73100",
+                "lng": "-58.44900",
+                "col_area": "57586.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1675,
+                "col_name": "Hay River - Pine Point",
+                "col_group": "Northwest, Yukon Territories",
+                "col_group_id": 44,
+                "group_col_id": "30.00",
+                "lat": "60.75600",
+                "lng": "-115.39800",
+                "col_area": "83663.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "2": "Douglas, R.J.W. Geology and economic minerals of Canada. Geological Survey of Canada Economic Geology Report No. 1. 1970. ",
+            "11": "Trettin, H.P. Geotectonic correlation chart. in Geological Survey of Canada, Geology of Canada No. 3. 1991. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. "
+        }
+    }
+}

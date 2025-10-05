@@ -1,0 +1,178 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 231,
+                "col_name": "Mescal Range-Providence Mountains",
+                "col_group": "Southern California",
+                "col_group_id": 18,
+                "group_col_id": "30.00",
+                "lat": "35.43300",
+                "lng": "-115.33300",
+                "col_area": "17192.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 474,
+                "col_name": "Confusion and House Ranges, Utah",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "20.00",
+                "lat": "38.91000",
+                "lng": "-113.67500",
+                "col_area": "8202.2",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 517,
+                "col_name": "South Texas",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "2.00",
+                "lat": "27.40300",
+                "lng": "-98.25000",
+                "col_area": "79418.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1579,
+                "col_name": "Washington Land",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "79.00",
+                "lat": "80.21900",
+                "lng": "-66.19200",
+                "col_area": "19896.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1580,
+                "col_name": "Petermann Glacier",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "80.00",
+                "lat": "80.80900",
+                "lng": "-63.58400",
+                "col_area": "49390.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1581,
+                "col_name": "Western North Greenland",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "81.00",
+                "lat": "81.73300",
+                "lng": "-47.90600",
+                "col_area": "39846.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1582,
+                "col_name": "Southern Peary Land,Independence Fiord",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "82.00",
+                "lat": "82.08100",
+                "lng": "-32.75000",
+                "col_area": "48008.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1583,
+                "col_name": "Danmark Fiord",
+                "col_group": "Canadian Arctic III",
+                "col_group_id": 43,
+                "group_col_id": "83.00",
+                "lat": "81.00700",
+                "lng": "-21.26800",
+                "col_area": "103128.9",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1597,
+                "col_name": "Algonquin Arch",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "78.00",
+                "lat": "43.92200",
+                "lng": "-80.73100",
+                "col_area": "23269.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1598,
+                "col_name": "Allegheny Basin",
+                "col_group": "Southern Prairie Prov., Hudson Platform",
+                "col_group_id": 46,
+                "group_col_id": "79.00",
+                "lat": "42.99800",
+                "lng": "-79.63600",
+                "col_area": "22212.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            },
+            {
+                "col_id": 1661,
+                "col_name": "Mountain River",
+                "col_group": "Northwest, Yukon Territories",
+                "col_group_id": 44,
+                "group_col_id": "16.00",
+                "lat": "64.40600",
+                "lng": "-128.10900",
+                "col_area": "22714.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    12
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "11": "Trettin, H.P. Geotectonic correlation chart. in Geological Survey of Canada, Geology of Canada No. 3. 1991. ",
+            "12": "Stott, D.F. Geotectonic correlation charts. in Sedimentary Cover of the North American craton: Canada. GSC Geology of Canada No. 5. 1991. "
+        }
+    }
+}

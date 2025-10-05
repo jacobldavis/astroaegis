@@ -1,0 +1,163 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 127,
+                "col_name": "Inner Coastal Plain",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "32.00",
+                "lat": "35.28300",
+                "lng": "-77.93300",
+                "col_area": "15029.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 130,
+                "col_name": "Island Beach",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "6.00",
+                "lat": "39.88700",
+                "lng": "-74.08400",
+                "col_area": "5799.3",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 141,
+                "col_name": "Potomac Estuary",
+                "col_group": "Atlantic Coastal Plain",
+                "col_group_id": 1,
+                "group_col_id": "17.00",
+                "lat": "38.45000",
+                "lng": "-76.72900",
+                "col_area": "4441.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1696,
+                "col_name": "Santos Basin Column A",
+                "col_group": "Santos Basin",
+                "col_group_id": 50,
+                "group_col_id": "1.00",
+                "lat": "-23.98400",
+                "lng": "-42.63800",
+                "col_area": "82985.6",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    31
+                ]
+            },
+            {
+                "col_id": 1697,
+                "col_name": "Santos Column B",
+                "col_group": "Santos Basin",
+                "col_group_id": 50,
+                "group_col_id": "2.00",
+                "lat": "-24.64000",
+                "lng": "-43.49800",
+                "col_area": "48012.8",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    31
+                ]
+            },
+            {
+                "col_id": 1698,
+                "col_name": "Column C",
+                "col_group": "Santos Basin",
+                "col_group_id": 50,
+                "group_col_id": "3.00",
+                "lat": "-25.35600",
+                "lng": "-44.06400",
+                "col_area": "64757.6",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    31
+                ]
+            },
+            {
+                "col_id": 1699,
+                "col_name": "Column D",
+                "col_group": "Santos Basin",
+                "col_group_id": 50,
+                "group_col_id": "4.00",
+                "lat": "-25.93700",
+                "lng": "-45.05700",
+                "col_area": "64051.2",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    31
+                ]
+            },
+            {
+                "col_id": 1700,
+                "col_name": "Column E",
+                "col_group": "Santos Basin",
+                "col_group_id": 50,
+                "group_col_id": "5.00",
+                "lat": "-26.71000",
+                "lng": "-45.38000",
+                "col_area": "52728.0",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    31
+                ]
+            },
+            {
+                "col_id": 1701,
+                "col_name": "Column F",
+                "col_group": "Santos Basin",
+                "col_group_id": 50,
+                "group_col_id": "6.00",
+                "lat": "-27.75000",
+                "lng": "-45.89000",
+                "col_area": "18715.9",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    31
+                ]
+            },
+            {
+                "col_id": 1713,
+                "col_name": "Column B",
+                "col_group": "Campos Basin",
+                "col_group_id": 54,
+                "group_col_id": "2.00",
+                "lat": "-21.50000",
+                "lng": "-39.94900",
+                "col_area": "74285.5",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    35
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "31": "Pilar. Petroleum geology of the Campos and Santos basins, Lower Cretaceous Brazilian sector of the South Atlantic margin. 2013. 10.13140/2.1.1290.4001. ",
+            "35": "Clemente, Pilar. Petroleum Geology of the Campos and Santos Basins. 2013. "
+        }
+    }
+}

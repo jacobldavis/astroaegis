@@ -1,0 +1,88 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 360,
+                "col_name": "Pine Mountain Window, Alabama - Georgia",
+                "col_group": "Piedmont-Blue Ridge",
+                "col_group_id": 15,
+                "group_col_id": "12.00",
+                "lat": "32.96100",
+                "lng": "-84.82300",
+                "col_area": "7527.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 536,
+                "col_name": "Western Coastal Plain, Georgia",
+                "col_group": "Gulf Coast",
+                "col_group_id": 5,
+                "group_col_id": "21.00",
+                "lat": "31.88000",
+                "lng": "-84.71000",
+                "col_area": "10206.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1368,
+                "col_name": "Site 886 hole B",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "886.00",
+                "lat": "44.69000",
+                "lng": "-168.24000",
+                "col_area": "2808.2",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1376,
+                "col_name": "Site 507 hole F",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "507.00",
+                "lat": "0.56700",
+                "lng": "-86.09000",
+                "col_area": "2810.8",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1377,
+                "col_name": "Site 1215 hole A",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "1215.00",
+                "lat": "26.03000",
+                "lng": "-147.93300",
+                "col_area": "2810.9",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "14": "DSDP. Deep Sea Drilling Project. 1966. http://www.deepseadrilling.org. ",
+            "15": "ODP. Ocean Drilling Program. 1985. http://www-odp.tamu.edu. "
+        }
+    }
+}

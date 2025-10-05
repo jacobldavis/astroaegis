@@ -1,0 +1,194 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 98,
+                "col_name": "Northern Arctic National Wildlife Refuge",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "6.00",
+                "lat": "69.79300",
+                "lng": "-143.47900",
+                "col_area": "14144.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 213,
+                "col_name": "Savioyuk Syncline",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "17.00",
+                "lat": "67.48200",
+                "lng": "-151.72300",
+                "col_area": "13119.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 272,
+                "col_name": "Mount Doonerak",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "19.00",
+                "lat": "67.90700",
+                "lng": "-150.63300",
+                "col_area": "9718.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 394,
+                "col_name": "Porcupine River",
+                "col_group": "Northern Alaska",
+                "col_group_id": 8,
+                "group_col_id": "24.00",
+                "lat": "67.08500",
+                "lng": "-143.37400",
+                "col_area": "23572.4",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 411,
+                "col_name": "Southern Wrangell Mountains, Mccarthy Quadrangle",
+                "col_group": "Southern Alaska",
+                "col_group_id": 16,
+                "group_col_id": "19.00",
+                "lat": "61.21700",
+                "lng": "-141.98600",
+                "col_area": "14899.8",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 438,
+                "col_name": "Cincinnati and Kankakee Arches - Southeastern Indiana",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "13.00",
+                "lat": "39.09100",
+                "lng": "-85.33300",
+                "col_area": "14293.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 439,
+                "col_name": "Cincinnati and Kankakee Arches - Northwestern to East-central Indiana",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "14.00",
+                "lat": "40.81600",
+                "lng": "-86.12500",
+                "col_area": "25961.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 440,
+                "col_name": "Michigan Basin-findlay Arch - Northern Indiana",
+                "col_group": "Midwestern Basins and Arches",
+                "col_group_id": 6,
+                "group_col_id": "15.00",
+                "lat": "41.52500",
+                "lng": "-85.83800",
+                "col_area": "18821.5",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1427,
+                "col_name": "Yucatan Platform",
+                "col_group": "Mexico",
+                "col_group_id": 35,
+                "group_col_id": "1.00",
+                "lat": "20.54700",
+                "lng": "-88.76200",
+                "col_area": "149543.0",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    9
+                ]
+            },
+            {
+                "col_id": 1700,
+                "col_name": "Column E",
+                "col_group": "Santos Basin",
+                "col_group_id": 50,
+                "group_col_id": "5.00",
+                "lat": "-26.71000",
+                "lng": "-45.38000",
+                "col_area": "52728.0",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    31
+                ]
+            },
+            {
+                "col_id": 1706,
+                "col_name": "Column A",
+                "col_group": "Cuyo Basin",
+                "col_group_id": 51,
+                "group_col_id": "1.00",
+                "lat": "-29.57700",
+                "lng": "-68.42400",
+                "col_area": "70702.1",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    33
+                ]
+            },
+            {
+                "col_id": 1707,
+                "col_name": "Column B",
+                "col_group": "Cuyo Basin",
+                "col_group_id": 51,
+                "group_col_id": "2.00",
+                "lat": "-32.02000",
+                "lng": "-67.97700",
+                "col_area": "107047.0",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    33
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "9": "Salvador, A. and Muneton, J.M.Q. Stratigraphic Correlation Chart: Gulf of Mexico Basin.  In Salvador, A. (ed).  The Geology of North America Vol. J: The Gulf of Mexico Basin.  Geological Society of America, Boulder, Colo. 1989. ",
+            "31": "Pilar. Petroleum geology of the Campos and Santos basins, Lower Cretaceous Brazilian sector of the South Atlantic margin. 2013. 10.13140/2.1.1290.4001. ",
+            "33": "Barredo, Silvia. Geodynamic and Tectonostratigraphic of a Continental Rift: Cuyana Basin. 2012. "
+        }
+    }
+}

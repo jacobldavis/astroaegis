@@ -1,0 +1,72 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 1719,
+                "col_name": "Column A",
+                "col_group": "Parnaiba Basin",
+                "col_group_id": 56,
+                "group_col_id": "1.00",
+                "lat": "-3.67700",
+                "lng": "-46.84100",
+                "col_area": "81365.9",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    38
+                ]
+            },
+            {
+                "col_id": 1720,
+                "col_name": "Column B",
+                "col_group": "Parnaiba Basin",
+                "col_group_id": 56,
+                "group_col_id": "2.00",
+                "lat": "-4.57600",
+                "lng": "-45.08900",
+                "col_area": "115866.5",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    38
+                ]
+            },
+            {
+                "col_id": 1748,
+                "col_name": "Column C",
+                "col_group": "Amazonas Basin",
+                "col_group_id": 65,
+                "group_col_id": "3.00",
+                "lat": "-3.02600",
+                "lng": "-54.31200",
+                "col_area": "83005.2",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    52
+                ]
+            },
+            {
+                "col_id": 1749,
+                "col_name": "Column D",
+                "col_group": "Amazonas Basin",
+                "col_group_id": 65,
+                "group_col_id": "4.00",
+                "lat": "-2.11100",
+                "lng": "-52.37000",
+                "col_area": "95037.1",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    52
+                ]
+            }
+        ],
+        "refs": {
+            "38": "Basu, Urbi. 2D Lithofacies Modelling of the Parnaiba Basin, Brazil by Statistical Electrofacies Determination. 2013. ",
+            "52": "Cunha et al. Amazon Basin Potash Report. 2011. "
+        }
+    }
+}

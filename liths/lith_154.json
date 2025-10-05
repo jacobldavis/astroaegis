@@ -1,0 +1,211 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 460,
+                "col_name": "Milligan-wood River-copper Basin Allochthons Central Idaho",
+                "col_group": "Great Basin",
+                "col_group_id": 4,
+                "group_col_id": "6.00",
+                "lat": "43.23300",
+                "lng": "-114.66600",
+                "col_area": "17563.1",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    1
+                ]
+            },
+            {
+                "col_id": 1503,
+                "col_name": "Banks Island, Southeast",
+                "col_group": "Canadian Arctic I",
+                "col_group_id": 41,
+                "group_col_id": "3.00",
+                "lat": "72.08600",
+                "lng": "-121.06800",
+                "col_area": "53656.7",
+                "project_id": 1,
+                "col_type": "column",
+                "refs": [
+                    11
+                ]
+            },
+            {
+                "col_id": 1706,
+                "col_name": "Column A",
+                "col_group": "Cuyo Basin",
+                "col_group_id": 51,
+                "group_col_id": "1.00",
+                "lat": "-29.57700",
+                "lng": "-68.42400",
+                "col_area": "70702.1",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    33
+                ]
+            },
+            {
+                "col_id": 1707,
+                "col_name": "Column B",
+                "col_group": "Cuyo Basin",
+                "col_group_id": 51,
+                "group_col_id": "2.00",
+                "lat": "-32.02000",
+                "lng": "-67.97700",
+                "col_area": "107047.0",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    33
+                ]
+            },
+            {
+                "col_id": 1708,
+                "col_name": "Column C",
+                "col_group": "Cuyo Basin",
+                "col_group_id": 51,
+                "group_col_id": "3.00",
+                "lat": "-36.47000",
+                "lng": "-66.64600",
+                "col_area": "56792.4",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    33
+                ]
+            },
+            {
+                "col_id": 1720,
+                "col_name": "Column B",
+                "col_group": "Parnaiba Basin",
+                "col_group_id": 56,
+                "group_col_id": "2.00",
+                "lat": "-4.57600",
+                "lng": "-45.08900",
+                "col_area": "115866.5",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    38
+                ]
+            },
+            {
+                "col_id": 1722,
+                "col_name": "Column D",
+                "col_group": "Parnaiba Basin",
+                "col_group_id": 56,
+                "group_col_id": "4.00",
+                "lat": "-7.13000",
+                "lng": "-43.09100",
+                "col_area": "168134.6",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    38
+                ]
+            },
+            {
+                "col_id": 1744,
+                "col_name": "Column A",
+                "col_group": "Maranon Basin",
+                "col_group_id": 64,
+                "group_col_id": "1.00",
+                "lat": "-3.40700",
+                "lng": "-74.47200",
+                "col_area": "119213.9",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    50
+                ]
+            },
+            {
+                "col_id": 1745,
+                "col_name": "Column B",
+                "col_group": "Maranon Basin",
+                "col_group_id": 64,
+                "group_col_id": "2.00",
+                "lat": "-5.72100",
+                "lng": "-74.03400",
+                "col_area": "210315.8",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    50
+                ]
+            },
+            {
+                "col_id": 1746,
+                "col_name": "Column A",
+                "col_group": "Amazonas Basin",
+                "col_group_id": 65,
+                "group_col_id": "1.00",
+                "lat": "-4.65400",
+                "lng": "-60.32600",
+                "col_area": "142512.3",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    52
+                ]
+            },
+            {
+                "col_id": 1747,
+                "col_name": "Column B",
+                "col_group": "Amazonas Basin",
+                "col_group_id": 65,
+                "group_col_id": "2.00",
+                "lat": "-3.27300",
+                "lng": "-57.11800",
+                "col_area": "147394.8",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    52
+                ]
+            },
+            {
+                "col_id": 1748,
+                "col_name": "Column C",
+                "col_group": "Amazonas Basin",
+                "col_group_id": 65,
+                "group_col_id": "3.00",
+                "lat": "-3.02600",
+                "lng": "-54.31200",
+                "col_area": "83005.2",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    52
+                ]
+            },
+            {
+                "col_id": 1749,
+                "col_name": "Column D",
+                "col_group": "Amazonas Basin",
+                "col_group_id": 65,
+                "group_col_id": "4.00",
+                "lat": "-2.11100",
+                "lng": "-52.37000",
+                "col_area": "95037.1",
+                "project_id": 8,
+                "col_type": "column",
+                "refs": [
+                    52
+                ]
+            }
+        ],
+        "refs": {
+            "1": "Childs, O.E. Correlation of stratigraphic units of North America; COSUNA. AAPG Bulletin 69:173-180. 1985. ",
+            "11": "Trettin, H.P. Geotectonic correlation chart. in Geological Survey of Canada, Geology of Canada No. 3. 1991. ",
+            "33": "Barredo, Silvia. Geodynamic and Tectonostratigraphic of a Continental Rift: Cuyana Basin. 2012. ",
+            "38": "Basu, Urbi. 2D Lithofacies Modelling of the Parnaiba Basin, Brazil by Statistical Electrofacies Determination. 2013. ",
+            "50": "Yinfu et al. Petroleum Geology and Exploration Potential of the Oriente-Maranon Basin. 2010. ",
+            "52": "Cunha et al. Amazon Basin Potash Report. 2011. "
+        }
+    }
+}

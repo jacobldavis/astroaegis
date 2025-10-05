@@ -1,0 +1,913 @@
+{
+    "success": {
+        "v": 2,
+        "license": "CC-BY 4.0",
+        "data": [
+            {
+                "col_id": 1290,
+                "col_name": "Site 703 hole A",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "703.00",
+                "lat": "-47.05100",
+                "lng": "7.89500",
+                "col_area": "2811.0",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1291,
+                "col_name": "Site 700 hole B",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "700.00",
+                "lat": "-51.53300",
+                "lng": "-30.27800",
+                "col_area": "2809.1",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1292,
+                "col_name": "Site 701 hole C",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "701.00",
+                "lat": "-51.98500",
+                "lng": "-23.21200",
+                "col_area": "2809.9",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1293,
+                "col_name": "Site 690 hole C",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "690.00",
+                "lat": "-65.16000",
+                "lng": "1.20500",
+                "col_area": "2811.0",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1294,
+                "col_name": "Site 689 hole B",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "689.00",
+                "lat": "-64.51700",
+                "lng": "3.10000",
+                "col_area": "2811.5",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1295,
+                "col_name": "Site 530 hole A",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "530.00",
+                "lat": "-19.18800",
+                "lng": "9.38600",
+                "col_area": "2811.4",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1298,
+                "col_name": "Site 702 hole B",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "702.00",
+                "lat": "-50.94600",
+                "lng": "-26.36900",
+                "col_area": "2811.4",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1299,
+                "col_name": "Site 699 hole A",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "699.00",
+                "lat": "-51.54200",
+                "lng": "-30.67700",
+                "col_area": "2809.7",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1300,
+                "col_name": "Site 511 hole 1",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "511.00",
+                "lat": "-51.00500",
+                "lng": "-46.97200",
+                "col_area": "2810.2",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1301,
+                "col_name": "Site 513 hole A",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "513.00",
+                "lat": "-47.58300",
+                "lng": "-24.64000",
+                "col_area": "2809.4",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1302,
+                "col_name": "Site 512 hole 1",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "512.00",
+                "lat": "-49.87000",
+                "lng": "-40.83600",
+                "col_area": "2810.3",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1304,
+                "col_name": "Site 356 hole CO",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "356.00",
+                "lat": "-28.28700",
+                "lng": "-41.08800",
+                "col_area": "2808.6",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1305,
+                "col_name": "Site 1257 hole CO",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "1257.00",
+                "lat": "9.45400",
+                "lng": "-54.34200",
+                "col_area": "2805.6",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    16
+                ]
+            },
+            {
+                "col_id": 1308,
+                "col_name": "Site 534 hole CO",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "534.00",
+                "lat": "28.34300",
+                "lng": "-75.38200",
+                "col_area": "2811.4",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1311,
+                "col_name": "Site 1260 hole CO",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "1260.00",
+                "lat": "9.26500",
+                "lng": "-54.54400",
+                "col_area": "2806.5",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    16
+                ]
+            },
+            {
+                "col_id": 1314,
+                "col_name": "Site 662 hole A",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "662.00",
+                "lat": "-1.39100",
+                "lng": "-11.73900",
+                "col_area": "2805.1",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1315,
+                "col_name": "Site 1090 hole C",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "1090.00",
+                "lat": "-42.89900",
+                "lng": "8.88300",
+                "col_area": "2811.5",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1320,
+                "col_name": "Site 558 hole CO",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "558.00",
+                "lat": "37.77100",
+                "lng": "-37.34400",
+                "col_area": "2810.1",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1324,
+                "col_name": "Site 408 hole 40",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "408.00",
+                "lat": "63.37700",
+                "lng": "-28.91200",
+                "col_area": "2810.9",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1326,
+                "col_name": "Site 412 hole 41",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "412.00",
+                "lat": "36.56200",
+                "lng": "-33.16600",
+                "col_area": "2811.5",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1328,
+                "col_name": "Site 548 hole CO",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "548.00",
+                "lat": "48.90700",
+                "lng": "-12.16200",
+                "col_area": "2808.5",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1332,
+                "col_name": "Site 338 hole 33",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "338.00",
+                "lat": "67.78500",
+                "lng": "5.38500",
+                "col_area": "2810.8",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1334,
+                "col_name": "Site 612 hole 61",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "612.00",
+                "lat": "38.81900",
+                "lng": "-72.77300",
+                "col_area": "2808.9",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1342,
+                "col_name": "Site 386 hole 386",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "386.00",
+                "lat": "31.19300",
+                "lng": "-64.23300",
+                "col_area": "2810.6",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1345,
+                "col_name": "Site 417 hole CO",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "417.00",
+                "lat": "25.10800",
+                "lng": "-68.04600",
+                "col_area": "2810.9",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1348,
+                "col_name": "Site 342 hole 342",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "342.00",
+                "lat": "67.95100",
+                "lng": "4.93400",
+                "col_area": "2811.1",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1349,
+                "col_name": "Site 407 hole 407",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "407.00",
+                "lat": "63.93900",
+                "lng": "-30.57600",
+                "col_area": "2810.6",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1350,
+                "col_name": "Site 348 hole 348",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "348.00",
+                "lat": "68.50300",
+                "lng": "-12.46200",
+                "col_area": "2810.8",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1351,
+                "col_name": "Site 519 hole 519",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "519.00",
+                "lat": "-26.13700",
+                "lng": "-11.66600",
+                "col_area": "2806.6",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1358,
+                "col_name": "Site 508 hole 508",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "508.00",
+                "lat": "0.53300",
+                "lng": "-86.10000",
+                "col_area": "2810.8",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1359,
+                "col_name": "Site 509 hole 509",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "509.00",
+                "lat": "0.58900",
+                "lng": "-86.13200",
+                "col_area": "2810.9",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1361,
+                "col_name": "Site 844 hole B",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "844.00",
+                "lat": "7.92100",
+                "lng": "-90.48100",
+                "col_area": "2806.2",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1362,
+                "col_name": "Site 845 hole A",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "845.00",
+                "lat": "9.58300",
+                "lng": "-94.59100",
+                "col_area": "2809.4",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1363,
+                "col_name": "Site 849 hole B",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "849.00",
+                "lat": "0.18300",
+                "lng": "-110.52000",
+                "col_area": "2811.3",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1364,
+                "col_name": "Site 850 hole B",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "850.00",
+                "lat": "1.29700",
+                "lng": "-110.52100",
+                "col_area": "2811.3",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1366,
+                "col_name": "Site 854 hole C",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "854.00",
+                "lat": "11.22400",
+                "lng": "-109.59400",
+                "col_area": "2809.9",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1368,
+                "col_name": "Site 886 hole B",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "886.00",
+                "lat": "44.69000",
+                "lng": "-168.24000",
+                "col_area": "2808.2",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1369,
+                "col_name": "Site 1010 hole C",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "1010.00",
+                "lat": "29.96500",
+                "lng": "-118.10100",
+                "col_area": "2810.8",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1375,
+                "col_name": "Site 506 hole B",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "506.00",
+                "lat": "0.61000",
+                "lng": "-86.09100",
+                "col_area": "2810.8",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1376,
+                "col_name": "Site 507 hole F",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "507.00",
+                "lat": "0.56700",
+                "lng": "-86.09000",
+                "col_area": "2810.8",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1378,
+                "col_name": "Site 1218 hole A",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "1218.00",
+                "lat": "8.88900",
+                "lng": "-135.36700",
+                "col_area": "2811.4",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1379,
+                "col_name": "Site 1226 hole B",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "1226.00",
+                "lat": "-3.09500",
+                "lng": "-90.81800",
+                "col_area": "2807.4",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1380,
+                "col_name": "Site 1231 hole E",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "1231.00",
+                "lat": "-12.02100",
+                "lng": "-81.90400",
+                "col_area": "2810.9",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1384,
+                "col_name": "Site 213 hole 213",
+                "col_group": "Indian Basin",
+                "col_group_id": 32,
+                "group_col_id": "213.00",
+                "lat": "-10.21200",
+                "lng": "93.89600",
+                "col_area": "2810.9",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1387,
+                "col_name": "Site 236 hole 236",
+                "col_group": "Indian Basin",
+                "col_group_id": 32,
+                "group_col_id": "236.00",
+                "lat": "-1.67700",
+                "lng": "57.64800",
+                "col_area": "2811.2",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1388,
+                "col_name": "Site 289 hole 289",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "289.00",
+                "lat": "-0.49900",
+                "lng": "158.51200",
+                "col_area": "2811.3",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1391,
+                "col_name": "Site 1138 hole A",
+                "col_group": "Indian Basin",
+                "col_group_id": 32,
+                "group_col_id": "1138.00",
+                "lat": "-53.55200",
+                "lng": "75.97500",
+                "col_area": "2811.2",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1392,
+                "col_name": "Site 1179 hole BCD",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "1179.00",
+                "lat": "41.08000",
+                "lng": "159.96300",
+                "col_area": "2811.1",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1394,
+                "col_name": "Site 907 hole A",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "907.00",
+                "lat": "69.25000",
+                "lng": "12.69800",
+                "col_area": "2811.0",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1395,
+                "col_name": "Site 884 hole BC",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "884.00",
+                "lat": "51.45000",
+                "lng": "168.33700",
+                "col_area": "2809.2",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1396,
+                "col_name": "Site 50 hole 50.0",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "50.00",
+                "lat": "32.40300",
+                "lng": "156.57200",
+                "col_area": "2807.9",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1397,
+                "col_name": "Site 1098 hole C",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "1098.00",
+                "lat": "-64.86200",
+                "lng": "-64.20800",
+                "col_area": "2811.3",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1398,
+                "col_name": "Site 149 hole 149",
+                "col_group": "Caribbean Basin",
+                "col_group_id": 33,
+                "group_col_id": "149.00",
+                "lat": "15.10400",
+                "lng": "-69.36400",
+                "col_area": "2811.4",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1401,
+                "col_name": "Site 162 hole 162",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "162.00",
+                "lat": "14.87000",
+                "lng": "-140.04400",
+                "col_area": "2810.8",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1402,
+                "col_name": "Site 420 hole 420",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "420.00",
+                "lat": "9.00200",
+                "lng": "-106.11300",
+                "col_area": "2810.5",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1405,
+                "col_name": "Site 573 hole 573",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "573.00",
+                "lat": "0.49900",
+                "lng": "-133.30900",
+                "col_area": "2809.1",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1408,
+                "col_name": "Site 738 hole ABC",
+                "col_group": "Indian Basin",
+                "col_group_id": 32,
+                "group_col_id": "738.00",
+                "lat": "-62.70900",
+                "lng": "82.78800",
+                "col_area": "2811.0",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    15
+                ]
+            },
+            {
+                "col_id": 1413,
+                "col_name": "Site 84 hole 84",
+                "col_group": "Pacific Basin",
+                "col_group_id": 31,
+                "group_col_id": "84.00",
+                "lat": "5.74900",
+                "lng": "-82.88800",
+                "col_area": "2808.5",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1414,
+                "col_name": "Site 555 hole 555",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "555.00",
+                "lat": "56.56200",
+                "lng": "-20.78200",
+                "col_area": "2811.5",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            },
+            {
+                "col_id": 1417,
+                "col_name": "Site 552 hole CO",
+                "col_group": "Atlantic Basin",
+                "col_group_id": 30,
+                "group_col_id": "552.00",
+                "lat": "56.04300",
+                "lng": "-23.23100",
+                "col_area": "2810.2",
+                "project_id": 4,
+                "col_type": "column",
+                "refs": [
+                    14
+                ]
+            }
+        ],
+        "refs": {
+            "14": "DSDP. Deep Sea Drilling Project. 1966. http://www.deepseadrilling.org. ",
+            "15": "ODP. Ocean Drilling Program. 1985. http://www-odp.tamu.edu. ",
+            "16": "IODP. Integrated Ocean Drilling Program. 2003. http://www.iodp.org. "
+        }
+    }
+}
