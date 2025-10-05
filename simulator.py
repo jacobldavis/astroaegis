@@ -5,7 +5,6 @@ import math
 import asteroid
 
 # --- 1. CUSTOMIZABLE PARAMETERS ---
-LAUNCH_VELOCITY = 15000
 TARGET_SEPARATION = 50000
 lat_clem = 34.6834
 long_clem = -82.8374
@@ -56,35 +55,36 @@ def run_intercept_search():
     best_attempt = {"min_dist": float('inf'), "phi": None, "theta": None}
 
     # --- 4. START THE LIVE SEARCH ---
-    for phi in PHI_RANGE:
-        for theta in THETA_RANGE:
-            asteroid_pos, asteroid_vel = initial_asteroid_pos.copy(), initial_asteroid_vel.copy()
-            
-            launch_offset = latlon_to_cartesian_offset(lat_clem, long_clem, earth['radius'])
-            iv_pos = earth['position'] + launch_offset
-            iv_vel = launch_vector_to_global(LAUNCH_VELOCITY, phi, theta, lat_clem, long_clem, earth['velocity'])
-            
-            min_dist_this_run = float('inf')
-
-            for t in np.arange(0, SIM_DURATION, DT):
-                # Update positions using full physics
-                asteroid_pos, asteroid_vel = update_body_state(asteroid_pos, asteroid_vel, 5e9, planets, DT)
-                iv_pos, iv_vel = update_body_state(iv_pos, iv_vel, m_launch, planets, DT)
+    for LAUNCH_VELOCITY in range(10000, 20000, 1000):
+        for phi in PHI_RANGE:
+            for theta in THETA_RANGE:
+                asteroid_pos, asteroid_vel = initial_asteroid_pos.copy(), initial_asteroid_vel.copy()
                 
-                current_dist = np.linalg.norm(iv_pos - asteroid_pos)
-                if current_dist < min_dist_this_run:
-                    min_dist_this_run = current_dist
+                launch_offset = latlon_to_cartesian_offset(lat_clem, long_clem, earth['radius'])
+                iv_pos = earth['position'] + launch_offset
+                iv_vel = launch_vector_to_global(LAUNCH_VELOCITY, phi, theta, lat_clem, long_clem, earth['velocity'])
+                
+                min_dist_this_run = float('inf')
 
-                if current_dist <= TARGET_SEPARATION:
-                    print("\n" + "="*20 + " HIT! " + "="*20)
-                    print(f"SUCCESSFUL INTERCEPT with parameters:")
-                    print(f"  - v: {LAUNCH_VELOCITY} m/s, phi: {phi:.2f} rad, theta: {theta:.2f} rad")
-                    return
+                for t in np.arange(0, SIM_DURATION, DT):
+                    # Update positions using full physics
+                    asteroid_pos, asteroid_vel = update_body_state(asteroid_pos, asteroid_vel, 5e9, planets, DT)
+                    iv_pos, iv_vel = update_body_state(iv_pos, iv_vel, m_launch, planets, DT)
+                    
+                    current_dist = np.linalg.norm(iv_pos - asteroid_pos)
+                    if current_dist < min_dist_this_run:
+                        min_dist_this_run = current_dist
 
-            if min_dist_this_run < best_attempt["min_dist"]:
-                best_attempt = {"min_dist": min_dist_this_run, "phi": phi, "theta": theta}
-            
-            print(f"Attempt (phi={phi:.2f}, theta={theta:.2f}): Closest approach = {min_dist_this_run/1000:,.0f} km")
+                    if current_dist <= TARGET_SEPARATION:
+                        print("\n" + "="*20 + " HIT! " + "="*20)
+                        print(f"SUCCESSFUL INTERCEPT with parameters:")
+                        print(f"  - v: {LAUNCH_VELOCITY} m/s, phi: {phi:.2f} rad, theta: {theta:.2f} rad")
+                        return
+
+                if min_dist_this_run < best_attempt["min_dist"]:
+                    best_attempt = {"min_dist": min_dist_this_run, "phi": phi, "theta": theta}
+                
+                print(f"Attempt (phi={phi:.2f}, theta={theta:.2f}): Closest approach = {min_dist_this_run/1000:,.0f} km")
 
     print("\n--- SEARCH COMPLETE ---")
     print(f"Best attempt: Closest approach of {best_attempt['min_dist']/1000:,.0f} km with phi={best_attempt['phi']:.2f}, theta={best_attempt['theta']:.2f}")
