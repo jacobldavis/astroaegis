@@ -5,12 +5,16 @@ G = 6.67430e-11  # Gravitational constant (m^3 kg^-1 s^-2)
 M_pl = 5.972e24  # Mass of Earth (kg)
 R_pl = 6371000.0  # Radius of Earth (m)
 R_p1a1 = R_pl + 100000.0  # Distance from center of Earth to top of atmosphere (100 km)
-rho_met = 3000  # Density of asteroid (kg/m^3)
+rho_met = 8000  # Density of asteroid (kg/m^3)
 xi = 8000000  # heat of ablation (J/kg)
-D_met = 50 # diameter of asteroid (m)
+D_met = 100 # diameter of asteroid (m)
 R_met = D_met / 2 # radius of asteroid (m)
 C_D = 0.5
-C_H = 0.1  # LOWER heat transfer coefficient
+C_H = 0.05  # LOWER heat transfer coefficient
+
+# Earth rotation parameters
+omega_earth = 2 * np.pi / 86400  # Earth's angular velocity (rad/s) - one rotation per day
+earth_rotation_axis = np.array([0.0, 0.0, 1.0])  # Earth rotates around z-axis
 
 # I Volume of asteroid (m^3)
 volume = (4.0 / 3.0) * np.pi * (R_met ** 3)
@@ -19,9 +23,9 @@ volume = (4.0 / 3.0) * np.pi * (R_met ** 3)
 mass = rho_met * volume
 
 # Starting asteroid parameters (relative to earth center) (in m)
-ast_pos = np.array([R_pl + 15000000.0, 0.0, 0.0])  # Start just above atmosphere
-ast_vel = np.array([-40000.0, 0.0, 0.0])  # Faster entry speed (5 km/s)
-ast_acc = np.array([0.0, 0.0, 0.0])  # Will be calculated each step
+ast_pos = np.array([R_pl + 150000.0, 0.0, 0.0])
+ast_vel = np.array([-50000.0, 0.0, 0.0])  
+ast_acc = np.array([0.0, 0.0, 0.0]) 
 
 # III angle of inclination entering atmosphere
 def angle_of_inclination(pos: np.ndarray, vel: np.ndarray) -> float:
@@ -104,15 +108,22 @@ def surface_pressure(pos: np.ndarray, vel: np.ndarray, current_mass: float, curr
 def r_crit_calc(pos: np.ndarray, vel: np.ndarray) -> float:
     """
     Calculate the critical radius of the asteroid.
+    Formula: r_crit ≈ 100 * (P_surf/1bar) * (ρ_m/0.4g/cm³)^-1 * (g/9.81)^-1 * (sin(θ)/(1/√2))
     """
     surf_pressure = surface_pressure(pos, vel, mass, R_met)
     g = g_of_h(pos)  # Use current position, not fixed atm_height
     theta = abs(angle_of_inclination(pos, vel))
     
-    if theta < 0.01: 
+    if theta < 0.01:  # Avoid division by very small numbers
         theta = 0.01
     
-    return 100 * (surf_pressure / 1e5) * (.4 / rho_met) * (9.81 / g) * (np.sin(theta) * np.sqrt(2))
+    # Following equation (6):
+    # - P_surf in Pascals, divide by 1e5 to get bars
+    # - ρ_m / 400 (where 400 kg/m³ = 0.4 g/cm³)
+    # - 9.81 / g (inverted gravity ratio)
+    # - sin(θ) * √2 (angle term)
+    
+    return 100 * (surf_pressure / 1e5) * (400 / rho_met) * (9.81 / g) * (np.sin(theta) * np.sqrt(2))
 
 # XI ablation rate
 def d_ad_t(t, pos, vel, current_radius):
@@ -128,7 +139,7 @@ def d_ad_t(t, pos, vel, current_radius):
     
     # Ablation rate formula: da/dt
     # Based on energy balance: kinetic energy converted to ablation
-    ablation_rate = (rho_atm * C_H * (v ** 3)) / (8 * rho_met * xi)
+    ablation_rate = (rho_atm * C_H * (v ** 3)) / (2 * rho_met * xi)
     
     return ablation_rate
 
@@ -136,6 +147,8 @@ def d_ad_t(t, pos, vel, current_radius):
 def d_md_a(a, current_radius):
     """Calculate mass change with respect to ablation depth.
     As ablation depth 'a' increases, radius decreases: r_new = R_met - a
+    Mass = (4/3)*π*ρ*(R_met - a)³
+    dm/da = (4/3)*π*ρ * 3*(R_met - a)² * (-1) = -4*π*ρ*(R_met - a)²
     """
     effective_radius = R_met - a
     if effective_radius <= 0:
@@ -154,13 +167,21 @@ time_entered_atmosphere = 0
 print(f"Initial mass: {mass:.2e} kg")
 print(f"Initial radius: {R_met:.2f} m")
 print(f"Initial position magnitude: {np.linalg.norm(ast_pos):.2e} m")
+print(f"Initial position (x,y,z): {ast_pos}")
 print(f"Atmosphere boundary: {R_p1a1:.2e} m")
-print(f"Entry velocity: {np.linalg.norm(ast_vel):.2f} m/s\n")
+print(f"Entry velocity: {np.linalg.norm(ast_vel):.2f} m/s")
+
+# Calculate initial entry latitude/longitude
+initial_lat = np.degrees(np.arcsin(ast_pos[2] / np.linalg.norm(ast_pos)))
+initial_lon = np.degrees(np.arctan2(ast_pos[1], ast_pos[0]))
+print(f"Entry point: {initial_lat:.2f}° N, {initial_lon:.2f}° E\n")
 
 current_radius = R_met
 current_mass = mass
 
 for step in range(steps):
+    total_time = step * dt
+    
     # Calculate gravitational acceleration
     r_vec = ast_pos
     r_mag = np.linalg.norm(r_vec)
@@ -170,19 +191,29 @@ for step in range(steps):
     else:
         g_acc = np.array([0.0, 0.0, 0.0])
     
-    # Calculate drag if in atmosphere
+    # Calculate atmospheric velocity due to Earth's rotation
+    # v_atm = ω × r (cross product of angular velocity and position)
+    omega_vec = omega_earth * earth_rotation_axis
+    v_atmosphere = np.cross(omega_vec, ast_pos)
+    
+    # Calculate drag if in atmosphere (relative to rotating atmosphere)
     if in_atmosphere and r_mag > R_pl:
         rho_atm = rho_of_p_r(ast_pos)
-        v_mag = np.linalg.norm(ast_vel)
+        
+        # Velocity relative to the rotating atmosphere
+        v_relative = ast_vel - v_atmosphere
+        v_mag = np.linalg.norm(v_relative)
         
         if v_mag > 0:
             A = np.pi * (current_radius ** 2)
-            drag_force = -0.5 * C_D * rho_atm * A * v_mag * ast_vel
+            # Drag force opposes relative velocity
+            drag_force = -0.5 * C_D * rho_atm * A * v_mag * v_relative
             drag_acc = drag_force / current_mass if current_mass > 0 else np.array([0.0, 0.0, 0.0])
         else:
             drag_acc = np.array([0.0, 0.0, 0.0])
     else:
         drag_acc = np.array([0.0, 0.0, 0.0])
+        v_relative = ast_vel 
     
     ast_acc = g_acc + drag_acc
     
@@ -206,8 +237,7 @@ for step in range(steps):
         print(f"Current radius: {current_radius:.2f} m")
         print(f"Angle of inclination: {np.degrees(angle_of_incl):.2f} degrees\n")
         
-        # Only check breakup if asteroid is small/weak
-        # Large iron asteroids can withstand higher pressures
+        # Check if asteroid breaks up
         if current_radius <= R_crit and current_radius < 20:
             print("Small asteroid will break up before impact!")
             break
@@ -216,18 +246,17 @@ for step in range(steps):
     if in_atmosphere and np.linalg.norm(ast_pos) > R_pl:
         time_in_atm = (step - time_entered_atmosphere + 1) * dt
         
-        # Calculate ablation rate (m/s)
-        da_dt = d_ad_t(time_in_atm, ast_pos, ast_vel, current_radius)
-        da = da_dt * dt  # Change in ablation depth this timestep
-        a += da  # Total ablation depth
+        # Calculate ablation rate (m/s) using relative velocity
+        da_dt = d_ad_t(time_in_atm, ast_pos, v_relative, current_radius)
+        da = da_dt * dt  
+        a += da  
         
         # Update radius
-        new_radius = max(R_met - a, 0.01)  # Prevent negative radius
+        new_radius = max(R_met - a, 0.01) 
         
         # Calculate mass change
-        # dm/da is negative (losing mass as ablation increases)
         dm_da = d_md_a(a, current_radius)
-        dm = dm_da * da  # This will be negative
+        dm = dm_da * da 
         new_mass = max(current_mass + dm, 1.0)
         
         current_radius = new_radius
@@ -237,7 +266,8 @@ for step in range(steps):
             altitude = np.linalg.norm(ast_pos) - R_pl
             percent_mass_remaining = (current_mass / mass) * 100
             mass_lost = mass - current_mass
-            print(f"t={step*dt:.1f}s, r={current_radius:.2f}m, m={percent_mass_remaining:.1f}%, lost={mass_lost:.2e}kg, alt={altitude:.0f}m, v={np.linalg.norm(ast_vel):.0f}m/s")
+            v_atm_mag = np.linalg.norm(v_atmosphere)
+            print(f"t={step*dt:.1f}s, r={current_radius:.2f}m, m={percent_mass_remaining:.1f}%, lost={mass_lost:.2e}kg, alt={altitude:.0f}m, v={np.linalg.norm(ast_vel):.0f}m/s, v_atm={v_atm_mag:.0f}m/s")
         
         # Check if completely ablated
         if current_radius <= 0.1 or current_mass <= 1:
@@ -247,13 +277,67 @@ for step in range(steps):
     
     # Check if asteroid has reached the ground
     if np.linalg.norm(ast_pos) <= R_pl:
-        print(f"\nAsteroid impacted Earth at t={step*dt:.1f} s")
-        print(f"Impact position: {ast_pos}")
+        print(f"\nAsteroid impacted Earth at t={step*dt:.1f} s ({step*dt/60:.2f} minutes)")
+        print(f"Impact position (Cartesian): {ast_pos}")
         print(f"Impact velocity magnitude: {np.linalg.norm(ast_vel):.2f} m/s")
         print(f"Final mass: {current_mass:.2e} kg")
         print(f"Final radius: {current_radius:.2f} m")
+        
+        # Calculate impact location in geographic coordinates
+        # Account for Earth's rotation during the simulation
+        x, y, z = ast_pos
+        
+        # Latitude doesn't change with Earth's rotation (rotation is around z-axis)
+        latitude = np.degrees(np.arcsin(z / R_pl))
+        
+        # Longitude needs to account for Earth's rotation
+        # The asteroid position is in inertial frame, but we want coordinates 
+        # relative to the rotating Earth
+        longitude_inertial = np.degrees(np.arctan2(y, x))
+        
+        # Earth has rotated during the simulation
+        earth_rotation_degrees = np.degrees(omega_earth * total_time)
+        
+        # Subtract Earth's rotation to get longitude in Earth's rotating frame
+        longitude_earth_frame = longitude_inertial - earth_rotation_degrees
+        
+        # Normalize longitude to [-180, 180]
+        while longitude_earth_frame > 180:
+            longitude_earth_frame -= 360
+        while longitude_earth_frame < -180:
+            longitude_earth_frame += 360
+        
+        print(f"\nImpact Location (Earth-fixed coordinates):")
+        print(f"Latitude: {latitude:.4f}°")
+        print(f"Longitude: {longitude_earth_frame:.4f}°")
+        
+        # Determine hemisphere and direction
+        lat_dir = "N" if latitude >= 0 else "S"
+        lon_dir = "E" if longitude_earth_frame >= 0 else "W"
+        print(f"Geographic: {abs(latitude):.4f}° {lat_dir}, {abs(longitude_earth_frame):.4f}° {lon_dir}")
+        
+        # Show the effect of Earth's rotation
+        print(f"\nInertial frame longitude: {longitude_inertial:.4f}°")
+        print(f"Earth rotated: {earth_rotation_degrees:.4f}°")
+        print(f"Earth-fixed longitude: {longitude_earth_frame:.4f}°")
+        
+        # Calculate how far the impact point moved due to Earth's rotation
+        if in_atmosphere:
+            time_in_atmosphere = total_time - (time_entered_atmosphere * dt)
+            rotation_angle = omega_earth * time_in_atmosphere
+            # Distance depends on latitude
+            rotation_distance = R_pl * np.cos(np.radians(latitude)) * rotation_angle
+            print(f"\nTime in atmosphere: {time_in_atmosphere:.1f} s")
+            print(f"Earth rotated {np.degrees(rotation_angle):.4f}° during atmospheric transit")
+            print(f"Ground track shift: {rotation_distance/1000:.2f} km at this latitude")
+        
+        # Calculate impact energy (in megatons TNT)
+        impact_energy_joules = 0.5 * current_mass * (np.linalg.norm(ast_vel) ** 2)
+        impact_energy_megatons = impact_energy_joules / 4.184e15  # 1 megaton = 4.184e15 J
+        print(f"\nImpact Energy: {impact_energy_megatons:.2f} megatons TNT")
+        
         break
     
     # Safety check
-    if step % 10 == 0:
+    if step % 10000 == 0:
         print(f"Step {step}: r={np.linalg.norm(ast_pos):.2e} m, v={np.linalg.norm(ast_vel):.2f} m/s")
