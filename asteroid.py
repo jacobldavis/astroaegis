@@ -10,7 +10,7 @@ xi = 8000000  # heat of ablation (J/kg)
 D_met = 100 # diameter of asteroid (m)
 R_met = D_met / 2 # radius of asteroid (m)
 C_D = 0.5
-C_H = 0.05  # LOWER heat transfer coefficient
+C_H = 0.05 
 
 # Earth rotation parameters
 omega_earth = 2 * np.pi / 86400  # Earth's angular velocity (rad/s) - one rotation per day
@@ -41,7 +41,7 @@ def angle_of_inclination(pos: np.ndarray, vel: np.ndarray) -> float:
     
     num = np.dot(pos, vel)
     den = pos_mag * vel_mag
-    cos_angle = np.clip(num / den, -1.0, 1.0)  # Clip to avoid numerical errors
+    cos_angle = np.clip(num / den, -1.0, 1.0) 
     return (np.pi / 2) - np.arccos(cos_angle)
 
 # IV & V temperature at h (altitude above surface)
@@ -49,12 +49,12 @@ def t_of_h(pos: np.ndarray) -> float:
     """
     Temperature as a function of altitude above Earth's surface (in meters).
     """
-    h = np.linalg.norm(pos) - R_pl  # Altitude above surface
+    h = np.linalg.norm(pos) - R_pl  
     
     if h > 25000:
         return -131.21 + 0.00299 * h
     elif 11000 < h <= 25000:
-        return -56.46  # Constant temperature in this layer
+        return -56.46  
     else:
         return 15.04 - 0.00649 * h
 
@@ -63,7 +63,7 @@ def p_of_t_h(pos: np.ndarray) -> float:
     """
     Pressure as a function of temperature and altitude (returns kPa).
     """
-    h = np.linalg.norm(pos) - R_pl  # Altitude above surface
+    h = np.linalg.norm(pos) - R_pl 
     T = t_of_h(pos)
     
     if h > 25000:
@@ -78,9 +78,9 @@ def rho_of_p_r(pos: np.ndarray) -> float:
     """
     Density as a function of pressure and temperature.
     """
-    P = p_of_t_h(pos) * 1000  # Convert kPa to Pa
+    P = p_of_t_h(pos) * 1000 
     T = t_of_h(pos)
-    R_specific = 287  # Specific gas constant for air (J/(kg·K))
+    R_specific = 287 
     return P / (R_specific * (T + 273.15))
 
 # IV & VIII force of gravity at h
@@ -108,20 +108,13 @@ def surface_pressure(pos: np.ndarray, vel: np.ndarray, current_mass: float, curr
 def r_crit_calc(pos: np.ndarray, vel: np.ndarray) -> float:
     """
     Calculate the critical radius of the asteroid.
-    Formula: r_crit ≈ 100 * (P_surf/1bar) * (ρ_m/0.4g/cm³)^-1 * (g/9.81)^-1 * (sin(θ)/(1/√2))
     """
     surf_pressure = surface_pressure(pos, vel, mass, R_met)
-    g = g_of_h(pos)  # Use current position, not fixed atm_height
+    g = g_of_h(pos)  
     theta = abs(angle_of_inclination(pos, vel))
     
     if theta < 0.01:  # Avoid division by very small numbers
         theta = 0.01
-    
-    # Following equation (6):
-    # - P_surf in Pascals, divide by 1e5 to get bars
-    # - ρ_m / 400 (where 400 kg/m³ = 0.4 g/cm³)
-    # - 9.81 / g (inverted gravity ratio)
-    # - sin(θ) * √2 (angle term)
     
     return 100 * (surf_pressure / 1e5) * (400 / rho_met) * (9.81 / g) * (np.sin(theta) * np.sqrt(2))
 
@@ -137,8 +130,7 @@ def d_ad_t(t, pos, vel, current_radius):
     if rho_atm <= 0 or v <= 0:
         return 0.0
     
-    # Ablation rate formula: da/dt
-    # Based on energy balance: kinetic energy converted to ablation
+    # Ablation rate formula: da/dt; simplified from our derived version
     ablation_rate = (rho_atm * C_H * (v ** 3)) / (2 * rho_met * xi)
     
     return ablation_rate
@@ -146,9 +138,6 @@ def d_ad_t(t, pos, vel, current_radius):
 # XII mass change due to ablation
 def d_md_a(a, current_radius):
     """Calculate mass change with respect to ablation depth.
-    As ablation depth 'a' increases, radius decreases: r_new = R_met - a
-    Mass = (4/3)*π*ρ*(R_met - a)³
-    dm/da = (4/3)*π*ρ * 3*(R_met - a)² * (-1) = -4*π*ρ*(R_met - a)²
     """
     effective_radius = R_met - a
     if effective_radius <= 0:
@@ -192,7 +181,6 @@ for step in range(steps):
         g_acc = np.array([0.0, 0.0, 0.0])
     
     # Calculate atmospheric velocity due to Earth's rotation
-    # v_atm = ω × r (cross product of angular velocity and position)
     omega_vec = omega_earth * earth_rotation_axis
     v_atmosphere = np.cross(omega_vec, ast_pos)
     
@@ -284,15 +272,12 @@ for step in range(steps):
         print(f"Final radius: {current_radius:.2f} m")
         
         # Calculate impact location in geographic coordinates
-        # Account for Earth's rotation during the simulation
         x, y, z = ast_pos
         
-        # Latitude doesn't change with Earth's rotation (rotation is around z-axis)
+        # Latitude doesn't change with Earth's rotation
         latitude = np.degrees(np.arcsin(z / R_pl))
         
-        # Longitude needs to account for Earth's rotation
-        # The asteroid position is in inertial frame, but we want coordinates 
-        # relative to the rotating Earth
+        # Grab longitude intertial
         longitude_inertial = np.degrees(np.arctan2(y, x))
         
         # Earth has rotated during the simulation
