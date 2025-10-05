@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-header {
+  filter: none !important;
+}
+.colorblind-mode {
+  filter: grayscale(80%) contrast(120%);
+}
+.visualization-bg {
+  background: url('./images/stars.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
