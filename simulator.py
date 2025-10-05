@@ -128,17 +128,19 @@ def run_atmospheric_entry():
         if int(t/DT) % 200 == 0: # Print status every 10 seconds
             print(f"Time: {t:5.1f}s | Alt: {altitude/1000:7.1f} km | Vel: {np.linalg.norm(vel)/1000:5.1f} km/s | Mass Left: {(mass / initial_mass * 100):.1f}%")
 
-        # Break condition for impact
-        if altitude <= 0:
-            print(f"\n--- IMPACT ---")
-            impact_energy_J = 0.5 * mass * (np.linalg.norm(vel)**2)
-            impact_energy_MT = impact_energy_J / 4.184e15
-            print(f"Impact Velocity: {np.linalg.norm(vel)/1000:.2f} km/s")
-            print(f"Final Mass: {mass:.2e} kg ({mass/initial_mass*100:.1f}% remaining)")
-            print(f"Impact Energy: {impact_energy_MT:.2f} Megatons of TNT")
-            break
+                if current_dist <= TARGET_SEPARATION:
+                    print("\n" + "="*20 + " HIT! " + "="*20)
+                    print(f"SUCCESSFUL INTERCEPT with parameters:")
+                    print(f"  - v: {LAUNCH_VELOCITY} m/s, phi: {phi:.2f} rad, theta: {theta:.2f} rad")
+                    return
+
+            if min_dist_this_run < best_attempt["min_dist"]:
+                best_attempt = {"min_dist": min_dist_this_run, "phi": phi, "theta": theta}
             
-        t += DT
+            print(f"Attempt (phi={phi:.2f}, theta={theta:.2f}): Closest approach = {min_dist_this_run/1000:,.0f} km")
+
+    print("\n--- SEARCH COMPLETE ---")
+    print(f"Best attempt: Closest approach of {best_attempt['min_dist']/1000:,.0f} km with phi={best_attempt['phi']:.2f}, theta={best_attempt['theta']:.2f}")
 
 if __name__ == "__main__":
-    run_atmospheric_entry()
+    run_intercept_search()
