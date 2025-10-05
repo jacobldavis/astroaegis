@@ -1,0 +1,1 @@
+Asteroid collision calculations for AstroAegis, our project for CUhackit's Space Apps hackathon
