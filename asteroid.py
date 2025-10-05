@@ -4,7 +4,7 @@ import numpy as np
 G = 6.67430e-11  # Gravitational constant (m^3 kg^-1 s^-2)
 rho_met = 8000  # Density of asteroid (kg/m^3)
 xi = 8000000  # heat of ablation (J/kg)
-D_met = 100 # diameter of asteroid (m)
+D_met = 10 # diameter of asteroid (m)
 R_met = D_met / 2 # radius of asteroid (m)
 C_D = 0.5
 C_H = 0.05 
@@ -213,6 +213,13 @@ def d_md_a(a, current_radius):
         return 0.0
     return -4 * np.pi * rho_met * (effective_radius ** 2)
 
+# XIV 
+rws = (20752640 / 3768) * 100
+A = .06*(50 + (1.92) + 33.75)
+
+def nuke_power():
+    return volume * (A/r_crit_calc(ast_pos, ast_vel)) ** 1.25 * (rws/115) ** .79
+
 # Simulation parameters
 dt = 0.1
 steps = 200000
@@ -289,6 +296,8 @@ for step in range(steps):
         print(f"Critical radius: {R_crit:.2f} m")
         print(f"Current radius: {current_radius:.2f} m")
         print(f"Angle of inclination: {np.degrees(angle_of_incl):.2f} degrees\n")
+
+        print(f"Nuke Power Needed to Explode it: {nuke_power()}")
         
         if current_radius <= R_crit and current_radius < 20:
             print("Small asteroid will break up before impact!")
